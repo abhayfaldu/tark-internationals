@@ -22,6 +22,9 @@ const config: Config = {
         poppins: ['Poppins', 'sans-serif'],
         manrope: ['Manrope', 'sans-serif'],
       },
+      backgroundImage: {
+        'about-banner': "url('/assets/about-banner.jpg')",
+      },
     },
   },
   plugins: [flowbite.plugin()],
