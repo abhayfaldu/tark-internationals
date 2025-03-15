@@ -36,22 +36,28 @@ const NavbarComponent = () => {
                 key={link.href}
                 arrowIcon={false}
                 inline
-                label={
-                  <Navbar.Link href={''} active={false}>
-                    {link.label}
-                  </Navbar.Link>
-                }
+                label={link.label}
               >
-                <Dropdown.Item>Grains and Cereal</Dropdown.Item>
-                <Dropdown.Item>Pulses</Dropdown.Item>
-                <Dropdown.Item>Spices</Dropdown.Item>
-                <Dropdown.Item>Fruits</Dropdown.Item>
-                <Dropdown.Item>Vegetables</Dropdown.Item>
-                <Dropdown.Item>Oilseeds</Dropdown.Item>
-                <Dropdown.Item>Floriculture</Dropdown.Item>
-                <Dropdown.Item>Herbs</Dropdown.Item>
-                <Dropdown.Item>Dry Fruits</Dropdown.Item>
-                <Dropdown.Item>Beverages</Dropdown.Item>
+                <Dropdown.Item href="/products/grains-and-cereal">
+                  Grains and Cereal
+                </Dropdown.Item>
+                <Dropdown.Item href="/products/pulses">Pulses</Dropdown.Item>
+                <Dropdown.Item href="/products/spices">Spices</Dropdown.Item>
+                <Dropdown.Item href="/products/fruits">Fruits</Dropdown.Item>
+                <Dropdown.Item href="/products/vegetables">
+                  Vegetables
+                </Dropdown.Item>
+                <Dropdown.Item href="/products/oilseeds">Oilseeds</Dropdown.Item>
+                <Dropdown.Item href="/products/floriculture">
+                  Floriculture
+                </Dropdown.Item>
+                <Dropdown.Item href="/products/herbs">Herbs</Dropdown.Item>
+                <Dropdown.Item href="/products/dry-fruits">
+                  Dry Fruits
+                </Dropdown.Item>
+                <Dropdown.Item href="/products/beverages">
+                  Beverages
+                </Dropdown.Item>
               </Dropdown>
             ) : (
               <Navbar.Link
