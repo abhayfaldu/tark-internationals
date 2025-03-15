@@ -2,6 +2,7 @@
 
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
 import Link from 'next/link'
+import SubmitRequirements from './SubmitRequirements'
 
 const information = [
   { title: 'Home', href: '/' },
@@ -37,6 +38,9 @@ const branches = [
 export default function Footer() {
   return (
     <footer className="bg-[#2c2c2c] text-gray-300">
+      {/* Submit Requirements Section */}
+      <SubmitRequirements />
+
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
