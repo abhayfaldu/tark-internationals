@@ -1,97 +1,70 @@
 'use client'
 
+import { Dropdown, Navbar } from 'flowbite-react'
 import Image from 'next/image'
-import Link from 'next/link'
-import { useState } from 'react'
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
-
+const NavbarComponent = () => {
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About Us' },
-    { href: '/products', label: 'Products' },
-    { href: '/certificates', label: 'Certificates' },
-    { href: '/blogs', label: 'Blogs' },
-    { href: '/contact', label: 'Contact Us' },
+    { label: 'Home', href: '/' },
+    { label: 'About Us', href: '/about' },
+    { label: 'Products', href: '/products' },
+    { label: 'Certificates', href: '/certificates' },
+    { label: 'Blogs', href: '/blogs' },
+    { label: 'Contact Us', href: '/contact' },
   ]
 
   return (
-    <nav className="w-full bg-white shadow-sm fixed top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
-          {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
-            <Image
-              src="/assets/logo.jpg"
-              alt="Pisum h Foods"
-              width={60}
-              height={60}
-              className="object-contain w-50 h-50"
-            />
-          </Link>
-
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={`text-gray-600 hover:text-green-500 transition-colors
-                  ${link.label === 'Home' ? 'text-green-500' : ''}`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* Mobile Navigation Button */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-gray-900 focus:outline-none"
-            >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {isOpen ? (
-                  <path d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Navigation Menu */}
-        {isOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className={`block px-3 py-2 rounded-md text-base font-medium
-                    text-gray-600 hover:text-green-500 hover:bg-gray-50
-                    ${link.label === 'Home' ? 'text-green-500 bg-gray-50' : ''}`}
-                  onClick={() => setIsOpen(false)}
-                >
+    <Navbar fluid rounded>
+      <Navbar.Brand href="https://tarkinternational.com/">
+        <Image
+          src="/assets/logo.jpg"
+          className="mr-3 rounded-full object-contain"
+          alt="Logo"
+          width={50}
+          height={50}
+        />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          Tark International
+        </span>
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        {navLinks.map((link) =>
+          link.label === 'Products' ? (
+            <Dropdown
+              key={link.href}
+              arrowIcon={false}
+              inline
+              label={
+                <Navbar.Link href={''} active={false}>
                   {link.label}
-                </Link>
-              ))}
-            </div>
-          </div>
+                </Navbar.Link>
+              }
+            >
+              <Dropdown.Item>Grains and Cereal</Dropdown.Item>
+              <Dropdown.Item>Pulses</Dropdown.Item>
+              <Dropdown.Item>Spices</Dropdown.Item>
+              <Dropdown.Item>Fruits</Dropdown.Item>
+              <Dropdown.Item>Vegetables</Dropdown.Item>
+              <Dropdown.Item>Oilseeds</Dropdown.Item>
+              <Dropdown.Item>Floriculture</Dropdown.Item>
+              <Dropdown.Item>Herbs</Dropdown.Item>
+              <Dropdown.Item>Dry Fruits</Dropdown.Item>
+              <Dropdown.Item>Beverages</Dropdown.Item>
+            </Dropdown>
+          ) : (
+            <Navbar.Link
+              href={link.href}
+              active={window.location.pathname === link.href}
+              key={link.href}
+            >
+              {link.label}
+            </Navbar.Link>
+          )
         )}
-      </div>
-    </nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 
-export default Navbar
+export default NavbarComponent

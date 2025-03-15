@@ -5,9 +5,9 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'gratisography.com',
-      }
+      },
     ],
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig

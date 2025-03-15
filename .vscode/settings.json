@@ -2,8 +2,8 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
   },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
@@ -29,4 +29,4 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always"
-} 
+}
