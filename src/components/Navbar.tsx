@@ -36,27 +36,34 @@ const NavbarComponent = () => {
                 key={link.href}
                 arrowIcon={false}
                 inline
-                label={link.label}
+                label={
+                  <div className="text-gray-800">
+                    {link.label}
+                  </div>
+                }
               >
-                <Dropdown.Item href="/products/grains-and-cereal">
+                <Dropdown.Item href="/product/grains-and-cereal">
                   Grains and Cereal
                 </Dropdown.Item>
-                <Dropdown.Item href="/products/pulses">Pulses</Dropdown.Item>
-                <Dropdown.Item href="/products/spices">Spices</Dropdown.Item>
-                <Dropdown.Item href="/products/fruits">Fruits</Dropdown.Item>
-                <Dropdown.Item href="/products/vegetables">
+                <Dropdown.Item href="/product/pulses">Pulses</Dropdown.Item>
+                <Dropdown.Item href="/product/spices">Spices</Dropdown.Item>
+                <Dropdown.Item href="/product/fruits">Fruits</Dropdown.Item>
+                <Dropdown.Item href="/product/vegetables">
                   Vegetables
                 </Dropdown.Item>
-                <Dropdown.Item href="/products/oilseeds">Oilseeds</Dropdown.Item>
-                <Dropdown.Item href="/products/floriculture">
+                <Dropdown.Item href="/product/oilseeds">Oilseeds</Dropdown.Item>
+                <Dropdown.Item href="/product/floriculture">
                   Floriculture
                 </Dropdown.Item>
-                <Dropdown.Item href="/products/herbs">Herbs</Dropdown.Item>
-                <Dropdown.Item href="/products/dry-fruits">
+                <Dropdown.Item href="/product/herbs">Herbs</Dropdown.Item>
+                <Dropdown.Item href="/product/dry-fruits">
                   Dry Fruits
                 </Dropdown.Item>
-                <Dropdown.Item href="/products/beverages">
+                <Dropdown.Item href="/product/beverages">
                   Beverages
+                </Dropdown.Item>
+                <Dropdown.Item href="/product/dehydrated">
+                  Dehydrated Products
                 </Dropdown.Item>
               </Dropdown>
             ) : (
