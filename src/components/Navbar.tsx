@@ -36,11 +36,7 @@ const NavbarComponent = () => {
                 key={link.href}
                 arrowIcon={false}
                 inline
-                label={
-                  <div className="text-gray-800">
-                    {link.label}
-                  </div>
-                }
+                label={<div className="text-gray-800">{link.label}</div>}
               >
                 <Dropdown.Item href="/product/grains-and-cereal">
                   Grains and Cereal
