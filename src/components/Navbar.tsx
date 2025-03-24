@@ -9,7 +9,7 @@ const NavbarComponent = () => {
     { label: 'About Us', href: '/about' },
     { label: 'Products', href: '/products' },
     { label: 'Certificates', href: '/certificates' },
-    { label: 'Blogs', href: '/blogs' },
+    // { label: 'Blogs', href: '/blogs' },
     { label: 'Contact Us', href: '/contact' },
   ]
 
