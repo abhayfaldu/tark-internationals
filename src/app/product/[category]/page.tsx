@@ -787,6 +787,7 @@ export default async function Page({
       <ProductSearch
         products={categoryData.products}
         categoryName={categoryData.headerText}
+        categorySlug={category}
       />
     </main>
   )

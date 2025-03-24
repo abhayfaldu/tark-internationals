@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 
 interface Product {
@@ -11,17 +12,23 @@ interface Product {
 interface ProductSearchProps {
   products: Product[]
   categoryName: string
+  categorySlug: string
 }
 
 export default function ProductSearch({
   products,
   categoryName,
+  categorySlug,
 }: ProductSearchProps) {
   const [searchTerm, setSearchTerm] = useState('')
 
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   )
+
+  const toSlug = (name: string) => {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+  }
 
   return (
     <>
@@ -58,27 +65,31 @@ export default function ProductSearch({
       {/* Products Grid */}
       <section className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredProducts.map((product, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
-            >
-              <div className="relative aspect-square">
-                <Image
-                  src={product.img}
-                  alt={product.name}
-                  className="w-full h-full object-cover"
-                  width={300}
-                  height={300}
-                />
-              </div>
-              <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold text-gray-800">
-                  {product.name}
-                </h3>
-              </div>
-            </div>
-          ))}
+          {filteredProducts.map((product, index) => {
+            const productSlug = toSlug(product.name)
+            return (
+              <Link
+                key={index}
+                href={`/product/${categorySlug}/${productSlug}`}
+                className="block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+              >
+                <div className="relative aspect-square">
+                  <Image
+                    src={product.img}
+                    alt={product.name}
+                    className="w-full h-full object-cover"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-gray-800">
+                    {product.name}
+                  </h3>
+                </div>
+              </Link>
+            )
+          })}
         </div>
       </section>
     </>
