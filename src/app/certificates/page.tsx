@@ -86,7 +86,7 @@ const CertificatesPage = () => {
             </h2>
             <p className="text-gray-700 mb-8 max-w-3xl mx-auto">
               When it comes to food handling and export, maintaining high levels
-              of hygiene, quality and safety are crucial. This is why, at Pisum,
+              of hygiene, quality and safety are crucial. This is why, at Tark Internationals,
               we meet international food safety and quality standards through
               various quality checks and following strict protocols throughout
               the process. This has allowed us to be accredited to a number of

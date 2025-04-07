@@ -25,7 +25,7 @@ export default function AboutPage() {
       icon: '/assets/commitment.png',
       title: 'Commitment & Time Adherence',
       description:
-        'Time is a huge factor when it comes to food. This is why, at Pisum, we are committed to ensuring that we get the job done on schedule without fail.',
+        'Time is a huge factor when it comes to food. This is why, at Tark Internations, we are committed to ensuring that we get the job done on schedule without fail.',
     },
     {
       icon: '/assets/innovation.png',
@@ -63,12 +63,12 @@ export default function AboutPage() {
               />
             </div>
             <div className="flex flex-col gap-4 md:gap-5 mx-4 md:me-20">
-              <h3 className="text-xl md:text-2xl font-bold uppercase text-center md:text-left">Welcome to pisum</h3>
+              <h3 className="text-xl md:text-2xl font-bold uppercase text-center md:text-left">Welcome to Tark Internations</h3>
               <p className="text-sm md:text-base text-gray-600 text-center md:text-left">
-                Pisum Food Services Private Limited incorporated in May 2015.
-                Pisum Foods is an initiative by the BTW Group (est. 2011),
+                Tark Internations Food Services Private Limited incorporated in May 2015.
+                Tark Internations Foods is an initiative by the BTW Group (est. 2011),
                 focusing on providing food services. With immense experience in
-                the food industry, Pisum Foods are a leading exporter of all
+                the food industry, Tark Internations Foods are a leading exporter of all
                 kinds of Indian spices, pulses, grains, Fruits, Vegetables, and
                 many more, to a number of destinations around the globe. With
                 several partnerships with buyers across multiple countries, we

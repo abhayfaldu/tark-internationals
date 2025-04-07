@@ -108,7 +108,7 @@ export default function Footer() {
               <p>
                 <strong>Email:</strong>
                 <br />
-                inquiry@pisumfoods.com
+                hello@tarkinternationals.com
               </p>
             </div>
 

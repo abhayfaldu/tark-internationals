@@ -1,55 +1,65 @@
 'use client'
 
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 interface Product {
-  id: number
   name: string
-  image: string
+  img: string
+  category: string
+  slug: string
 }
 
 const products: Product[] = [
   {
-    id: 1,
     name: 'Rice',
-    image: '/assets/beach.jpg',
+    img: '/assets/product/grains-and-cereal/Rice.jpg',
+    category: 'grains-and-cereal',
+    slug: 'rice'
   },
   {
-    id: 2,
     name: 'Coconut',
-    image: '/assets/beach.jpg',
+    img: '/assets/product/fruits/coconut.jpg',
+    category: 'fruits',
+    slug: 'coconut'
   },
   {
-    id: 3,
     name: 'Cumin',
-    image: '/assets/beach.jpg',
+    img: '/assets/product/spices/cumin.jpg',
+    category: 'spices',
+    slug: 'cumin'
   },
   {
-    id: 4,
-    name: 'Cumin',
-    image: '/assets/beach.jpg',
+    name: 'Turmeric',
+    img: '/assets/product/spices/turmeric.jpg',
+    category: 'spices',
+    slug: 'turmeric'
   },
   {
-    id: 5,
-    name: 'Cumin',
-    image: '/assets/beach.jpg',
+    name: 'Potato',
+    img: '/assets/product/vegetables/potato.jpg',
+    category: 'vegetables',
+    slug: 'potato'
   },
   {
-    id: 6,
-    name: 'Cumin',
-    image: '/assets/beach.jpg',
+    name: 'Onion',
+    img: '/assets/product/vegetables/onion.jpg',
+    category: 'vegetables',
+    slug: 'onion'
   },
   {
-    id: 7,
-    name: 'Cumin',
-    image: '/assets/beach.jpg',
+    name: 'Coffee',
+    img: '/assets/product/beverages/coffee-beans.jpg',
+    category: 'beverages',
+    slug: 'coffee'
   },
   {
-    id: 8,
-    name: 'Cumin',
-    image: '/assets/beach.jpg',
+    name: 'Tea',
+    img: '/assets/product/beverages/tea.jpg',
+    category: 'beverages',
+    slug: 'tea'
   },
 ]
 
@@ -65,7 +75,7 @@ export default function ProductSlider() {
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768)
     }
-    
+
     checkMobile()
     window.addEventListener('resize', checkMobile)
     return () => window.removeEventListener('resize', checkMobile)
@@ -113,24 +123,26 @@ export default function ProductSlider() {
         >
           {extendedProducts.map((product, index) => (
             <div
-              key={`${product.id}-${index}`}
+              key={`${product.name}-${index}`}
               className="min-w-full md:min-w-[33.333%] p-4 flex-shrink-0"
             >
-              <div className="bg-white rounded-xl overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.1)] transition-transform hover:scale-[1.02]">
-                <div className="relative aspect-square w-full bg-[#f8f8f8]">
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    fill
-                    className="object-cover"
-                  />
+              <Link href={`/product/${product.category}/${product.slug}`} className="block">
+                <div className="bg-white rounded-xl overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.1)] transition-transform hover:scale-[1.02]">
+                  <div className="relative aspect-square w-full bg-[#f8f8f8]">
+                    <Image
+                      src={product.img}
+                      alt={product.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="p-4 text-center bg-white">
+                    <h3 className="text-xl font-medium text-gray-800">
+                      {product.name}
+                    </h3>
+                  </div>
                 </div>
-                <div className="p-4 text-center bg-white">
-                  <h3 className="text-xl font-medium text-gray-800">
-                    {product.name}
-                  </h3>
-                </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
@@ -139,14 +151,14 @@ export default function ProductSlider() {
           onClick={handlePrevious}
           className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 p-2.5 rounded-full shadow-md hover:bg-white active:scale-95 transition-all"
         >
-          <ChevronLeft className="w-6 h-6" />
+          <ArrowLeft className="w-6 h-6" />
         </button>
 
         <button
           onClick={handleNext}
           className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 p-2.5 rounded-full shadow-md hover:bg-white active:scale-95 transition-all"
         >
-          <ChevronRight className="w-6 h-6" />
+          <ArrowRight className="w-6 h-6" />
         </button>
       </div>
     </div>

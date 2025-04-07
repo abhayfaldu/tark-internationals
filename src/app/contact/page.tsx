@@ -202,7 +202,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div>✉️</div>
-                    <p>inquiry@pisumfoods.com</p>
+                    <p>hello@tarkinternations.com</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <div>📞</div>
@@ -215,7 +215,7 @@ export default function ContactPage() {
             {/* Connect With Us Form */}
             <div>
               <h2 className="text-2xl font-bold mb-6">CONNECT WITH US</h2>
-              
+
               {success ? (
                 <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
                   <p>Thank you for your message! We'll get back to you soon.</p>

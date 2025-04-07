@@ -1,6 +1,7 @@
 import ProductSlider from '@/components/ProductSlider'
 import { Carousel } from 'flowbite-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const whyChooseUs = [
   {
@@ -37,48 +38,64 @@ const whyChooseUs = [
     id: '06',
     title: 'Save your time & cost for searching markets',
     description:
-      'Understanding and researching the market by yourself can be expensive and time-consuming. But with Pisum, we will do that for you instead.',
+      'Understanding and researching the market by yourself can be expensive and time-consuming. But with Tark Internations, we will do that for you instead.',
   },
 ]
 
 const productRange = [
   {
     title: 'Grains And Cereal',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/grains-and-cereal.jpg',
+    category: 'grains-and-cereal',
+    slug: 'rice'
   },
   {
     title: 'Pulses',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/pulses.jpg',
+    category: 'pulses',
+    slug: 'chickpeas'
   },
   {
     title: 'Spices',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/spices.jpg',
+    category: 'spices',
+    slug: 'turmeric'
   },
   {
     title: 'Fruits',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/fruits.jpg',
+    category: 'fruits',
+    slug: 'mango'
   },
   {
     title: 'Vegetables',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/vegetables.jpg',
+    category: 'vegetables',
+    slug: 'potato'
   },
   {
     title: 'Oilseeds',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/oilseeds.jpg',
+    category: 'oilseeds',
+    slug: 'groundnut'
   },
   {
     title: 'Floriculture',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/floriculture.jpg',
+    category: 'floriculture',
+    slug: 'rose'
   },
   {
     title: 'Herbs',
-    image: '/assets/beach.jpg',
+    image: '/assets/product-range/herbs.jpg',
+    category: 'herbs',
+    slug: 'neem'
   },
 ]
 
 // Add this testimonial data
 const testimonial = {
-  logo: '/assets/girgit.jpg',
+  logo: '/assets/clients/CYDA_Logo.png',
   title: 'A Great Big Thank you',
   content: [
     'Let we take the opportunity to convey our "A Great Big Thank you" for swiftly supplying us with prompt and efficient delivery of the kits at the time of crisis.',
@@ -127,15 +144,15 @@ const indianMarketBenefits = [
 const clients = [
   {
     name: 'Box8',
-    logo: '/assets/mountain.jpg',
+    logo: '/assets/clients/BOX 8.jpg',
   },
   {
     name: 'CII Foundation',
-    logo: '/assets/mountain.jpg',
+    logo: '/assets/clients/cii-foundation.png',
   },
   {
     name: 'CYDA',
-    logo: '/assets/sky.jpg',
+    logo: '/assets/clients/CYDA_Logo.png',
   },
 ]
 
@@ -180,13 +197,13 @@ export default function Home() {
         <div className="flex flex-col items-center text-center">
           <Image
             src="/assets/leaves.png"
-            alt="Pisum Foods Icon"
+            alt="Tark Internations Icon"
             width={60}
             height={60}
             className="mb-6"
           />
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Pisum - Global Food Importers & Exporters
+            Tark Internations - Global Food Importers & Exporters
           </h1>
           <div className="w-[80px] border-b-4 border-primary mb-12"></div>
           <div className="max-w-7xl">
@@ -194,7 +211,7 @@ export default function Home() {
               {`As the 'land of spices', India exports tons of various kinds of
               food. In fact, food export from India is a major source of
               revenue. To help your products reach to even the farthest corners
-              of the world, Pisum Foods offers you various types of food export
+              of the world, Tark Internations offers you various types of food export
               as well as spices export from India. Being among the leading food
               export companies in India, we ensure our services conform to
               international quality standards.`}
@@ -275,9 +292,10 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {productRange.map((product) => (
-            <div
+            <Link
               key={product.title}
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+              href={`/product/${product.category}/${product.slug}`}
+              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             >
               <div className="relative aspect-square">
                 <Image
@@ -292,14 +310,16 @@ export default function Home() {
                   {product.title}
                 </h3>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         <div className="flex justify-center mt-12">
-          <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-medium transition-colors">
-            VIEW MORE
-          </button>
+          <Link href="/products">
+            <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-medium transition-colors">
+              VIEW MORE
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -322,7 +342,7 @@ export default function Home() {
           <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden shadow-lg">
             <iframe
               src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-              title="Global Quality Food Exporter from India_Pisum Food Services Pvt Ltd"
+              title="Global Quality Food Exporter from India Tark Internations Food Services Pvt Ltd"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full"
@@ -388,9 +408,9 @@ export default function Home() {
                 ))}
               </div>
 
-              <button className="bg-white hover:bg-gray-50 text-gray-800 px-8 py-2 rounded-md font-medium transition-colors shadow-md">
+              {/* <button className="bg-white hover:bg-gray-50 text-gray-800 px-8 py-2 rounded-md font-medium transition-colors shadow-md">
                 View More
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

@@ -90,7 +90,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'Pisum Foods',
+  title: 'Tark Internations',
   description: 'Global Food Importers & Exporters',
 }
 
