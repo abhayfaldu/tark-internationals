@@ -94,7 +94,7 @@ export default function SubmitRequirements() {
         {success && (
           <div className="mt-4 text-center md:text-right max-w-[1200px] mx-auto">
             <p className="text-green-800 font-medium bg-green-100 inline-block px-4 py-2 rounded-full shadow-sm">
-              <span className="mr-1">✓</span> Thank you for your request! We'll be in touch soon.
+              <span className="mr-1">✓</span> Thank you for your request! We&apos;ll be in touch soon.
             </p>
           </div>
         )}

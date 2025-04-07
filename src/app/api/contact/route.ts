@@ -16,16 +16,16 @@ export async function POST(request: Request) {
     }
 
     // Store form submission in Supabase
-    const submission: ContactSubmissionInsert = { 
-      name, 
-      email, 
-      phone: `${countryCode} ${phone}`, 
-      company, 
+    const submission: ContactSubmissionInsert = {
+      name,
+      email,
+      phone: `${countryCode} ${phone}`,
+      company,
       message,
       created_at: new Date().toISOString()
     }
 
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from('contact_submissions')
       .insert([submission])
 
