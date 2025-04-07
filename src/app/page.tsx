@@ -146,32 +146,31 @@ export default function Home() {
       <div className="h-[40rem]">
         <Carousel>
           <Image
-            src="/assets/beach.jpg"
-            alt="kdfjk"
-            width={100}
-            height={100}
-            className="h-full"
+            src="/assets/header-slides/slider-1.jpg"
+            alt="Food Import Export Slider"
+            width={1920}
+            height={1080}
+            className="h-full w-full object-cover"
+            quality={100}
+            priority
           />
           <Image
-            src="/assets/girgit.jpg"
-            alt="kdfjk"
-            width={100}
-            height={100}
-            className="h-full"
+            src="/assets/header-slides/slider-2.jpg"
+            alt="Food Import Export Slider"
+            width={1920}
+            height={1080}
+            className="h-full w-full object-cover"
+            quality={100}
+            priority
           />
           <Image
-            src="/assets/mountain.jpg"
-            alt="kdfjk"
-            width={100}
-            height={100}
-            className="h-full"
-          />
-          <Image
-            src="/assets/sky.jpg"
-            alt="kdfjk"
-            width={100}
-            height={100}
-            className="h-full"
+            src="/assets/header-slides/slider-3.jpg"
+            alt="Food Import Export Slider"
+            width={1920}
+            height={1080}
+            className="h-full w-full object-cover"
+            quality={100}
+            priority
           />
         </Carousel>
       </div>
