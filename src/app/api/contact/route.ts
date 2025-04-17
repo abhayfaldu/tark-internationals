@@ -22,15 +22,15 @@ export async function POST(request: Request) {
       phone: `${countryCode} ${phone}`,
       company,
       message,
-      created_at: new Date().toISOString()
+      created_at: new Date().toISOString(),
     }
 
-    const { error } = await supabase
+    const { error: supabaseError } = await supabase
       .from('contact_submissions')
       .insert([submission])
 
-    if (error) {
-      console.error('Error storing contact submission:', error)
+    if (supabaseError) {
+      console.error('Error storing contact submission:', supabaseError)
       return NextResponse.json(
         { error: 'Failed to store contact submission' },
         { status: 500 }

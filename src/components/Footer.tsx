@@ -94,16 +94,16 @@ export default function Footer() {
               <p>
                 <strong>Registered address:</strong>
                 <br />
-                33/15, Prashant Bunglow,
+                Shop No. 8/1, Block No. 129,
                 <br />
-                Opp. Garware College,
+                Rajdeep Society, Street No. 2,
                 <br />
-                Karve Road, Pune 411004 India
+                Rajkot - 360004, India
               </p>
               <p>
                 <strong>Phone Number:</strong>
                 <br />
-                9765758899 / 7219115858
+                +91 9974531629 / +91 8849098512
               </p>
               <p>
                 <strong>Email:</strong>
