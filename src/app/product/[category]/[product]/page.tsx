@@ -154,7 +154,7 @@ const getProductData = (category: string, product: string): ProductData => {
         },
       ],
       conclusion: [
-        'Pisum Foods is one of the leading Groundnut exporters from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of groundnut and groundnuts for a considerable percentage of the total agricultural exports from India. Working with us means more time every day and your products reach the destination safe and fresh. If you are looking for groundnut export, Contact Them now!',
+        'Tark Internationals Foods is one of the leading Groundnut exporters from India. We at Tark Internationals Foods provide hassle-free food export services for our clients. The export of groundnut and groundnuts for a considerable percentage of the total agricultural exports from India. Working with us means more time every day and your products reach the destination safe and fresh. If you are looking for groundnut export, Contact Them now!',
       ],
       layoutType: 'standard',
     }
@@ -170,7 +170,7 @@ const getProductData = (category: string, product: string): ProductData => {
       nutritionFacts: null,
       varieties: [],
       conclusion: [
-        'If you are looking for Rye importer from India, Pisum Foods is one of the best options available for you. Pisum has a global presence and will assist you in grabbing buyers for your products, conducting in-depth market analysis so on and so forth. Export of Rye is a rapidly growing business and the Indian exporters should take this opportunity and export premium quality Rye worldwide.',
+        'If you are looking for Rye importer from India, Tark Internationals Foods is one of the best options available for you. Tark Internationals has a global presence and will assist you in grabbing buyers for your products, conducting in-depth market analysis so on and so forth. Export of Rye is a rapidly growing business and the Indian exporters should take this opportunity and export premium quality Rye worldwide.',
       ],
       layoutType: 'tabbed',
       tabContent: {

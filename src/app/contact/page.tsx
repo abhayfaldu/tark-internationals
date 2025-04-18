@@ -1,4 +1,7 @@
+'use client'
+
 import Image from 'next/image'
+import { useState } from 'react'
 
 type CountryCode = {
   code: string;
@@ -76,7 +79,6 @@ export default function ContactPage() {
     { code: '+389', country: 'North Macedonia' },
     { code: '+356', country: 'Malta' },
     { code: '+357', country: 'Cyprus' },
-    { code: '+372', country: 'Estonia' },
     { code: '+423', country: 'Liechtenstein' },
     { code: '+674', country: 'Nauru' },
     { code: '+678', country: 'Vanuatu' },
@@ -87,110 +89,224 @@ export default function ContactPage() {
     return countries.sort((a, b) => a.country.localeCompare(b.country));
   };
 
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    countryCode: '+91',
+    phone: '',
+    company: '',
+    message: ''
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleCountryCodeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedValue = e.target.value;
+    // Extract the code part from the string like "India (+91)"
+    const codeMatch = selectedValue.match(/\(([^)]+)\)/);
+    const code = codeMatch ? codeMatch[1] : '+91';
+    setFormData((prev) => ({ ...prev, countryCode: code }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setSuccess(false);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
+      setSuccess(true);
+      setFormData({
+        name: '',
+        email: '',
+        countryCode: '+91',
+        phone: '',
+        company: '',
+        message: '',
+      });
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to send message');
+      console.error('Error submitting form:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div>
       {/* Header Section */}
-      <section className="container-xxl h-[100px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px]">
-        <div className="w-full max-w-[1200px] h-full mx-auto bg-cover bg-center bg-no-repeat bg-[url('/assets/contact-banner.jpg')]">
-          <div className="flex flex-col justify-center gap-3 sm:gap-4 md:gap-5 h-full w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-            <h3 className="text-white font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              Contact Us
-            </h3>
-            <h4 className="text-white font-bold text-base sm:text-lg md:text-xl uppercase">
-              Home / Contact Us
-            </h4>
+      <section className="bg-gradient-to-r from-[#F5FCFF] to-[#D7FFFE] py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="flex justify-center mb-4">
+              <Image
+                src="/assets/leaves.png"
+                alt="Leaf Icon"
+                width={60}
+                height={60}
+                className="w-12 h-12"
+              />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              We&apos;d love to hear from you. Please fill out the form below or
+              contact us directly using the information provided.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Contact Information and Form Section */}
-      <section className="container mx-auto px-4 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* Registered Address */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6">REGISTERED ADDRESS:</h2>
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <div className="mt-1">📍</div>
-                <p>
-                  33/15, Prashant Bunglow,
-                  <br />
-                  Opp: Garware College,
-                  <br />
-                  Karve Road, Pune 411004 India
-                </p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div>✉️</div>
-                <p>inquiry@pisumfoods.com</p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div>📞</div>
-                <p>9765758899 / 72815858</p>
+      {/* Contact Information Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Contact Information */}
+            <div>
+              <h2 className="text-2xl font-bold mb-6">GET IN TOUCH</h2>
+              <div className="space-y-8">
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="mt-1">📍</div>
+                    <p>
+                      33/15, Prashant Bunglow,
+                      <br />
+                      Opp: Garware College,
+                      <br />
+                      Karve Road, Pune 411004 India
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div>✉️</div>
+                    <p>hello@tarkinternations.com</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div>📞</div>
+                    <p>+91 9876543210</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Connect With Us Form */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6">CONNECT WITH US</h2>
-            <form className="space-y-4">
-              <div>
-                <input
-                  type="text"
-                  placeholder="Full Name *"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  placeholder="Email *"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  required
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="relative">
-                  <select className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none bg-white">
-                    {sortCountryCodes(countryCodes).map((item) => (
-                      <option key={item.code}>
-                        {item.country} ({item.code})
-                      </option>
-                    ))}
-                  </select>
+            {/* Connect With Us Form */}
+            <div>
+              <h2 className="text-2xl font-bold mb-6">CONNECT WITH US</h2>
+
+              {success ? (
+                <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+                  <p>Thank you for your message! We&apos;ll get back to you soon.</p>
                 </div>
-                <input
-                  type="tel"
-                  placeholder="Mobile Number *"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  placeholder="Company Name *"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  required
-                />
-              </div>
-              <div>
-                <textarea
-                  placeholder="Message *"
-                  rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-[#95C11F] text-white py-3 rounded-md hover:bg-[#86ae1b] transition duration-300"
-              >
-                SEND ENQUIRY
-              </button>
-            </form>
+              ) : (
+                <>
+                  {error && (
+                    <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+                      <p>{error}</p>
+                    </div>
+                  )}
+                  <form onSubmit={handleSubmit} className="space-y-4">
+                    <div>
+                      <input
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        placeholder="Full Name *"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        placeholder="Email *"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                        required
+                      />
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="relative">
+                        <select
+                          name="countryCode"
+                          onChange={handleCountryCodeChange}
+                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none bg-white"
+                        >
+                          {sortCountryCodes(countryCodes).map((item) => (
+                            <option key={`${item.code}-${item.country}`}>
+                              {item.country} ({item.code})
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        placeholder="Mobile Number *"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name="company"
+                        value={formData.company}
+                        onChange={handleChange}
+                        placeholder="Company Name *"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <textarea
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        placeholder="Message *"
+                        rows={4}
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                        required
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="w-full bg-[#95C11F] text-white py-3 rounded-md hover:bg-[#86ae1b] transition duration-300 disabled:opacity-70 disabled:cursor-not-allowed"
+                    >
+                      {loading ? 'SENDING...' : 'SEND ENQUIRY'}
+                    </button>
+                  </form>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </section>
