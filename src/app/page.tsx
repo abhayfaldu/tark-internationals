@@ -315,7 +315,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <Link href="/products">
+          <Link href="/product">
             <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-medium transition-colors">
               VIEW MORE
             </button>
@@ -338,7 +338,7 @@ export default function Home() {
           <div className="w-[80px] border-b-4 border-primary"></div>
         </div> */}
 
-        <div className="max-w-7xl mx-auto">
+        {/* <div className="max-w-7xl mx-auto">
           <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden shadow-lg">
             <iframe
               src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
@@ -348,7 +348,7 @@ export default function Home() {
               className="absolute top-0 left-0 w-full h-full"
             />
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section

@@ -8,31 +8,26 @@ const information = [
   { title: 'Home', href: '/' },
   { title: 'About Us', href: '/about' },
   { title: 'Certificates', href: '/certificates' },
-  { title: 'Products Range', href: '/products' },
-  { title: 'Become Supplier', href: '/supplier' },
-  { title: 'Blogs', href: '/blogs' },
-  { title: 'Careers', href: '/careers' },
+  { title: 'Products Range', href: '/product' },
   { title: 'Contact Us', href: '/contact' },
 ]
 
 const productsRange = [
-  { title: 'Grains And Cereal', href: '/products/grains' },
-  { title: 'Pulses', href: '/products/pulses' },
-  { title: 'Spices', href: '/products/spices' },
-  { title: 'Fruits', href: '/products/fruits' },
-  { title: 'Vegetables', href: '/products/vegetables' },
-  { title: 'Oilseeds', href: '/products/oilseeds' },
-  { title: 'Floriculture', href: '/products/floriculture' },
-  { title: 'Herbs', href: '/products/herbs' },
-  { title: 'Dry Fruits', href: '/products/dry-fruits' },
-  { title: 'Beverages', href: '/products/beverages' },
-  { title: 'Dehydrated Products', href: '/products/dehydrated' },
+  { title: 'Grains And Cereal', href: '/product/grains_and_cereal' },
+  { title: 'Pulses', href: '/product/pulses' },
+  { title: 'Spices', href: '/product/spices' },
+  { title: 'Fruits', href: '/product/fruits' },
+  { title: 'Vegetables', href: '/product/vegetables' },
+  { title: 'Oilseeds', href: '/product/oilseeds' },
+  { title: 'Floriculture', href: '/product/floriculture' },
+  { title: 'Herbs', href: '/product/herbs' },
+  { title: 'Dry Fruits', href: '/product/dry-fruits' },
+  { title: 'Beverages', href: '/product/beverages' },
+  { title: 'Dehydrated Products', href: '/product/dehydrated' },
 ]
 
 const branches = [
-  { title: 'Pune', href: '/branches/pune' },
-  { title: 'Mumbai', href: '/branches/mumbai' },
-  { title: 'Bangalore', href: '/branches/bangalore' },
+  { title: 'Rajkot' },
 ]
 
 export default function Footer() {
@@ -78,9 +73,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {branches.map((item) => (
                 <li key={item.title}>
-                  <Link href={item.href} className="hover:text-primary">
+                  <div className="hover:text-primary">
                     {item.title}
-                  </Link>
+                  </div>
                 </li>
               ))}
             </ul>
@@ -112,7 +107,7 @@ export default function Footer() {
               </p>
             </div>
 
-            <div className="flex gap-4 mt-6">
+            {/* <div className="flex gap-4 mt-6">
               <Link href="#" className="text-white hover:text-primary">
                 <Youtube className="w-6 h-6" />
               </Link>
@@ -128,7 +123,7 @@ export default function Footer() {
               <Link href="#" className="text-white hover:text-primary">
                 <Instagram className="w-6 h-6" />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -136,8 +131,8 @@ export default function Footer() {
       <div className="border-t border-gray-700">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
-            <p>Copyright © 2020 A BTW Group Company.</p>
-            <p>Designed by WGBL India - Design Agency</p>
+            <p>Copyright © 2025 Tark Internations</p>
+            <p>Designed by Tark Internations</p>
           </div>
         </div>
       </div>

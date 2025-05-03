@@ -193,11 +193,11 @@ export default function ContactPage() {
                   <div className="flex items-start gap-3">
                     <div className="mt-1">📍</div>
                     <p>
-                      33/15, Prashant Bunglow,
+                      Shop No. 8/1, Block No. 129,
                       <br />
-                      Opp: Garware College,
+                      Rajdeep Society, Street No. 2,
                       <br />
-                      Karve Road, Pune 411004 India
+                      Rajkot - 360004, India
                     </p>
                   </div>
                   <div className="flex items-center gap-3">
@@ -327,32 +327,14 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold">Our Branches</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* Pune Branch */}
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-6xl mx-auto">
+            {/* Rajkot Branch */}
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-4">PUNE</h3>
+              <h3 className="font-bold text-xl mb-4">RAJKOT</h3>
               <p className="text-gray-600">
-                33/15, Prashant Bunglow, Opp:Garware College, Karve Road Pune
-                411004 India
-              </p>
-            </div>
-
-            {/* Mumbai Branch */}
-            <div className="text-center">
-              <h3 className="font-bold text-xl mb-4">MUMBAI</h3>
-              <p className="text-gray-600">
-                282, Khandke Building, Office No. 21, 2nd floor, Shahid Bhagat
-                Singh Road, Fort Market, Near Sher-e-Punjab Hotel, Mumbai- 400
-                001
-              </p>
-            </div>
-
-            {/* Bangalore Branch */}
-            <div className="text-center">
-              <h3 className="font-bold text-xl mb-4">BANGALORE</h3>
-              <p className="text-gray-600">
-                No. 121, First Floor, Brigade Gardens, No. 19, Church Street,
-                Brigade Road, Bangalore 560001
+                Shop No. 8/1, Block No. 129, Rajdeep Society, Street No. 2,
+                <br />
+                Rajkot - 360004, India
               </p>
             </div>
           </div>
