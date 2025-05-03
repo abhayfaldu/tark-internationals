@@ -3,54 +3,7 @@ import Image from 'next/image'
 
 const CertificatesPage = () => {
   const certificates = [
-    { title: 'APEDA', image: '/assets/certificates/apeda.jpg' },
-    { title: 'FIEO', image: '/assets/certificates/fieo.jpg' },
-    {
-      title: 'Certificate of Incorporation',
-      image: '/assets/certificates/incorporation.jpg',
-    },
-    { title: 'GST', image: '/assets/certificates/gst.jpg' },
-    { title: 'MSME', image: '/assets/certificates/msme.jpg' },
-    { title: 'IEC', image: '/assets/certificates/iec.jpg' },
-    { title: 'IEI', image: '/assets/certificates/iei.jpg' },
-    {
-      title: 'Tea Board License',
-      image: '/assets/certificates/tea-board.jpg',
-    },
-    {
-      title: 'Coconut Development Board',
-      image: '/assets/certificates/coconut-board.jpg',
-    },
-    {
-      title: 'Coffee Board',
-      image: '/assets/certificates/coffee-board.jpg',
-    },
-    {
-      title: 'TRADEMARK-REGISTRATION-CLASS-29',
-      image: '/assets/certificates/trademark-29.jpg',
-    },
-    {
-      title: 'TRADEMARK-REGISTRATION-CLASS-31',
-      image: '/assets/certificates/trademark-31.jpg',
-    },
-    { title: 'ISO 9001:2015', image: '/assets/certificates/iso.jpg' },
-    {
-      title: 'FSSAI License',
-      image: '/assets/certificates/fssai.jpg',
-    },
-    {
-      title: 'EXIM Membership of the India Chamber of Commerce',
-      image: '/assets/certificates/exim.jpg',
-    },
-    {
-      title: 'Dun & Bradstreet',
-      image: '/assets/certificates/dun.jpg',
-    },
-    {
-      title: 'Spices Board',
-      image: '/assets/certificates/spices-board.jpg',
-    },
-    { title: 'TPCI', image: '/assets/certificates/tpci.jpg' },
+    // { title: 'APEDA', image: '/assets/certificates/apeda.jpg' },
   ]
 
   return (
