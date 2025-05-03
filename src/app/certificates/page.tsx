@@ -2,9 +2,9 @@
 import Image from 'next/image'
 
 const CertificatesPage = () => {
-  const certificates = [
+  // const certificates = [
     // { title: 'APEDA', image: '/assets/certificates/apeda.jpg' },
-  ]
+  // ]
 
   return (
     <div className="w-full">
@@ -55,7 +55,7 @@ const CertificatesPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {certificates.map((cert, index) => (
               <div
                 key={index}
@@ -77,7 +77,7 @@ const CertificatesPage = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

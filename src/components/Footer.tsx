@@ -1,6 +1,6 @@
 'use client'
 
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
+// import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
 import Link from 'next/link'
 import SubmitRequirements from './SubmitRequirements'
 
