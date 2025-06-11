@@ -1,6 +1,6 @@
 'use client'
 
-import { ProductData, VarietyDetails, getProductData } from '@/app/data/products'
+import { Ingredient, productCategoriesData, ProductCategory, ProductData } from '@/data/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
@@ -13,6 +13,30 @@ export default function ProductPage({
   const [productData, setProductData] = useState<ProductData | null>(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState('market')
+
+  const getProductData = (
+    category: string,
+    product: string
+  ): ProductData => {
+    const data = productCategoriesData[ProductCategory[category as keyof typeof ProductCategory]]?.products?.find(
+      (p) => p.name === product
+    )?.data || defaultProductData(product)
+    return data
+  }
+
+  const defaultProductData = (product: string): ProductData => {
+    return {
+      title: `Indian ${product.charAt(0).toUpperCase() + product.slice(1)} Exporters`,
+      headerImage: '/assets/beach.jpg',
+      description: [
+        `Information about ${product} is not available yet. Please check back later.`,
+      ],
+      nutritionFacts: null,
+      varieties: [],
+      conclusion: [],
+      layoutType: 'standard',
+    }
+  }
 
   useEffect(() => {
     const data = getProductData(params.category, params.product)
@@ -34,7 +58,8 @@ export default function ProductPage({
 
   // Render the appropriate tab content for tabbed layout
   const renderTabContent = () => {
-    if (!productData.tabContent) return null
+    return null
+    if (!productData?.tabContent) return null
 
     switch (activeTab) {
       case 'market':
@@ -117,7 +142,7 @@ export default function ProductPage({
                         </td>
                         <td className="py-4">
                           {productData.tabContent.specification.nutrients.map(
-                            (nutrient, idx) => (
+                            (nutrient: Ingredient, idx: number) => (
                               <div key={idx} className="mb-1">
                                 {nutrient.name} - {nutrient.value}
                               </div>
@@ -131,7 +156,7 @@ export default function ProductPage({
                         <td className="py-4 align-top font-medium">Minerals</td>
                         <td className="py-4">
                           {productData.tabContent.specification.minerals.map(
-                            (mineral, idx) => (
+                            (mineral: Ingredient, idx: number) => (
                               <div key={idx} className="mb-1">
                                 {mineral}
                               </div>
@@ -145,7 +170,7 @@ export default function ProductPage({
                         <td className="py-4 align-top font-medium">Vitamin</td>
                         <td className="py-4">
                           {productData.tabContent.specification.vitamins.map(
-                            (vitamin, idx) => (
+                            (vitamin: Ingredient, idx: number) => (
                               <div key={idx} className="mb-1">
                                 {vitamin}
                               </div>
@@ -260,8 +285,8 @@ export default function ProductPage({
             <button
               onClick={() => setActiveTab('market')}
               className={`px-8 py-3 text-sm font-medium border border-green-600 ${activeTab === 'market'
-                  ? 'bg-[#008000] text-white'
-                  : 'text-green-600 hover:bg-green-50'
+                ? 'bg-[#008000] text-white'
+                : 'text-green-600 hover:bg-green-50'
                 }`}
             >
               GLOBAL MARKET DEMAND
@@ -269,8 +294,8 @@ export default function ProductPage({
             <button
               onClick={() => setActiveTab('specification')}
               className={`px-8 py-3 text-sm font-medium border-t border-b border-r border-green-600 ${activeTab === 'specification'
-                  ? 'bg-[#008000] text-white'
-                  : 'text-green-600 hover:bg-green-50'
+                ? 'bg-[#008000] text-white'
+                : 'text-green-600 hover:bg-green-50'
                 }`}
             >
               SPECIFICATION
@@ -278,8 +303,8 @@ export default function ProductPage({
             <button
               onClick={() => setActiveTab('ingredients')}
               className={`px-8 py-3 text-sm font-medium border-t border-b border-r border-green-600 ${activeTab === 'ingredients'
-                  ? 'bg-[#008000] text-white'
-                  : 'text-green-600 hover:bg-green-50'
+                ? 'bg-[#008000] text-white'
+                : 'text-green-600 hover:bg-green-50'
                 }`}
             >
               INGREDIENTS
@@ -287,8 +312,8 @@ export default function ProductPage({
             <button
               onClick={() => setActiveTab('benefits')}
               className={`px-8 py-3 text-sm font-medium border-t border-b border-r border-green-600 ${activeTab === 'benefits'
-                  ? 'bg-[#008000] text-white'
-                  : 'text-green-600 hover:bg-green-50'
+                ? 'bg-[#008000] text-white'
+                : 'text-green-600 hover:bg-green-50'
                 }`}
             >
               USES & BENEFITS
