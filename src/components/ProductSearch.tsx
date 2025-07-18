@@ -1,13 +1,9 @@
 'use client'
 
+import { Product } from '@/types/product'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-
-interface Product {
-  name: string
-  img: string
-}
 
 interface ProductSearchProps {
   products: Product[]

@@ -1,173 +1,171 @@
-import { TabContent } from '@/app/data/products'
-
 export enum ProductCategory {
-  GrainsAndCereal = 'grains-and-cereal',
-  Pulses = 'pulses',
-  Spices = 'spices',
-  Fruits = 'fruits',
-  Vegetables = 'vegetables',
-  Oilseeds = 'oilseeds',
-  Floriculture = 'floriculture',
-  Herbs = 'herbs',
-  DryFruits = 'dry-fruits',
-  Beverages = 'beverages',
-  Dehydrated = 'dehydrated',
+  GRAINS_AND_CEREAL = 'grains-and-cereal',
+  PULSES = 'pulses',
+  SPICES = 'spices',
+  FRUITS = 'fruits',
+  VEGETABLES = 'vegetables',
+  OILSEEDS = 'oilseeds',
+  FLORICULTURE = 'floriculture',
+  HERBS = 'herbs',
+  DRY_FRUITS = 'dry-fruits',
+  BEVERAGES = 'beverages',
+  DEHYDRATED = 'dehydrated',
 }
 
 export enum Products {
-  Rye = 'rye',
-  Rice = 'rice',
-  Chickpeas = 'chickpeas',
-  Turmeric = 'turmeric',
-  Potato = 'potato',
-  Groundnut = 'groundnut',
-  Rose = 'rose',
-  Neem = 'neem',
-  Corn = 'corn',
-  Oats = 'oats',
-  Millet = 'millet',
-  Wheat = 'wheat',
-  Barley = 'barley',
-  Triticale = 'triticale',
-  Fonio = 'fonio',
-  Sorghum = 'sorghum',
-  Teff = 'teff',
-  Pulses = 'pulses',
-  Peas = 'peas',
-  KidneyBeans = 'kidney-beans',
-  SoyaBean = 'soyabean',
-  PigeonPea = 'tur',
-  BlackEyedBeans = 'black-eyed-beans',
-  HorseGram = 'horse-gram',
-  PuffedRice = 'puffed-rice',
-  MasoorDal = 'red-lentil',
-  GreenGram = 'green-gram-moog',
-  BlackGram = 'black-gram',
-  ChanaDal = 'chana-dal',
-  BeatenRice = 'beaten-rice',
-  FieldBeans = 'field-bean',
-  UradDalSplit = 'urad-gota',
-  TurkishGram = 'moth-bean',
-  WholeMasoor = 'whole-masoor',
-  UradDalGota = 'white-urad-dal',
-  Sunflower = 'sunflower',
-  Gerbera = 'gerbera',
-  Tulip = 'tulip',
-  Carnation = 'carnation',
-  Chrysanthemum = 'chrysanthemum',
-  Orchid = 'orchid',
-  Tuberose = 'tuberose',
-  Gladiolus = 'gladiolus',
-  Anthurium = 'anthurium',
-  Hydrangea = 'hydrangea',
-  Jasmine = 'jasmine',
-  Marigold = 'marigold',
-  Aster = 'aster',
-  Lilium = 'lilium',
-  Crossandra = 'crossandra',
-  Ginger = 'ginger',
-  StarAnise = 'star-anise',
-  Cinnamon = 'cinnamon',
-  Asafoetida = 'asafoetida',
-  Nutmeg = 'nutmeg',
-  Cumin = 'cumin',
-  BlackPepper = 'black-pepper',
-  Garlic = 'garlic',
-  Clove = 'clove',
-  MustardSeeds = 'mustard-seeds',
-  BayLeaf = 'bay-leaf',
-  ChiliPepper = 'chili-pepper',
-  Coriander = 'coriander',
-  Saffron = 'saffron',
-  CaromSeeds = 'carom-seeds',
-  Mace = 'mace',
-  PoppySeed = 'poppy-seed',
-  GreenCardamom = 'green-cardamom',
-  Peppercorns = 'peppercorns',
-  BrownCardamom = 'brown-cardamom',
-  GreenChilliPepper = 'green-chilli-pepper',
-  Apple = 'apple',
-  Banana = 'banana',
-  Mango = 'mango',
-  Orange = 'orange',
-  Pineapple = 'pineapple',
-  Pomegranate = 'pomegranate',
-  DragonFruit = 'dragon-fruit',
-  Strawberry = 'strawberry',
-  Grapes = 'grapes',
-  Guava = 'guava',
-  Litchi = 'litchi',
-  Papaya = 'papaya',
-  Sapota = 'sapota',
-  Jackfruit = 'jackfruit',
-  Watermelon = 'watermelon',
-  Pears = 'pears',
-  Coconut = 'coconut',
-  Ber = 'ber',
-  Amla = 'amla',
-  Onion = 'onion',
-  Mushroom = 'mushroom',
-  Broccoli = 'broccoli',
-  Spinach = 'spinach',
-  Cabbage = 'cabbage',
-  Brinjal = 'brinjal',
-  Cauliflower = 'cauliflower',
-  DrumStick = 'drum-stick',
-  LadyFinger = 'lady-finger',
-  GreenChilli = 'green-chilli',
-  Doodhi = 'doodhi',
-  BitterGourd = 'bitter-gourd',
-  Cucumber = 'cucumber',
-  BellPepper = 'bell-pepper',
-  RidgeGourd = 'ridge-gourd',
-  Pumpkin = 'pumpkin',
-  Lemon = 'lemon',
-  SweetPotato = 'sweet-potato',
-  Jerusalem = 'jerusalem',
-  Radish = 'radish',
-  Beetroot = 'beetroot',
-  Carrots = 'carrots',
-  Taro = 'taro',
-  CurryLeaves = 'curry-leaves',
-  SpringOnion = 'spring-onion',
-  Mint = 'mint',
-  Papal = 'papal',
-  Methi = 'methi',
-  Purslane = 'purslane',
-  Yam = 'yam',
-  Sesame = 'sesame',
-  Flax = 'flax',
-  Safflower = 'safflower',
-  Meadowfoam = 'meadowfoam',
-  Vernonia = 'vernonia',
-  Canola = 'canola',
-  OilPalm = 'oil-palm',
-  PalmOil = 'palm-oil',
-  PalmKernel = 'palm-kernel',
-  PalmKernelOil = 'palm-kernel-oil',
-  DehydratedFruits = 'dehydrated-fruits',
-  DehydratedVegetables = 'dehydrated-vegetables',
-  Tea = 'tea',
-  Coffee = 'coffee',
-  Ashwagandha = 'ashwagandha',
-  Aloevera = 'aloe-vera',
-  Sage = 'sage',
-  Fenugreek = 'fenugreek',
-  Giloy = 'giloy',
-  Tulasi = 'tulasi',
-  Carom = 'carom',
-  Spearmint = 'spearmint',
-  KhusVetiver = 'khus-vetiver',
-  Cashew = 'cashew',
-  Walnut = 'walnut',
-  Almonds = 'almonds',
-  Apricot = 'apricot',
-  BetelNut = 'betel-nut',
-  Dates = 'dates',
-  DryFig = 'dry-fig',
-  Hazelnut = 'hazelnut',
-  Pistachio = 'pistachio',
-  Raisens = 'raisens',
+  RYE = 'rye',
+  RICE = 'rice',
+  CHICKPEAS = 'chickpeas',
+  TURMERIC = 'turmeric',
+  POTATO = 'potato',
+  GROUNDNUT = 'groundnut',
+  ROSE = 'rose',
+  NEEM = 'neem',
+  CORN = 'corn',
+  OATS = 'oats',
+  MILLET = 'millet',
+  WHEAT = 'wheat',
+  BARLEY = 'barley',
+  TRITICALE = 'triticale',
+  FONIO = 'fonio',
+  SORGHUM = 'sorghum',
+  TEFF = 'teff',
+  PULSES = 'pulses',
+  PEAS = 'peas',
+  KIDNEY_BEANS = 'kidney-beans',
+  SOYABEAN = 'soyabean',
+  PIGEONPEA = 'tur',
+  BLACK_EYED_BEANS = 'black-eyed-beans',
+  HORSE_GRAM = 'horse-gram',
+  PUFFED_RICE = 'puffed-rice',
+  MASOOR_DAL = 'red-lentil',
+  GREEN_GRAM = 'green-gram-moog',
+  BLACK_GRAM = 'black-gram',
+  CHANA_DAL = 'chana-dal',
+  BEATEN_RICE = 'beaten-rice',
+  FIELD_BEANS = 'field-bean',
+  URADDALSPLIT = 'urad-gota',
+  TURKISH_GRAM = 'moth-bean',
+  WHOLE_MASOOR = 'whole-masoor',
+  URADDAL_GOTA = 'white-urad-dal',
+  SUN_FLOWER = 'sunflower',
+  GERBERA = 'gerbera',
+  TULIP = 'tulip',
+  CARNATION = 'carnation',
+  CHRYSANTHEMUM = 'chrysanthemum',
+  ORCHID = 'orchid',
+  TUBEROSE = 'tuberose',
+  GLADIOLUS = 'gladiolus',
+  ANTHURIUM = 'anthurium',
+  HYDRANGEA = 'hydrangea',
+  JASMINE = 'jasmine',
+  MARIGOLD = 'marigold',
+  ASTER = 'aster',
+  LILIUM = 'lilium',
+  CROSSANDRA = 'crossandra',
+  GINGER = 'ginger',
+  STAR_ANISE = 'star-anise',
+  CINNAMON = 'cinnamon',
+  ASAFOETIDA = 'asafoetida',
+  NUTMEG = 'nutmeg',
+  CUMIN = 'cumin',
+  BLACK_PEPPER = 'black-pepper',
+  GARLIC = 'garlic',
+  CLOVE = 'clove',
+  MUSTARD_SEEDS = 'mustard-seeds',
+  BAY_LEAF = 'bay-leaf',
+  CHILI_PEPPER = 'chili-pepper',
+  CORIANDER = 'coriander',
+  SAFFRON = 'saffron',
+  CAROM_SEEDS = 'carom-seeds',
+  MACE = 'mace',
+  POPPY_SEED = 'poppy-seed',
+  GREEN_CARDAMOM = 'green-cardamom',
+  PEPPERCORNS = 'peppercorns',
+  BROWN_CARDAMOM = 'brown-cardamom',
+  GREEN_CHILLI_PEPPER = 'green-chilli-pepper',
+  APPLE = 'apple',
+  BANANA = 'banana',
+  MANGO = 'mango',
+  ORANGE = 'orange',
+  PINEAPPLE = 'pineapple',
+  POMEGRANATE = 'pomegranate',
+  DRAGON_FRUIT = 'dragon-fruit',
+  STRAWBERRY = 'strawberry',
+  GRAPES = 'grapes',
+  GUAVA = 'guava',
+  LITCHI = 'litchi',
+  PAPAYA = 'papaya',
+  SAPOTA = 'sapota',
+  JACKFRUIT = 'jackfruit',
+  WATERMELON = 'watermelon',
+  PEARS = 'pears',
+  COCONUT = 'coconut',
+  BER = 'ber',
+  AMLA = 'amla',
+  ONION = 'onion',
+  MUSHROOM = 'mushroom',
+  BROCCOLI = 'broccoli',
+  SPINACH = 'spinach',
+  CABBAGE = 'cabbage',
+  BRINJAL = 'brinjal',
+  CAULIFLOWER = 'cauliflower',
+  DRUM_STICK = 'drum-stick',
+  LADY_FINGER = 'lady-finger',
+  GREEN_CHILLI = 'green-chilli',
+  DOODHI = 'doodhi',
+  BITTER_GOURD = 'bitter-gourd',
+  CUCUMBER = 'cucumber',
+  BELL_PEPPER = 'bell-pepper',
+  RIDGE_GOURD = 'ridge-gourd',
+  PUMPKIN = 'pumpkin',
+  LEMON = 'lemon',
+  SWEET_POTATO = 'sweet-potato',
+  JERUSALEM = 'jerusalem',
+  RADISH = 'radish',
+  BEETROOT = 'beetroot',
+  CARROTS = 'carrots',
+  TARO = 'taro',
+  CURRY_LEAVES = 'curry-leaves',
+  SPRING_ONION = 'spring-onion',
+  MINT = 'mint',
+  PAPAL = 'papal',
+  METHI = 'methi',
+  PURSLANE = 'purslane',
+  YAM = 'yam',
+  SESAME = 'sesame',
+  FLAX = 'flax',
+  SAFFLOWER = 'safflower',
+  MEADOWFOAM = 'meadowfoam',
+  VERNONIA = 'vernonia',
+  CANOLA = 'canola',
+  OIL_PALM = 'oil-palm',
+  PALM_OIL = 'palm-oil',
+  PALM_KERNEL = 'palm-kernel',
+  PALM_KERNEL_OIL = 'palm-kernel-oil',
+  DEHYDRATED_FRUITS = 'dehydrated-fruits',
+  DEHYDRATED_VEGETABLES = 'dehydrated-vegetables',
+  TEA = 'tea',
+  COFFEE = 'coffee',
+  ASHWAGANDHA = 'ashwagandha',
+  ALOEVERA = 'aloe-vera',
+  SAGE = 'sage',
+  FENUGREEK = 'fenugreek',
+  GILOY = 'giloy',
+  TULASI = 'tulasi',
+  CAROM = 'carom',
+  SPEARMINT = 'spearmint',
+  KHUS_VETIVER = 'khus-vetiver',
+  CASHEW = 'cashew',
+  WALNUT = 'walnut',
+  ALMONDS = 'almonds',
+  APRICOT = 'apricot',
+  BETEL_NUT = 'betel-nut',
+  DATES = 'dates',
+  DRY_FIG = 'dry-fig',
+  HAZELNUT = 'hazelnut',
+  PISTACHIO = 'pistachio',
+  RAISENS = 'raisens',
 }
 
 export const whyChooseUs = [
@@ -212,50 +210,50 @@ export const whyChooseUs = [
 export const productRange = [
   {
     title: 'Grains And Cereal',
-    image: `/assets/product-range/${ProductCategory.GrainsAndCereal}.jpg`,
-    category: ProductCategory.GrainsAndCereal,
+    image: `/assets/product-range/${ProductCategory.GRAINS_AND_CEREAL}.jpg`,
+    category: ProductCategory.GRAINS_AND_CEREAL,
     slug: 'rice',
   },
   {
     title: 'Pulses',
-    image: `/assets/product-range/${ProductCategory.Pulses}.jpg`,
-    category: ProductCategory.Pulses,
+    image: `/assets/product-range/${ProductCategory.PULSES}.jpg`,
+    category: ProductCategory.PULSES,
     slug: 'chickpeas',
   },
   {
     title: 'Spices',
-    image: `/assets/product-range/${ProductCategory.Spices}.jpg`,
-    category: ProductCategory.Spices,
+    image: `/assets/product-range/${ProductCategory.SPICES}.jpg`,
+    category: ProductCategory.SPICES,
     slug: 'turmeric',
   },
   {
     title: 'Fruits',
-    image: `/assets/product-range/${ProductCategory.Fruits}.jpg`,
-    category: ProductCategory.Fruits,
+    image: `/assets/product-range/${ProductCategory.FRUITS}.jpg`,
+    category: ProductCategory.FRUITS,
     slug: 'mango',
   },
   {
     title: 'Vegetables',
-    image: `/assets/product-range/${ProductCategory.Vegetables}.jpg`,
-    category: ProductCategory.Vegetables,
+    image: `/assets/product-range/${ProductCategory.VEGETABLES}.jpg`,
+    category: ProductCategory.VEGETABLES,
     slug: 'potato',
   },
   {
     title: 'Oilseeds',
-    image: `/assets/product-range/${ProductCategory.Oilseeds}.jpg`,
-    category: ProductCategory.Oilseeds,
+    image: `/assets/product-range/${ProductCategory.OILSEEDS}.jpg`,
+    category: ProductCategory.OILSEEDS,
     slug: 'groundnut',
   },
   {
     title: 'Floriculture',
-    image: `/assets/product-range/${ProductCategory.Floriculture}.jpg`,
-    category: ProductCategory.Floriculture,
+    image: `/assets/product-range/${ProductCategory.FLORICULTURE}.jpg`,
+    category: ProductCategory.FLORICULTURE,
     slug: 'rose',
   },
   {
     title: 'Herbs',
-    image: `/assets/product-range/${ProductCategory.Herbs}.jpg`,
-    category: ProductCategory.Herbs,
+    image: `/assets/product-range/${ProductCategory.HERBS}.jpg`,
+    category: ProductCategory.HERBS,
     slug: 'neem',
   },
 ]
@@ -323,121 +321,14 @@ export const clients = [
   },
 ]
 
-export interface NutritionFacts {
-  nutrients: Ingredient[]
-  protein: Ingredient[]
-  vitamins: Ingredient[]
-  minerals: Ingredient[]
-  fat: Ingredient[]
-}
-
-export interface Ingredient {
-  name: string
-  value: string
-}
-
-export interface NutritionFacts {
-  nutrients: Ingredient[]
-  protein: Ingredient[]
-  vitamins: Ingredient[]
-  minerals: Ingredient[]
-  fat: Ingredient[]
-}
-
-export interface VarietyDetails {
-  id: number
-  name: string
-  description: string[]
-}
-
-export interface TabContent {
-  globalMarketDemand?: string[]
-  specification?: {
-    productName?: string
-    origin?: string
-    family?: string
-    binomialName?: string
-    nutrients?: { name: string; value: string }[]
-    minerals?: string[]
-    vitamins?: string[]
-    protein?: string
-    fats?: string
-  }
-  ingredients?: NutritionFacts
-  usesAndBenefits?: string[]
-}
-
-export interface CategorySection {
-  title: string
-  items: {
-    id: number
-    title: string
-    description: string
-  }[]
-}
-
-export interface SimpleSpecification {
-  productName: string
-  origin: string
-  family: string
-  binomialName: string
-}
-
-export interface SimpleIngredients {
-  nutrients: {
-    calories: string
-    carbohydrates: string
-    fiber: string
-  }
-  minerals: string[]
-  vitamins: string[]
-  protein: string
-  fats: string
-}
-
-export interface SimpleTabContent {
-  globalMarketDemand: string[]
-  specification: SimpleSpecification
-  ingredients: SimpleIngredients
-  usesAndBenefits: {
-    uses: string[]
-  }
-}
-
-export interface ProductData {
-  title: string
-  headerImage: string
-  description: string[]
-  nutritionFacts: NutritionFacts | null
-  varieties: VarietyDetails[]
-  conclusion: string[]
-  layoutType?: 'standard' | 'tabbed' | 'cards' | 'simple-tabs'
-  tabContent?: TabContent
-  cardSections?: CategorySection[]
-  simpleTabContent?: SimpleTabContent
-}
-
-export interface Product {
-  slug: string
-  name: string
-  img: string
-  data?: ProductData
-}
-
-export interface ProductCategoryData {
-  headerImg: string
-  headerText: string
-  descTitle: string
-  descText: string[]
-  products: Product[]
-}
+import type { ProductCategoryData } from '@/types/product'
 
 export const productCategoriesData: Record<
   ProductCategory,
   ProductCategoryData
 > = {
-  [ProductCategory.GrainsAndCereal]: {
-    headerImg: `/assets/product/${ProductCategory.GrainsAndCereal}/header.jpg`,
+  [ProductCategory.GRAINS_AND_CEREAL]: {
+    headerImg: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/header.jpg`,
     headerText: 'Grains and Cereal',
     descTitle: 'Indian Grains & Cereal Exporters',
     descText: [
@@ -446,35 +337,36 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Rye,
+        slug: Products.RYE,
         name: 'Rye',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Rye}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.RYE}.jpg`,
         data: {
           title: 'Indian Rye Exporter',
-          headerImage: `/assets/banners/${Products.Rye}.jpg`,
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.RYE}.jpg`,
           description: [
             'Rye is one of the extensively grown cereals in the world. One of the oldest grains to be cultivated, it is one of the top 5 grains to be consumed all over the world. India is into export tonnes of Rye each year. Rye has various nutritional benefits and therefore the rye export from India has been on the rise. The Indian rye exporter export premium quality Rye to many countries across the world. Rye export has thus gained importance in the food export industry.',
           ],
-          nutritionFacts: null,
           varieties: [],
           conclusion: [
             'If you are looking for Rye importer from India, Tark Internationals Foods is one of the best options available for you. Tark Internationals has a global presence and will assist you in grabbing buyers for your products, conducting in-depth market analysis so on and so forth. Export of Rye is a rapidly growing business and the Indian exporters should take this opportunity and export premium quality Rye worldwide.',
           ],
-          layoutType: 'tabbed',
-          tabContent: {
+          simpleTabContent: {
             globalMarketDemand: [
-              'Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.',
+              'Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.'
             ],
             specification: {
               productName: 'Rye',
               origin: 'Southwestern Asia',
               family: 'Poaceae',
-              binomialName: 'Secale Cereale',
-              nutrients: [
-                { name: 'Calories', value: '259 Calories' },
-                { name: 'Total Carbohydrate', value: '48 g' },
-                { name: 'Dietary fiber', value: '6 g' },
-              ],
+              binomialName: 'Secale Cereale'
+            },
+            ingredients: {
+              nutrients: {
+                calories: '259 Calories',
+                carbohydrates: '48 g',
+                fiber: '6 g'
+              },
               minerals: [
                 'Copper',
                 'Magnesium',
@@ -482,72 +374,74 @@ export const productCategoriesData: Record<
                 'Thiamin',
                 'Selenium',
                 'Folate',
-                'Pantothenic Acid',
+                'Pantothenic Acid'
               ],
               vitamins: ['Vitamin B6'],
               protein: '9 g',
-              fats: '3.3g',
+              fats: '3.3 g'
             },
-            usesAndBenefits: [
-              'Rye is said to help with weight loss. The type of fiber present in Rye tends to bind with water and makes one feel full so we end up eating less - Rye is also sometimes used as the basic ingredient for whiskies especially in North America and more using the digestive tract faster - Rye is also great for your immune system and is also said to be helpful in prevent arthritis - Rye is said to be good for the heart and is recommended to many heart patients - Rye is also used as the base for many whiskeys. It is also sometimes used in feed livestock.',
-            ],
+            usesAndBenefits: {
+              uses: [
+                'Rye is said to help with weight loss. The type of fiber present in Rye tends to bind with water and makes one feel full so we end up eating less - Rye is also sometimes used as the basic ingredient for whiskies especially in North America and more using the digestive tract faster - Rye is also great for your immune system and is also said to be helpful in prevent arthritis - Rye is said to be good for the heart and is recommended to many heart patients - Rye is also used as the base for many whiskeys. It is also sometimes used in feed livestock.',
+              ],
+            },
           },
         },
       },
       {
-        slug: Products.Corn,
+        slug: Products.CORN,
         name: 'Corn / Maize',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Corn}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.CORN}.jpg`,
       },
       {
-        slug: Products.Oats,
+        slug: Products.OATS,
         name: 'Oats',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Oats}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.OATS}.jpg`,
       },
       {
-        slug: Products.Millet,
+        slug: Products.MILLET,
         name: 'Millet / Bajra',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Millet}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.MILLET}.jpg`,
       },
       {
-        slug: Products.Rice,
+        slug: Products.RICE,
         name: 'Rice',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Rice}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.RICE}.jpg`,
       },
       {
-        slug: Products.Wheat,
+        slug: Products.WHEAT,
         name: 'Wheat',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Wheat}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.WHEAT}.jpg`,
       },
       {
-        slug: Products.Barley,
+        slug: Products.BARLEY,
         name: 'Barley',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Barley}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.BARLEY}.jpg`,
       },
       {
-        slug: Products.Triticale,
+        slug: Products.TRITICALE,
         name: 'Triticale',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Triticale}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TRITICALE}.jpg`,
       },
       {
-        slug: Products.Fonio,
+        slug: Products.FONIO,
         name: 'Fonio',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Fonio}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.FONIO}.jpg`,
       },
       {
-        slug: Products.Sorghum,
+        slug: Products.SORGHUM,
         name: 'Sorghum / Jawari',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Sorghum}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.SORGHUM}.jpg`,
       },
       {
-        slug: Products.Teff,
+        slug: Products.TEFF,
         name: 'Teff',
-        img: `/assets/product/${ProductCategory.GrainsAndCereal}/${Products.Teff}.jpg`,
+        img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TEFF}.jpg`,
       },
     ],
   },
-  [ProductCategory.Pulses]: {
-    headerImg: `/assets/product/${ProductCategory.Pulses}/${Products.Pulses}.jpg`,
+  [ProductCategory.PULSES]: {
+    headerImg: `/assets/product/${ProductCategory.PULSES}/${Products.PULSES}.jpg`,
     headerText: 'Pulses',
     descTitle: 'Indian Pulses Exporters',
     descText: [
@@ -556,99 +450,99 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Chickpeas,
+        slug: Products.CHICKPEAS,
         name: 'Chickpeas / Garbanzo Beans',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.Chickpeas}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.CHICKPEAS}.jpg`,
       },
       {
-        slug: Products.Peas,
+        slug: Products.PEAS,
         name: 'Peas',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.Peas}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.PEAS}.jpg`,
       },
       {
-        slug: Products.KidneyBeans,
+        slug: Products.KIDNEY_BEANS,
         name: 'Kidney Beans',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.KidneyBeans}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.KIDNEY_BEANS}.jpg`,
       },
       {
-        slug: Products.SoyaBean,
+        slug: Products.SOYABEAN,
         name: 'Soya Bean',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.SoyaBean}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.SOYABEAN}.jpg`,
       },
       {
-        slug: Products.PigeonPea,
+        slug: Products.PIGEONPEA,
         name: 'Pigeon Pea/Arhar/Tur',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.PigeonPea}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.PIGEONPEA}.jpg`,
       },
       {
-        slug: Products.BlackEyedBeans,
+        slug: Products.BLACK_EYED_BEANS,
         name: 'Black-Eyed Beans / Cowpea',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.BlackEyedBeans}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.BLACK_EYED_BEANS}.jpg`,
       },
       {
-        slug: Products.HorseGram,
+        slug: Products.HORSE_GRAM,
         name: 'Horse Gram',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.HorseGram}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.HORSE_GRAM}.jpg`,
       },
       {
-        slug: Products.PuffedRice,
+        slug: Products.PUFFED_RICE,
         name: 'Puffed Rice',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.PuffedRice}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.PUFFED_RICE}.jpg`,
       },
       {
-        slug: Products.MasoorDal,
+        slug: Products.MASOOR_DAL,
         name: 'Masoor Dal / Red Lentil',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.MasoorDal}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.MASOOR_DAL}.jpg`,
       },
       {
-        slug: Products.GreenGram,
+        slug: Products.GREEN_GRAM,
         name: 'Green Gram / Mung Bean',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.GreenGram}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.GREEN_GRAM}.jpg`,
       },
       {
-        slug: Products.BlackGram,
+        slug: Products.BLACK_GRAM,
         name: 'Black Gram',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.BlackGram}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.BLACK_GRAM}.jpg`,
       },
       {
-        slug: Products.ChanaDal,
+        slug: Products.CHANA_DAL,
         name: 'Chana Dal',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.ChanaDal}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.CHANA_DAL}.jpg`,
       },
       {
-        slug: Products.BeatenRice,
+        slug: Products.BEATEN_RICE,
         name: 'Beaten Rice',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.BeatenRice}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.BEATEN_RICE}.jpg`,
       },
       {
-        slug: Products.FieldBeans,
+        slug: Products.FIELD_BEANS,
         name: 'Field Beans',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.FieldBeans}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.FIELD_BEANS}.jpg`,
       },
       {
-        slug: Products.UradDalSplit,
+        slug: Products.URADDALSPLIT,
         name: 'Urad Dal Split',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.UradDalSplit}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.URADDALSPLIT}.jpg`,
       },
       {
-        slug: Products.TurkishGram,
+        slug: Products.TURKISH_GRAM,
         name: 'Turkish Gram / Moth Bean',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.TurkishGram}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.TURKISH_GRAM}.jpg`,
       },
       {
-        slug: Products.WholeMasoor,
+        slug: Products.WHOLE_MASOOR,
         name: 'Whole Masoor',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.WholeMasoor}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.WHOLE_MASOOR}.jpg`,
       },
       {
-        slug: Products.UradDalGota,
+        slug: Products.URADDAL_GOTA,
         name: 'Urad Dal Gota',
-        img: `/assets/product/${ProductCategory.Pulses}/${Products.UradDalGota}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.URADDAL_GOTA}.jpg`,
       },
     ],
   },
-  [ProductCategory.Spices]: {
-    headerImg: `/assets/product/${ProductCategory.Spices}/header.jpg`,
+  [ProductCategory.SPICES]: {
+    headerImg: `/assets/product/${ProductCategory.SPICES}/header.jpg`,
     headerText: 'Spices',
     descTitle: 'Indian Spices Exporter',
     descText: [
@@ -657,119 +551,119 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Turmeric,
+        slug: Products.TURMERIC,
         name: 'Turmeric',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Turmeric}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.TURMERIC}.jpg`,
       },
       {
-        slug: Products.Ginger,
+        slug: Products.GINGER,
         name: 'Ginger',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Ginger}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.GINGER}.jpg`,
       },
       {
-        slug: Products.StarAnise,
+        slug: Products.STAR_ANISE,
         name: 'Star Anise',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.StarAnise}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.STAR_ANISE}.jpg`,
       },
       {
-        slug: Products.Cinnamon,
+        slug: Products.CINNAMON,
         name: 'Cinnamon',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Cinnamon}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CINNAMON}.jpg`,
       },
       {
-        slug: Products.Asafoetida,
+        slug: Products.ASAFOETIDA,
         name: 'Asafoetida',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Asafoetida}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.ASAFOETIDA}.jpg`,
       },
       {
-        slug: Products.Nutmeg,
+        slug: Products.NUTMEG,
         name: 'Nutmeg',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Nutmeg}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.NUTMEG}.jpg`,
       },
       {
-        slug: Products.Cumin,
+        slug: Products.CUMIN,
         name: 'Cumin',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Cumin}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CUMIN}.jpg`,
       },
       {
-        slug: Products.BlackPepper,
+        slug: Products.BLACK_PEPPER,
         name: 'Black Pepper',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.BlackPepper}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.BLACK_PEPPER}.jpg`,
       },
       {
-        slug: Products.Garlic,
+        slug: Products.GARLIC,
         name: 'Garlic',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Garlic}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.GARLIC}.jpg`,
       },
       {
-        slug: Products.Clove,
+        slug: Products.CLOVE,
         name: 'Clove',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Clove}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CLOVE}.jpg`,
       },
       {
-        slug: Products.MustardSeeds,
+        slug: Products.MUSTARD_SEEDS,
         name: 'Mustard Seeds',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.MustardSeeds}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.MUSTARD_SEEDS}.jpg`,
       },
       {
-        slug: Products.BayLeaf,
+        slug: Products.BAY_LEAF,
         name: 'Bay-Leaf',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.BayLeaf}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.BAY_LEAF}.jpg`,
       },
       {
-        slug: Products.ChiliPepper,
+        slug: Products.CHILI_PEPPER,
         name: 'Chili-Pepper',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.ChiliPepper}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CHILI_PEPPER}.jpg`,
       },
       {
-        slug: Products.Coriander,
+        slug: Products.CORIANDER,
         name: 'Coriander',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Coriander}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CORIANDER}.jpg`,
       },
       {
-        slug: Products.Saffron,
+        slug: Products.SAFFRON,
         name: 'Saffron',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Saffron}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.SAFFRON}.jpg`,
       },
       {
-        slug: Products.CaromSeeds,
+        slug: Products.CAROM_SEEDS,
         name: 'Carom Seeds / Thyme',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.CaromSeeds}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.CAROM_SEEDS}.jpg`,
       },
       {
-        slug: Products.Mace,
+        slug: Products.MACE,
         name: 'Mace',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Mace}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.MACE}.jpg`,
       },
       {
-        slug: Products.PoppySeed,
+        slug: Products.POPPY_SEED,
         name: 'Poppy Seed',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.PoppySeed}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.POPPY_SEED}.jpg`,
       },
       {
-        slug: Products.GreenCardamom,
+        slug: Products.GREEN_CARDAMOM,
         name: 'Green Cardamom',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.GreenCardamom}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.GREEN_CARDAMOM}.jpg`,
       },
       {
-        slug: Products.Peppercorns,
+        slug: Products.PEPPERCORNS,
         name: 'Peppercorns',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.Peppercorns}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.PEPPERCORNS}.jpg`,
       },
       {
-        slug: Products.BrownCardamom,
+        slug: Products.BROWN_CARDAMOM,
         name: 'Brown Cardamom',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.BrownCardamom}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.BROWN_CARDAMOM}.jpg`,
       },
       {
-        slug: Products.GreenChilliPepper,
+        slug: Products.GREEN_CHILLI_PEPPER,
         name: 'Green Chilli Pepper',
-        img: `/assets/product/${ProductCategory.Spices}/${Products.GreenChilliPepper}.jpg`,
+        img: `/assets/product/${ProductCategory.SPICES}/${Products.GREEN_CHILLI_PEPPER}.jpg`,
       },
     ],
   },
-  [ProductCategory.Fruits]: {
-    headerImg: `/assets/product/${ProductCategory.Fruits}/header.jpg`,
+  [ProductCategory.FRUITS]: {
+    headerImg: `/assets/product/${ProductCategory.FRUITS}/header.jpg`,
     headerText: 'Fruits',
     descTitle: 'Indian Fruits Exporters',
     descText: [
@@ -778,104 +672,104 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Apple,
+        slug: Products.APPLE,
         name: 'Apple',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Apple}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.APPLE}.jpg`,
       },
       {
-        slug: Products.Banana,
+        slug: Products.BANANA,
         name: 'Banana',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Banana}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.BANANA}.jpg`,
       },
       {
-        slug: Products.Mango,
+        slug: Products.MANGO,
         name: 'Mango',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Mango}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.MANGO}.jpg`,
       },
       {
-        slug: Products.Orange,
+        slug: Products.ORANGE,
         name: 'Orange',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Orange}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.ORANGE}.jpg`,
       },
       {
-        slug: Products.Pineapple,
+        slug: Products.PINEAPPLE,
         name: 'Pineapple',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Pineapple}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.PINEAPPLE}.jpg`,
       },
       {
-        slug: Products.Pomegranate,
+        slug: Products.POMEGRANATE,
         name: 'Pomegranate',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Pomegranate}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.POMEGRANATE}.jpg`,
       },
       {
-        slug: Products.DragonFruit,
+        slug: Products.DRAGON_FRUIT,
         name: 'Dragon Fruit',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.DragonFruit}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.DRAGON_FRUIT}.jpg`,
       },
       {
-        slug: Products.Strawberry,
+        slug: Products.STRAWBERRY,
         name: 'Strawberry',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Strawberry}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.STRAWBERRY}.jpg`,
       },
       {
-        slug: Products.Grapes,
+        slug: Products.GRAPES,
         name: 'Grapes',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Grapes}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.GRAPES}.jpg`,
       },
       {
-        slug: Products.Guava,
+        slug: Products.GUAVA,
         name: 'Guava',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Guava}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.GUAVA}.jpg`,
       },
       {
-        slug: Products.Litchi,
+        slug: Products.LITCHI,
         name: 'Litchi',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Litchi}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.LITCHI}.jpg`,
       },
       {
-        slug: Products.Papaya,
+        slug: Products.PAPAYA,
         name: 'Papaya',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Papaya}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.PAPAYA}.jpg`,
       },
       {
-        slug: Products.Sapota,
+        slug: Products.SAPOTA,
         name: 'Sapota',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Sapota}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.SAPOTA}.jpg`,
       },
       {
-        slug: Products.Jackfruit,
+        slug: Products.JACKFRUIT,
         name: 'Jackfruit',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Jackfruit}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.JACKFRUIT}.jpg`,
       },
       {
-        slug: Products.Watermelon,
+        slug: Products.WATERMELON,
         name: 'Watermelon',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Watermelon}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.WATERMELON}.jpg`,
       },
       {
-        slug: Products.Pears,
+        slug: Products.PEARS,
         name: 'Pears',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Pears}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.PEARS}.jpg`,
       },
       {
-        slug: Products.Coconut,
+        slug: Products.COCONUT,
         name: 'Coconut',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Coconut}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.COCONUT}.jpg`,
       },
       {
-        slug: Products.Ber,
+        slug: Products.BER,
         name: 'Ber',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Ber}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.BER}.jpg`,
       },
       {
-        slug: Products.Amla,
+        slug: Products.AMLA,
         name: 'Amla',
-        img: `/assets/product/${ProductCategory.Fruits}/${Products.Amla}.jpg`,
+        img: `/assets/product/${ProductCategory.FRUITS}/${Products.AMLA}.jpg`,
       },
     ],
   },
-  [ProductCategory.Vegetables]: {
-    headerImg: `/assets/product/${ProductCategory.Vegetables}/header.jpg`,
+  [ProductCategory.VEGETABLES]: {
+    headerImg: `/assets/product/${ProductCategory.VEGETABLES}/header.jpg`,
     headerText: 'Vegetables',
     descTitle: 'Indian Vegetables Exporters',
     descText: [
@@ -884,169 +778,169 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Onion,
+        slug: Products.ONION,
         name: 'Onion',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Onion}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.ONION}.jpg`,
       },
       {
-        slug: Products.Mushroom,
+        slug: Products.MUSHROOM,
         name: 'Mushroom',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Mushroom}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.MUSHROOM}.jpg`,
       },
       {
-        slug: Products.Broccoli,
+        slug: Products.BROCCOLI,
         name: 'Broccoli',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Broccoli}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.BROCCOLI}.jpg`,
       },
       {
-        slug: Products.Potato,
+        slug: Products.POTATO,
         name: 'Potato',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Potato}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.POTATO}.jpg`,
       },
       {
-        slug: Products.Spinach,
+        slug: Products.SPINACH,
         name: 'Spinach / Palak',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Spinach}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.SPINACH}.jpg`,
       },
       {
-        slug: Products.Cabbage,
+        slug: Products.CABBAGE,
         name: 'Cabbage',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Cabbage}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CABBAGE}.jpg`,
       },
       {
-        slug: Products.Brinjal,
+        slug: Products.BRINJAL,
         name: 'Brinjal',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Brinjal}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.BRINJAL}.jpg`,
       },
       {
-        slug: Products.Cauliflower,
+        slug: Products.CAULIFLOWER,
         name: 'Cauliflower',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Cauliflower}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CAULIFLOWER}.jpg`,
       },
       {
-        slug: Products.DrumStick,
+        slug: Products.DRUM_STICK,
         name: 'Drum Stick',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.DrumStick}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.DRUM_STICK}.jpg`,
       },
       {
-        slug: Products.LadyFinger,
+        slug: Products.LADY_FINGER,
         name: 'Lady Finger',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.LadyFinger}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.LADY_FINGER}.jpg`,
       },
       {
-        slug: Products.GreenChilli,
+        slug: Products.GREEN_CHILLI,
         name: 'Green Chilli',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.GreenChilli}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.GREEN_CHILLI}.jpg`,
       },
       {
-        slug: Products.Doodhi,
+        slug: Products.DOODHI,
         name: 'Doodhi / Bottle Gourd / Lauki',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Doodhi}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.DOODHI}.jpg`,
       },
       {
-        slug: Products.BitterGourd,
+        slug: Products.BITTER_GOURD,
         name: 'Bitter Gourd',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.BitterGourd}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.BITTER_GOURD}.jpg`,
       },
       {
-        slug: Products.Cucumber,
+        slug: Products.CUCUMBER,
         name: 'Cucumber',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Cucumber}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CUCUMBER}.jpg`,
       },
       {
-        slug: Products.BellPepper,
+        slug: Products.BELL_PEPPER,
         name: 'Bell Pepper',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.BellPepper}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.BELL_PEPPER}.jpg`,
       },
       {
-        slug: Products.RidgeGourd,
+        slug: Products.RIDGE_GOURD,
         name: 'Ridge Gourd / Ghosali',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.RidgeGourd}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.RIDGE_GOURD}.jpg`,
       },
       {
-        slug: Products.Pumpkin,
+        slug: Products.PUMPKIN,
         name: 'Pumpkin',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Pumpkin}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.PUMPKIN}.jpg`,
       },
       {
-        slug: Products.Lemon,
+        slug: Products.LEMON,
         name: 'Lemon',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Lemon}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.LEMON}.jpg`,
       },
       {
-        slug: Products.SweetPotato,
+        slug: Products.SWEET_POTATO,
         name: 'Sweet Potato',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.SweetPotato}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.SWEET_POTATO}.jpg`,
       },
       {
-        slug: Products.Jerusalem,
+        slug: Products.JERUSALEM,
         name: 'Jerusalem',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Jerusalem}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.JERUSALEM}.jpg`,
       },
       {
-        slug: Products.Radish,
+        slug: Products.RADISH,
         name: 'Radish',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Radish}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.RADISH}.jpg`,
       },
       {
-        slug: Products.Beetroot,
+        slug: Products.BEETROOT,
         name: 'Beetroot',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Beetroot}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.BEETROOT}.jpg`,
       },
       {
-        slug: Products.Carrots,
+        slug: Products.CARROTS,
         name: 'Carrots',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Carrots}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CARROTS}.jpg`,
       },
       {
-        slug: Products.Taro,
+        slug: Products.TARO,
         name: 'Taro',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Taro}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.TARO}.jpg`,
       },
       {
-        slug: Products.CurryLeaves,
+        slug: Products.CURRY_LEAVES,
         name: 'Curry Leaves',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.CurryLeaves}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CURRY_LEAVES}.jpg`,
       },
       {
-        slug: Products.Coriander,
+        slug: Products.CORIANDER,
         name: 'Coriander',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Coriander}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.CORIANDER}.jpg`,
       },
       {
-        slug: Products.SpringOnion,
+        slug: Products.SPRING_ONION,
         name: 'Spring Onion',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.SpringOnion}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.SPRING_ONION}.jpg`,
       },
       {
-        slug: Products.Mint,
+        slug: Products.MINT,
         name: 'Mint',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Mint}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.MINT}.jpg`,
       },
       {
-        slug: Products.Papal,
+        slug: Products.PAPAL,
         name: 'Papal / Hyacinth Bean',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Papal}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.PAPAL}.jpg`,
       },
       {
-        slug: Products.Methi,
+        slug: Products.METHI,
         name: 'Methi / Fenugreek',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Methi}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.METHI}.jpg`,
       },
       {
-        slug: Products.Purslane,
+        slug: Products.PURSLANE,
         name: 'Common Purslane / Paruppu Keerai',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Purslane}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.PURSLANE}.jpg`,
       },
       {
-        slug: Products.Yam,
+        slug: Products.YAM,
         name: 'Elephant Yam / Suran',
-        img: `/assets/product/${ProductCategory.Vegetables}/${Products.Yam}.jpg`,
+        img: `/assets/product/${ProductCategory.VEGETABLES}/${Products.YAM}.jpg`,
       },
     ],
   },
-  [ProductCategory.Oilseeds]: {
-    headerImg: `/assets/product/${ProductCategory.Oilseeds}/header.jpg`,
+  [ProductCategory.OILSEEDS]: {
+    headerImg: `/assets/product/${ProductCategory.OILSEEDS}/header.jpg`,
     headerText: 'Oilseeds',
     descTitle: 'Indian Oilseeds Exporters',
     descText: [
@@ -1055,34 +949,34 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Sunflower,
+        slug: Products.SUN_FLOWER,
         name: 'Sunflowers',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Sunflower}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.SUN_FLOWER}.jpg`,
       },
       {
-        slug: Products.SoyaBean,
+        slug: Products.SOYABEAN,
         name: 'Soybeans',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.SoyaBean}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.SOYABEAN}.jpg`,
       },
       {
-        slug: Products.Sesame,
+        slug: Products.SESAME,
         name: 'Sesame',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Sesame}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.SESAME}.jpg`,
       },
       {
-        slug: Products.Flax,
+        slug: Products.FLAX,
         name: 'Flax',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Flax}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.FLAX}.jpg`,
       },
       {
-        slug: Products.Safflower,
+        slug: Products.SAFFLOWER,
         name: 'Safflower',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Safflower}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.SAFFLOWER}.jpg`,
       },
       {
-        slug: Products.Groundnut,
+        slug: Products.GROUNDNUT,
         name: 'Groundnut',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Groundnut}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.GROUNDNUT}.jpg`,
         data: {
           title: 'Indian Groundnut Exporters',
           headerImage: '/assets/banners/groundnut.jpg',
@@ -1176,24 +1070,24 @@ export const productCategoriesData: Record<
         },
       },
       {
-        slug: Products.Meadowfoam,
+        slug: Products.MEADOWFOAM,
         name: 'Meadowfoam',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Meadowfoam}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.MEADOWFOAM}.jpg`,
       },
       {
-        slug: Products.Vernonia,
+        slug: Products.VERNONIA,
         name: 'Vernonia',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Vernonia}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.VERNONIA}.jpg`,
       },
       {
-        slug: Products.Canola,
+        slug: Products.CANOLA,
         name: 'Spring Canola',
-        img: `/assets/product/${ProductCategory.Oilseeds}/${Products.Canola}.jpg`,
+        img: `/assets/product/${ProductCategory.OILSEEDS}/${Products.CANOLA}.jpg`,
       },
     ],
   },
-  [ProductCategory.Floriculture]: {
-    headerImg: `/assets/product/${ProductCategory.Floriculture}/header.jpg`,
+  [ProductCategory.FLORICULTURE]: {
+    headerImg: `/assets/product/${ProductCategory.FLORICULTURE}/header.jpg`,
     headerText: 'Floriculture',
     descTitle: 'Indian Floriculture Exporters',
     descText: [
@@ -1202,84 +1096,84 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Rose,
+        slug: Products.ROSE,
         name: 'Rose',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Rose}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.ROSE}.jpg`,
       },
       {
-        slug: Products.Gerbera,
+        slug: Products.GERBERA,
         name: 'Gerbera',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Gerbera}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.GERBERA}.jpg`,
       },
       {
-        slug: Products.Tulip,
+        slug: Products.TULIP,
         name: 'Tulip',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Tulip}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.TULIP}.jpg`,
       },
       {
-        slug: Products.Carnation,
+        slug: Products.CARNATION,
         name: 'Carnation',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Carnation}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.CARNATION}.jpg`,
       },
       {
-        slug: Products.Chrysanthemum,
+        slug: Products.CHRYSANTHEMUM,
         name: 'Chrysanthemum',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Chrysanthemum}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.CHRYSANTHEMUM}.jpg`,
       },
       {
-        slug: Products.Orchid,
+        slug: Products.ORCHID,
         name: 'Orchid',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Orchid}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.ORCHID}.jpg`,
       },
       {
-        slug: Products.Tuberose,
+        slug: Products.TUBEROSE,
         name: 'Tuberose',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Tuberose}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.TUBEROSE}.jpg`,
       },
       {
-        slug: Products.Gladiolus,
+        slug: Products.GLADIOLUS,
         name: 'Gladiolus',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Gladiolus}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.GLADIOLUS}.jpg`,
       },
       {
-        slug: Products.Anthurium,
+        slug: Products.ANTHURIUM,
         name: 'Anthurium',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Anthurium}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.ANTHURIUM}.jpg`,
       },
       {
-        slug: Products.Hydrangea,
+        slug: Products.HYDRANGEA,
         name: 'Hydrangea',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Hydrangea}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.HYDRANGEA}.jpg`,
       },
       {
-        slug: Products.Jasmine,
+        slug: Products.JASMINE,
         name: 'Jasmine',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Jasmine}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.JASMINE}.jpg`,
       },
       {
-        slug: Products.Marigold,
+        slug: Products.MARIGOLD,
         name: 'Marigold',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Marigold}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.MARIGOLD}.jpg`,
       },
       {
-        slug: Products.Aster,
+        slug: Products.ASTER,
         name: 'Aster',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Aster}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.ASTER}.jpg`,
       },
       {
-        slug: Products.Lilium,
+        slug: Products.LILIUM,
         name: 'Lilium',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Lilium}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.LILIUM}.jpg`,
       },
       {
-        slug: Products.Crossandra,
+        slug: Products.CROSSANDRA,
         name: 'Crossandra',
-        img: `/assets/product/${ProductCategory.Floriculture}/${Products.Crossandra}.jpg`,
+        img: `/assets/product/${ProductCategory.FLORICULTURE}/${Products.CROSSANDRA}.jpg`,
       },
     ],
   },
-  [ProductCategory.Herbs]: {
-    headerImg: `/assets/product/${ProductCategory.Herbs}/header.jpg`,
+  [ProductCategory.HERBS]: {
+    headerImg: `/assets/product/${ProductCategory.HERBS}/header.jpg`,
     headerText: 'Herbs',
     descTitle: 'Indian Herbs Exporters',
     descText: [
@@ -1288,64 +1182,64 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Neem,
+        slug: Products.NEEM,
         name: 'Neem',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Neem}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.NEEM}.jpg`,
       },
       {
-        slug: Products.Ashwagandha,
+        slug: Products.ASHWAGANDHA,
         name: 'Ashwagandha',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Ashwagandha}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.ASHWAGANDHA}.jpg`,
       },
       {
-        slug: Products.Aloevera,
+        slug: Products.ALOEVERA,
         name: 'Aloe Vera',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Aloevera}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.ALOEVERA}.jpg`,
       },
       {
-        slug: Products.Sage,
+        slug: Products.SAGE,
         name: 'Sage',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Sage}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.SAGE}.jpg`,
       },
       {
-        slug: Products.Fenugreek,
+        slug: Products.FENUGREEK,
         name: 'Fenugreek',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Fenugreek}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.FENUGREEK}.jpg`,
       },
       {
-        slug: Products.Giloy,
+        slug: Products.GILOY,
         name: 'Giloy',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Giloy}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.GILOY}.jpg`,
       },
       {
-        slug: Products.CurryLeaves,
+        slug: Products.CURRY_LEAVES,
         name: 'Curry Leaves',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.CurryLeaves}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.CURRY_LEAVES}.jpg`,
       },
       {
-        slug: Products.Tulasi,
+        slug: Products.TULASI,
         name: 'Tulasi',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Tulasi}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.TULASI}.jpg`,
       },
       {
-        slug: Products.Carom,
+        slug: Products.CAROM,
         name: 'Carom',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Carom}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.CAROM}.jpg`,
       },
       {
-        slug: Products.Spearmint,
+        slug: Products.SPEARMINT,
         name: 'Spearmint',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.Spearmint}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.SPEARMINT}.jpg`,
       },
       {
-        slug: Products.KhusVetiver,
+        slug: Products.KHUS_VETIVER,
         name: 'Khus',
-        img: `/assets/product/${ProductCategory.Herbs}/${Products.KhusVetiver}.jpg`,
+        img: `/assets/product/${ProductCategory.HERBS}/${Products.KHUS_VETIVER}.jpg`,
       },
     ],
   },
-  [ProductCategory.DryFruits]: {
-    headerImg: `/assets/product/${ProductCategory.DryFruits}/header.jpg`,
+  [ProductCategory.DRY_FRUITS]: {
+    headerImg: `/assets/product/${ProductCategory.DRY_FRUITS}/header.jpg`,
     headerText: 'Dry Fruits',
     descTitle: 'Indian Dry Fruits Exporters',
     descText: [
@@ -1354,59 +1248,59 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Cashew,
+        slug: Products.CASHEW,
         name: 'Cashew',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Cashew}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.CASHEW}.jpg`,
       },
       {
-        slug: Products.Walnut,
+        slug: Products.WALNUT,
         name: 'Walnut',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Walnut}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.WALNUT}.jpg`,
       },
       {
-        slug: Products.Almonds,
+        slug: Products.ALMONDS,
         name: 'Almonds',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Almonds}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.ALMONDS}.jpg`,
       },
       {
-        slug: Products.Apricot,
+        slug: Products.APRICOT,
         name: 'Apricot',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Apricot}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.APRICOT}.jpg`,
       },
       {
-        slug: Products.BetelNut,
+        slug: Products.BETEL_NUT,
         name: 'Betel-Nut',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.BetelNut}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.BETEL_NUT}.jpg`,
       },
       {
-        slug: Products.Dates,
+        slug: Products.DATES,
         name: 'Dates',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Dates}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.DATES}.jpg`,
       },
       {
-        slug: Products.DryFig,
+        slug: Products.DRY_FIG,
         name: 'Dry-Fig',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.DryFig}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.DRY_FIG}.jpg`,
       },
       {
-        slug: Products.Hazelnut,
+        slug: Products.HAZELNUT,
         name: 'Hazelnut',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Hazelnut}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.HAZELNUT}.jpg`,
       },
       {
-        slug: Products.Pistachio,
+        slug: Products.PISTACHIO,
         name: 'Pistachio',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Pistachio}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.PISTACHIO}.jpg`,
       },
       {
-        slug: Products.Raisens,
+        slug: Products.RAISENS,
         name: 'Raisens',
-        img: `/assets/product/${ProductCategory.DryFruits}/${Products.Raisens}.jpg`,
+        img: `/assets/product/${ProductCategory.DRY_FRUITS}/${Products.RAISENS}.jpg`,
       },
     ],
   },
-  [ProductCategory.Beverages]: {
-    headerImg: `/assets/product/${ProductCategory.Beverages}/header.jpg`,
+  [ProductCategory.BEVERAGES]: {
+    headerImg: `/assets/product/${ProductCategory.BEVERAGES}/header.jpg`,
     headerText: 'Beverages',
     descTitle: 'Indian Beverages Exporters',
     descText: [
@@ -1415,19 +1309,19 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.Tea,
+        slug: Products.TEA,
         name: 'Tea',
-        img: `/assets/product/${ProductCategory.Beverages}/${Products.Tea}.jpg`,
+        img: `/assets/product/${ProductCategory.BEVERAGES}/${Products.TEA}.jpg`,
       },
       {
-        slug: Products.Coffee,
+        slug: Products.COFFEE,
         name: 'Coffee',
-        img: `/assets/product/${ProductCategory.Beverages}/${Products.Coffee}.jpg`,
+        img: `/assets/product/${ProductCategory.BEVERAGES}/${Products.COFFEE}.jpg`,
       },
     ],
   },
-  [ProductCategory.Dehydrated]: {
-    headerImg: `/assets/product/${ProductCategory.Dehydrated}/header.jpg`,
+  [ProductCategory.DEHYDRATED]: {
+    headerImg: `/assets/product/${ProductCategory.DEHYDRATED}/header.jpg`,
     headerText: 'Dehydrated Food Products',
     descTitle: 'Dehydrated Food Products Exporters',
     descText: [
@@ -1435,14 +1329,14 @@ export const productCategoriesData: Record<
     ],
     products: [
       {
-        slug: Products.DehydratedFruits,
+        slug: Products.DEHYDRATED_FRUITS,
         name: 'Dehydrated Fruits',
-        img: `/assets/product/${ProductCategory.Dehydrated}/${Products.DehydratedFruits}.jpg`,
+        img: `/assets/product/${ProductCategory.DEHYDRATED}/${Products.DEHYDRATED_FRUITS}.jpg`,
       },
       {
-        slug: Products.DehydratedVegetables,
+        slug: Products.DEHYDRATED_VEGETABLES,
         name: 'Dehydrated Vegetables',
-        img: `/assets/product/${ProductCategory.Dehydrated}/${Products.DehydratedVegetables}.jpg`,
+        img: `/assets/product/${ProductCategory.DEHYDRATED}/${Products.DEHYDRATED_VEGETABLES}.jpg`,
       },
     ],
   },
