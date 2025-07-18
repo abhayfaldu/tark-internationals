@@ -5,6 +5,7 @@ export default function CardsLayout({ data }: { data: ProductData }) {
 
   return (
     <div className="max-w-6xl mx-auto">
+      {/* This is a Cards Layout */}
       {data.cardSections.map((section, sectionIndex) => (
         <section key={sectionIndex} className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-10">

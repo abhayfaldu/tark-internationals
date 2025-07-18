@@ -114,6 +114,7 @@ export default function TabbedLayout({ data }: { data: ProductData }) {
 
   return (
     <div className="max-w-5xl mx-auto">
+      {/* This is a Tabbed Layout */}
       {/* Tabs Navigation */}
       <div className="border-b border-gray-200 mb-8">
         <div className="flex space-x-1">

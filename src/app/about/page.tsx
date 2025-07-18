@@ -65,10 +65,10 @@ export default function AboutPage() {
             <div className="flex flex-col gap-4 md:gap-5 mx-4 md:me-20">
               <h3 className="text-xl md:text-2xl font-bold uppercase text-center md:text-left">Welcome to Tark Internations</h3>
               <p className="text-sm md:text-base text-gray-600 text-center md:text-left">
-                Tark Internations Food Services Private Limited incorporated in May 2015.
-                Tark Internations Foods is an initiative by the BTW Group (est. 2011),
+                Tark Internations food Services Private Limited incorporated in May 2015.
+                Tark Internations is an initiative by the BTW Group (est. 2011),
                 focusing on providing food services. With immense experience in
-                the food industry, Tark Internations Foods are a leading exporter of all
+                the food industry, Tark Internations are a leading exporter of all
                 kinds of Indian spices, pulses, grains, Fruits, Vegetables, and
                 many more, to a number of destinations around the globe. With
                 several partnerships with buyers across multiple countries, we

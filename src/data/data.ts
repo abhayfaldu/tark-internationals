@@ -1,3 +1,5 @@
+import type { ProductCategoryData } from '@/types/product'
+
 export enum ProductCategory {
   GRAINS_AND_CEREAL = 'grains-and-cereal',
   PULSES = 'pulses',
@@ -321,8 +323,6 @@ export const clients = [
   },
 ]
 
-import type { ProductCategoryData } from '@/types/product'
-
 export const productCategoriesData: Record<
   ProductCategory,
   ProductCategoryData
@@ -353,36 +353,43 @@ export const productCategoriesData: Record<
           ],
           simpleTabContent: {
             globalMarketDemand: [
-              'Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.'
+              'Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.',
             ],
             specification: {
               productName: 'Rye',
               origin: 'Southwestern Asia',
               family: 'Poaceae',
-              binomialName: 'Secale Cereale'
+              binomialName: 'Secale Cereale',
             },
             ingredients: {
               nutrients: {
                 calories: '259 Calories',
-                carbohydrates: '48 g',
-                fiber: '6 g'
+                carbohydrates: 'Total Carbohydrate - 48 g',
+                fiber: 'Dietary fibre - 6 g',
               },
               minerals: [
                 'Copper',
                 'Magnesium',
-                'Phosphorus',
+                'Phosphorous',
                 'Thiamin',
-                'Selenium',
+                'Riboflavin',
+                'Niacin',
                 'Folate',
-                'Pantothenic Acid'
+                'Pantothenic Acid',
               ],
               vitamins: ['Vitamin B6'],
               protein: '9 g',
-              fats: '3.3 g'
+              fats: '3.3 g',
             },
             usesAndBenefits: {
               uses: [
-                'Rye is said to help with weight loss. The type of fiber present in Rye tends to bind with water and makes one feel full so we end up eating less - Rye is also sometimes used as the basic ingredient for whiskies especially in North America and more using the digestive tract faster - Rye is also great for your immune system and is also said to be helpful in prevent arthritis - Rye is said to be good for the heart and is recommended to many heart patients - Rye is also used as the base for many whiskeys. It is also sometimes used in feed livestock.',
+                'Helps with weight loss (fiber binds water, promotes fullness)',
+                'Smooths digestive process, bulks stool, aids faster movement',
+                'Great for the immune system',
+                'Helpful in preventing asthma',
+                'Good for the heart, recommended for heart patients',
+                'Used as a base for many whiskeys',
+                'Sometimes used to feed livestock',
               ],
             },
           },

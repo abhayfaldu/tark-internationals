@@ -131,6 +131,7 @@ function VarietiesList({ varieties }: { varieties: Variety[] }) {
 export default function StandardLayout({ data }: { data: ProductData }) {
   return (
     <>
+      {/* This is a Standard Layout */}
       {data.nutritionFacts && (
         <section className="mb-20">
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-10">

@@ -112,7 +112,7 @@ export const getProductData = (
   //     nutritionFacts: null,
   //     varieties: [],
   //     conclusion: [
-  //       'If you are looking for Corn importer from India, Pisum Foods is one of the best! Pisum Foods export premium quality corn to numerous countries in the world. With our advanced technology and detailed analysis of the market export of Corn from India has now become easy. Pisum Foods has an established global presence and will help you with more export from India. Want to export corn? Pisum is the place for you!',
+  //       'If you are looking for Corn importer from India, Tark Internations is one of the best! Tark Internations export premium quality corn to numerous countries in the world. With our advanced technology and detailed analysis of the market export of Corn from India has now become easy. Tark Internations has an established global presence and will help you with more export from India. Want to export corn? Tark Internations is the place for you!',
   //     ],
   //     layoutType: 'simple-tabs',
   //     simpleTabContent: {
