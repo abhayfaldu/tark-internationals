@@ -1,4 +1,9 @@
-export type ProductLayoutType = 'standard' | 'tabbed' | 'cards' | 'simple-tabs'
+export type ProductLayoutType =
+  | 'standard'
+  | 'tabbed'
+  | 'cards'
+  | 'simple-tabs'
+  | 'extended-tabs'
 
 export interface Ingredient {
   name: string
@@ -85,6 +90,37 @@ export interface SimpleTabContent {
   }
 }
 
+export interface ExtendedTabContent {
+  description: string[]
+  history: string[]
+  specification: {
+    productName: string
+    origin: string
+    family: string
+    binomialName: string
+  }
+  features: {
+    color: string
+    tasteAndSmell: string
+    quality: string
+  }
+  ingredients: {
+    nutrients: {
+      calories: string
+      carbohydrates: string
+      fiber: string
+    }
+    minerals: string[]
+    vitamins: string[]
+    protein: string
+    fats: string
+  }
+  usesAndBenefits: {
+    uses: string[]
+    healthBenefits: string[]
+  }
+}
+
 export interface ProductData {
   title: string
   layoutType: ProductLayoutType
@@ -96,6 +132,7 @@ export interface ProductData {
   tabContent?: TabContent
   cardSections?: CardSection[]
   simpleTabContent?: SimpleTabContent
+  extendedTabContent?: ExtendedTabContent
 }
 
 export interface Product {

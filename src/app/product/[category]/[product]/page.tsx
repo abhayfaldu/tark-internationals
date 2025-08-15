@@ -1,14 +1,15 @@
 'use client'
 
-import { productCategoriesData, ProductCategory } from '@/data/data'
-import { ProductData } from '@/types/product'
+import CardsLayout from '@/components/product-layouts/CardsLayout'
+import ExtendedTabsLayout from '@/components/product-layouts/ExtendedTabsLayout'
+import SimpleTabsLayout from '@/components/product-layouts/SimpleTabsLayout'
 import StandardLayout from '@/components/product-layouts/StandardLayout'
 import TabbedLayout from '@/components/product-layouts/TabbedLayout'
-import CardsLayout from '@/components/product-layouts/CardsLayout'
-import SimpleTabsLayout from '@/components/product-layouts/SimpleTabsLayout'
-import Header from '@/components/product-sections/Header'
-import Description from '@/components/product-sections/Description'
 import Conclusion from '@/components/product-sections/Conclusion'
+import Description from '@/components/product-sections/Description'
+import Header from '@/components/product-sections/Header'
+import { productCategoriesData, ProductCategory } from '@/data/data'
+import { ProductData } from '@/types/product'
 import { useEffect, useState } from 'react'
 
 export default function ProductPage({
@@ -79,6 +80,9 @@ export default function ProductPage({
       )}
       {productData.layoutType === 'simple-tabs' && (
         <SimpleTabsLayout data={productData} />
+      )}
+      {productData.layoutType === 'extended-tabs' && (
+        <ExtendedTabsLayout data={productData} />
       )}
 
       {productData.conclusion && productData.conclusion.length > 0 && (

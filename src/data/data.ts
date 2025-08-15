@@ -399,16 +399,260 @@ export const productCategoriesData: Record<
         slug: Products.CORN,
         name: 'Corn / Maize',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.CORN}.jpg`,
+        data: {
+          title: 'Indian Corn Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: '/assets/banners/corn.jpg',
+          description: [
+            "Corn is known to be one of the world's most popular cereal grains. It is actually the seed of a plant in the grass family. Popcorn and sweet corn are some of the popular varieties of corn. Corn can be used in salads, vegetables, curries, and so on. Corn export from India has been one of the rapidly growing exports. The Indian corn exporter that earns great revenues from these exports. Corn export from India comprises of various forms and varieties of corn and export.",
+          ],
+          conclusion: [
+            'If you are looking for Corn importer from India, Pisum Foods is one of the best options available for you. Pisum Foods has a global presence and will assist you in grabbing buyers for your products, conducting in-depth market analysis so on and so forth. Export of Corn is a rapidly growing business and the Indian exporters should take this opportunity and export premium quality Corn worldwide.',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'There is a large demand for Indian Corn in the global market due to the growing health and medicinal benefits of corn. Corn is sold to reduce the risk of heart disease and medicinal benefits of corn. Corn is sold to reduce the risk of serious diseases and what is very helpful during pregnancy. Corn exporter in India export premium quality corn to many nations in the world. Export of Corn is thus a good business opportunity for Indian exporters to enter the international market.',
+            ],
+            specification: {
+              productName: 'Corn Maize',
+              origin: 'Mexico',
+              family: 'Poaceae',
+              binomialName: 'Zea mays',
+            },
+            ingredients: {
+              nutrients: {
+                calories: '365 Calories',
+                carbohydrates: 'Total Carbohydrate 74 grams',
+                fiber: 'Fiber - 4.6 grams',
+              },
+              minerals: [
+                'Magnesium',
+                'Phosphorous',
+                'Copper',
+                'Zinc',
+                'Iron',
+                'Manganese',
+                'Potassium',
+                'Pantothenic Acid',
+              ],
+              vitamins: ['Vitamin B6', 'Vitamin E'],
+              protein: '4.6 g',
+              fats: '1.5 g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Corn is known to be a very effective energy booster. Thus, many experts recommend eating corn after exercising.',
+                'Corn also helps to gain weight. If you need better and healthier food options rather than junk food.',
+                'Corn is also said to be an excellent choice for dilatated and constipated patients. This is because sweet corn and corn starch will increase the blood flow lower.',
+                'Corn is also used for food flavoring.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.OATS,
         name: 'Oats',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.OATS}.jpg`,
+        data: {
+          title: 'Indian Oats Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.OATS}.jpg`,
+          description: [
+            "Oats is a crop of the Mediterranean origin. The popularity of this crop has been on the rise due to its various uses in different fields today. Oats export is a major export variety of crop in different countries across the world. Oats export from India has been increasing over the years. It is because of the product's benefits. Oats export is a rapidly growing business. Oats export from India has become an incredible nutritious grains is a good business opportunity for Indian Oats exporter. Oats export from has become other advantages.",
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '389 calories' },
+              { name: 'Carbs', value: '66.3 grams' },
+              { name: 'Fiber', value: '10.6 grams' },
+            ],
+            protein: [{ name: 'Protein', value: '16.9g' }],
+            vitamins: [{ name: 'Vitamin E', value: 'Vitamin E' }],
+            minerals: [
+              { name: 'Manganese', value: 'Manganese' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Copper', value: 'Copper' },
+              { name: 'Biotin', value: 'Biotin' },
+              { name: 'Vitamin B1', value: 'Vitamin B1' },
+              { name: 'Magnesium', value: 'Magnesium' },
+            ],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'HFO – 114 (HARYANA JAM – 114)',
+              description: [
+                'This variety of Oats was released in 1982 and is characterized by medium maturity profuse tillering and good straw. It is resistant to lodging. The grain is bold and plump. This variety of oats has been realized for cultivation in Haryana Himachal Pradesh. This variety of oats seemed produced around 40-50 kg/ha green fodder.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'BRUNKER-10',
+              description: [
+                'This variety of oats was released in 1982. This variety of oats has fine and smooth texture. The plants of this variety of Oats are productive with profuse tillering and slow early growth. The plants of Brunker-10 are fine and upright. The green fodder yield is 40-45 t/ha in around 100 days. Brunker-10 is mainly grown in Punjab, Haryana, Uttar and West Pradesh.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'WESTON II',
+              description: [
+                'Weston II is the widely variety of oats released in 1979. This variety of oats is loved smart with a height of around 100 cm. The straws of division II are strong with narrow primitive. The plant reproduced by this variety are its plant and for maturity are 100 days.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'PALAMPUR-1',
+              description: [
+                'This variety of oats was released in 1989 and is characterized by medium maturity profuse tillering and good straw. It is resistant to lodging. The grain is bold and plump. This variety of oats has been realized for cultivation in Himachal Pradesh. This variety of oats seemed produced around 40-50 kg/ha green fodder.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'BUNDEL JAI-822',
+              description: [
+                'This variety of oats was released from the developed from a cross between OG-54-6 × HFO-114. Flowering requirement: heterogeneous, and therefore method of selection. Released in 1996, this variety has erect growth habit and glumes remain. It takes around 80-100 days for harvesting Bundel Jai-822 and matures in about 120-130 days.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'SABZAAR (SKO-7)',
+              description: [
+                'Sabzaar was released in 1997 and was developed by SKAUST in Srinagar. This variety has been certified for cultivation in temperate areas of Kashmir and high altitude regions of Jammu. SKO-7 variety is profuse stocking leafy and suitable for both grain & fodder. It produces around 25-40 tons of green fodder.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'HARITA (RO -19)',
+              description: [
+                'This variety of Harita was released in 2001 and was suitable for Maharashtra. This variety of Oats is a medium variety developed by selection from a base population of fifty plants. Harita seed is suitable for winter season under irrigated conditions. The average yield of Harita is around 15-20 kg for green forage and about 5-6 t/ha for dry matter.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'UPO-212',
+              description: [
+                'This variety of oats was released in 2002 for cultivation in the north and central India under the multi-cut system. The UPO-212 variety has a light green stem and is 1-3 times taller and suitable above. The average green fodder yield of this variety is around 40-50 t/ha.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'OL-125',
+              description: [
+                'The OL-125 variety of oats was developed for commercial hybridization using Avena and HFO-114 followed by pedigree breeding and selection. This variety was released in 1983 for cultivation in the north-west and central India at the University. This variety is suitable for single and multicut and yields 40 t/ha green fodder.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Tark Internationals is exporter of Oats from India. Pisum Foods is the best option for your future oats or any other oats exporter from India. Pisum Foods has extensive experience in the food industry. Our trained executives analyze the market trends and will help you to find buyers internationally. Want to export Oats? Pisum is the field through.',
+          ],
+        },
       },
       {
         slug: Products.MILLET,
         name: 'Millet / Bajra',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.MILLET}.jpg`,
+        data: {
+          title: 'Indian Pearl Millet Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.MILLET}.jpg`,
+          description: [
+            'Pearl millet is a millet, an ancient grains, semi-arid resulting up to around 5 m high with a glorious root system. The global demand for pearl millet has been increasing and that the Pearl Millet exporter in India export tonnes of millet each year. Pearl millet is one known to have several other names like bajra, bulrush millet, spiked millet, cat-tail millet, and African millet. The export of millet from India has been on the rise for the past few farming years. The Indian pearl millet exporter earns good revenues from the export of their products to several countries in the world. It can be said that the pearl millet export is now a good business opportunity for food exporters.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '378 calories' },
+              { name: 'Carbs', value: '73 grams' },
+              { name: 'Dietary Fiber', value: '1.2g/100 grams' },
+            ],
+            protein: [{ name: 'Protein', value: '11g' }],
+            vitamins: [
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin A', value: 'Vitamin A' },
+              { name: 'Vitamin E', value: 'Vitamin E' },
+              { name: 'Riboflavin', value: 'Riboflavin' },
+              { name: 'Niacin', value: 'Niacin' },
+              { name: 'Thiamin', value: 'Thiamin' },
+            ],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Potassium', value: 'Potassium' },
+              { name: 'Zinc', value: 'Zinc' },
+            ],
+            fat: [{ name: 'Fat', value: '4.2 gm' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'GIANT BAJRA',
+              description: [
+                'This variety of Pearl Millet has been recommended for cultivation in the entire Rajya growing zone. The plants of this variety are leafy with profuse tillering and have a big grained or best forage. It is suited to be cultivated resistant to many insects and plant diseases.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'RAJ BAJRA CHARI-2',
+              description: [
+                'This variety of Pearl Millet has been certified for cultivation for the entire Rajya growing zone. The green fodder yield is around 30-40 t/ha. Raj Bajra Chari-2 is resistant to blast diseases and sweet pests. All the ear emergence stage maintains are eliminated in the leaf development and it is semi dormant.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'APFB-2',
+              description: [
+                'The APFB-2 variety of Pearl Millet is recommended for cultivation in Andhra Pradesh. This variety belongs to the early maturity group. Non-lodging and late emergence, crop suited to summer and rainy Pearl varieties. This plant height is 160-200 cm providing green forage yield ranging up to 60 t/ha.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'PCB-164',
+              description: [
+                'The PCB-164 variety of Pearl Millet has been developed by PAU Ludhiana from the field crossing lines. This variety of Pearl Millet was released and notified for cultivation in the north-west part of India.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'AVIKA BAJRA CHARI (AVKB-19)',
+              description: [
+                'The AVIKA BAJRA CHARI variety has been certified for cultivation in the state of Haryana like Gujarat, Rajasthan, especially Punjab and some regions of Uttar Pradesh. This variety also known by the name is a semi to have a leaf sheathe with a green foliage with a plant height of 240-280 cm. It is suitable at 70-90 days for the first cut and 30 days for the subsequent cuts.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'NARENDRA CHARA BAJRA-2 (NDFB-2)',
+              description: [
+                'The Narendra Chara Bajra variety has been developed by NDUAT. Narendra this variety of Pearl Millet has been recommended for cultivation in pearl millet growing areas in the north-west and central zone of the country. This variety is excellent for single and multi-cut and very good for the green fodder.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'FBC-16',
+              description: [
+                'The FBC-16 variety of Pearl Millet has been notified for cultivation in entire north-west India. This variety is best to be a multi-cut variety and it is suitable for the whole summer season. The variety also has a low concentration of oxalates and high recovery. The protein leaves by this method. The green fodder yield produced of this variety is 70-80 t/ha.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'THSC-1',
+              description: [
+                'This variety of Pearl Millet was bred by Chau. Chaudhary and was recommended for cultivation in the entire Rajya growing zone of the country or the year 1999. THSC-1 variety produces around 40-50 t/ha green fodder and is said to be resistant to foliar diseases and insect-pests.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'OL-125',
+              description: [
+                'The OL-125 variety of oats was developed for commercial hybridization using Avena and HFO-114 followed by pedigree breeding and selection. This variety was released in 1985 for cultivation in the north-west and central zone of the country. This variety is excellent for single and multi-cut and very good for the green fodder.',
+              ],
+            },
+          ],
+          conclusion: [
+            'If you are looking for a Pearl Millet importer from India, Pisum Foods is the best choice for you! Pisum Foods is one of the most trustworthy exporters of food products including grains, spices, fruits and such other products from India. Export of Pearl millet is a good opportunity for Indian exporters and thus with us, you can make the most of it. Want to export Pearl Millet? Pisum is the field through.',
+          ],
+        },
       },
       {
         slug: Products.RICE,
@@ -500,31 +744,377 @@ export const productCategoriesData: Record<
         slug: Products.WHEAT,
         name: 'Wheat',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.WHEAT}.jpg`,
+        data: {
+          title: 'Indian Wheat Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.WHEAT}.jpg`,
+          description: [
+            'Wheat is a cereal grain mostly eaten in the form of bread in different parts of the world. Wheat exporter in India exports tonnes of wheat abroad each year. Wheat is also known to have a higher protein content than other major cereals such as maize or rice. Thus the global demand for wheat export is on the rise. The Indian wheat exporter, therefore, exports increasing amount of wheat and wheat products each year. This is a good opportunity for wheat export from India to rise and earn good revenues for the vendors and farmers.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '340 calories' },
+              { name: 'Dietary Fiber', value: '2.7g' },
+              { name: 'Total Carbohydrate', value: '72 g' },
+            ],
+            protein: [{ name: 'Protein', value: '13g' }],
+            vitamins: [{ name: 'Vitamin B6', value: 'Vitamin B6' }],
+            minerals: [
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Sodium', value: 'Sodium' },
+              { name: 'Potassium', value: 'Potassium' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Copper', value: 'Copper' },
+              { name: 'Folate', value: 'Folate' },
+            ],
+            fat: [{ name: 'Fat', value: '2g' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'VL-832',
+              description: [
+                'The VL-832 variety of wheat is exported from India to many countries in the world. The class required for the maturity of this variety is around 165-180 days. The average yield of this variety of wheat is 25-30q/ha. This variety of wheat is said to be resistant to brown and yellow rusts and leaf rust.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'VL-804',
+              description: [
+                'Also known as Vijay VL-804, the time required for this plant to mature after transplanting is around 160-170 days. This variety of wheat is known to be tolerant of smut/leaf. It is also resistant to brown and yellow rusts.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'HS-365',
+              description: [
+                'The HS-365 variety of wheat is majorly grown in the state of Himachal, in hilly fields, this variety is said to be grown in hilly areas from low regions. This variety of wheat grows well at a high altitude in hill situations.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'HS-240',
+              description: [
+                'This variety of wheat grows well in the hills of Uttaranchal, Himachal Pradesh, J&K, Sikkim and other hill eastern states. HS-240 grows well at a maximum altitude and is irrigated timely based or rainfed timely sown.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'HD 2687',
+              description: [
+                'The HD 2687 variety of wheat is generally grown in the regions of Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, Madhya of Himachal Pradesh, Jammu, Kashmir and Uttaranchal. The cultural conditions required for this variety are irrigated timely sown.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'PBW-343',
+              description: [
+                'The PBW-343 is a variety of wheat which is grown in states like Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, hilly/hills of Himachal Pradesh, Jammu, Kashmir, Uttaranchal and such other states. The cultural conditions required for this variety include irrigated timely sown.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'SHRESTH (HD 2687)',
+              description: [
+                'Shresth, also known as HD 2687, is a variety of wheat exported from India. The states where this variety is grown are Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, Madhya of Himachal Pradesh, Jammu, Kashmir, Uttaranchal and such other states.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. Pisum food has a strong experience in wheat export from India. We make sure that all the health and safety parameters and regulations are met high-quality wheat is exported from India. Want to export wheat? Pisum Foods is the best choice for you!',
+          ],
+        },
       },
       {
         slug: Products.BARLEY,
         name: 'Barley',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.BARLEY}.jpg`,
+        data: {
+          title: 'Indian Barley Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.BARLEY}.jpg`,
+          description: [
+            'One of the major cereal grains in the world, Barley is from the grass family and is extensively grown in temperate climates in different parts of the world. Barley exporter in India exports tonnes of barley to various countries in the world. With the growing demand of barley in the world, barley export from India has been on the rise. Over the years, the Indian barley exporter export good quality barley and barley products. Barley export from India includes many varieties of barley.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '354 calories' },
+              { name: 'Dietary Fiber', value: '17 g' },
+              { name: 'Total Carbohydrate', value: '73 g' },
+            ],
+            protein: [{ name: 'Protein', value: '12g' }],
+            vitamins: [{ name: 'Vitamin B6', value: 'Vitamin B6' }],
+            minerals: [
+              { name: 'Manganese', value: 'Manganese' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Copper', value: 'Copper' },
+              { name: 'Potassium', value: 'Potassium' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Selenium', value: 'Selenium' },
+              { name: 'Niacin', value: 'Niacin' },
+            ],
+            fat: [{ name: 'Fat', value: '2g' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'AZAD (K125)',
+              description: [
+                'The Azad variety is generally suitable for cultivation in areas of western Uttar Pradesh, Bihar and West Bengal. This variety of barley is said to be tolerant to salt and resistance to yellow rust disease. It can be good as fodder and grain. The Azad variety generally matures in 90-100 days. It has a yield potential of about 30-35 quintals of grains per hectare under irrigated conditions.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'RATNA',
+              description: [
+                'This variety of Ratna was released for central areas of western Uttar Pradesh, Bihar and West Bengal. This variety is said to be highly tolerant of saline and alkaline soil conditions. Ratna is said to mature within around 100-105 days and grows in fairly good yield even under unfavorable environmental conditions. The plants of this variety have a good tillering ability.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'VIJAYA',
+              description: [
+                'The Vijaya variety has been released for the rainfed regions of western Uttar Pradesh, Delhi and Madhya Pradesh. It matures in about 120-135 days. Vijaya variety has been released for rainfed regions of western Uttar Pradesh, Delhi and Madhya Pradesh. It matures in about 120-135 days. This variety has a yield potential of 20-25 quintals of grains per hectare.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'RS-6',
+              description: [
+                'Developed in Rajasthan, the RS-6 variety of Barley is suitable for cultivation under semi-north-east as well as irrigated conditions. This variety has specifically been recommended for central and western Rajasthan. It matures around 120-130 days and has a yield potential of 35-40 quintals of grains per hectare.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'RANJIT (OL - 70)',
+              description: [
+                'Ranjit (OL-70) is a six-rowed hulled barley (Hordeum vulgare of Barley recommended for commercial cultivation in only Punjab. This variety is suitable for growing under irrigated conditions. It has a yield potential of 35-40 quintals of grains per hectare.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'C- 164',
+              description: [
+                'The C-164 variety of Barley is a tall, erect variety with compound ears and long awns. This grain is usually bold, bright and golden. C-164 is said to be resistant to yellow rust. It can still show slow to thus more suitable for cultivation under irrigated conditions. The yield of this variety is around 35-40 quintals of grains per hectare.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'LSB-2',
+              description: [
+                'LSB-2 is known to be a six-row naked type barley variety. It is a variety suitable for growing at a higher altitude like Himachal Pradesh and Uttar Pradesh hills, maturing in about 140-160 days. this variety has a yield potential of 25-30 quintals of grains per hectare.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is one of the best barley importer from India. We export barley and several other food products from India to numerous countries of the world. Barley export from India is a great opportunity for Indian exporters and farmers to enter the international market and export their products worldwide. Want to export barley from India? Pisum Foods is the field through.',
+          ],
+        },
       },
       {
         slug: Products.TRITICALE,
         name: 'Triticale',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TRITICALE}.jpg`,
+        data: {
+          title: 'Indian Triticale Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TRITICALE}.jpg`,
+          description: [
+            'Triticale is a hybrid cross of wheat and rye. It can be used as a grain, feed, fuel, forage, wildlife food-plot, cover crop, and so on. The Triticale exporter in India exports tonnes of Triticale to various countries in the world. Due to the diverse uses and benefits of the crop, Triticale export from India has been growing over the years. The Indian Triticale exporter is now exporting increasing amounts of Triticale abroad each year. The Triticale export from India provides the export of various varieties of the crop.',
+          ],
+          conclusion: [
+            "Pisum Foods is the leading Triticale Importer from India. We at Pisum Foods understand that the export of Triticale from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Triticale is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for Triticale export from India, Contact Pisum now!",
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'Triticale is a man-made hybrid and thus has many advantages. For instance, it benefits from having the disease resistance of rye, coupled with the seed and forage quality of wheat. Therefore, the global market demand for Triticale has increased recently. The Triticale exporter in India exports premium quality Triticale to different parts of the world. Due to its excellent resistance to plant diseases and viruses, Triticale import from India is predicted to grow even in the coming years.',
+            ],
+            specification: {
+              productName: 'Triticale',
+              origin: 'Scotland and Germany',
+              family: 'Poaceae',
+              binomialName: 'Triticosecale',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 336',
+                carbohydrates: 'Total Carbohydrates - 72g',
+                fiber: 'Dietary Fiber - 19g',
+              },
+              minerals: ['Calcium', 'Iron', 'Potassium'],
+              vitamins: ['Vitamin D'],
+              protein: '13 g',
+              fats: '2 g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Triticale is used in grain milling. It can be milled into flour using wheat or rye flour milling processes.',
+                'Whole and refined triticale are used for making baking products such as different types of breads, oriental noodles, soft wheat products, and so on.',
+                'Some varieties of triticales can also produce dense and flavorful or special flavor-making conditions, such as like making bread and reduced fermentation time.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.FONIO,
         name: 'Fonio',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.FONIO}.jpg`,
+        data: {
+          title: 'Indian Fonio Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.FONIO}.jpg`,
+          description: [
+            'Fonio is an annual grass grown for its grain which is generally used to make porridge. The Fonio exporter in India exports tonnes of Fonio every year. The growing popularity of Fonio has led to an increase in Fonio export from India. The leaves of Fonio are blade-like linear and tapering. The Indian Fonio exporter exports premium quality Fonio to different countries in the world. The Fonio export from India includes the export of varieties of Fonio.',
+          ],
+          conclusion: [
+            'Pisum is one of the best Fonio importer from India. We at Pisum Foods understand the issues one can face during the export of Fonio, so we are here to help! Pisum has an extensive experience in the food export industry. Our executives are trained to support you through the entire export process and resolve any issues which might arise. If you are looking for Fonio export from India, Contact Pisum now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The global market demand for Fonio has been increasing due to its rich nutritional qualities. This is a good business opportunity for the Fonio exporter in India to expand his business and enter the international market. Due to an increase in the Fonio import from India, the local vendors and farmers who cultivate Fonio are also earning good revenues.',
+            ],
+            specification: {
+              productName: 'Fonio',
+              origin: 'Africa',
+              family: 'Poaceae',
+              binomialName: 'Digitaria exilis',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 170',
+                carbohydrates: 'Carbohydrates - 39g',
+                fiber: 'Fiber - 1g',
+              },
+              minerals: ['Calcium', 'Iron', 'Phosphorus'],
+              vitamins: [],
+              protein: '2g',
+              fats: '0.5g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Fonio may be consumed after cooking, either as a porridge or couscous. The grain is sometimes also ground and mixed with other cereals.',
+                'Fonio grain is sometimes used to brew beer and malted beverages. The fonio grain can be used as animal fodder.',
+                'Fonio is said to have a high concentration of iron which helps against anemia. It also contains folic acid and other amino acids that are beneficial during pregnancy.',
+                'Fonio contains certain essential amino acids, especially cysteine and methionine, which help to detoxify the liver and the body.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.SORGHUM,
         name: 'Sorghum / Jawari',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.SORGHUM}.jpg`,
+        data: {
+          title: 'Indian Sorghum Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.SORGHUM}.jpg`,
+          description: [
+            'Sorghum is primarily a strong grass and has edible starchy seeds. Sorghum is a diverse crop and has many uses in different industries. In India sorghum is popularly known as Jowar, Cholam, or Jonna. The Sorghum exporter in India exports a huge quantity of the crop each year. Due to the growing popularity of sorghum, sorghum export from India has also seen an a rise. This is, therefore, a good opportunity for the Indian Sorghum exporter to expand his business and enter the international marketplace. The Jowar export includes various varieties and qualities of the product.',
+          ],
+          conclusion: [
+            'Pisum Foods is a leading Sorghum importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact Pisum now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'Sorghum is a major food crop in Africa and has many other uses as well. It is used as a food product, as hay and also as fodder. Sorghum is valued in hot and arid regions largely for its resistance to drought and heat. The Sorghum exporter in India exports good quality Sorghum to various parts of the world. The Sorghum import from India has thus seen a steady increase over the past few years.',
+            ],
+            specification: {
+              productName: 'Sorghum',
+              origin: 'Northeastern Africa',
+              family: 'Poaceae',
+              binomialName: 'Sorghum bicolor',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 339',
+                carbohydrates: 'Carbohydrates - 75g',
+                fiber: 'Fiber - 6g',
+              },
+              minerals: [
+                'Magnesium',
+                'Iron',
+                'Copper',
+                'Phosphorous',
+                'Zinc',
+                'Potassium',
+              ],
+              vitamins: [
+                'Vitamin B1',
+                'Vitamin B2',
+                'Vitamin B3',
+                'Vitamin B6',
+              ],
+              protein: '11g',
+              fats: '3g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Sorghum is used as a food product. It is also used to make soda, all sorts, alcoholic and certain alcoholic beverages.',
+                'Sorghum is also used as hay and fodder. The stalks of the crop are used as fodder and building materials.',
+                'Sorghum is used to make brooms and brushes.',
+                'Sweet Sorghum is also used for syrup manufacture and in the production of ethyl alcohol for biofuel.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.TEFF,
         name: 'Teff',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TEFF}.jpg`,
+        data: {
+          title: 'Indian Teff Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.TEFF}.jpg`,
+          description: [
+            'Teff is a very fine grain, around the size of a poppy grain. It is an ancient grain from Ethiopia and Eritrea and is a part of their staple cuisines. The Teff exporter in India exports a large quantity of the product every year. Due to the growing popularity of Teff all over the world, the Teff export from India exports increasing amounts of Teff every year. The Indian Teff exporter exports premium quality Teff abroad. The Teff export includes the export of various varieties of Teff.',
+          ],
+          conclusion: [
+            'Pisum Foods is the leading Teff importer from India. We at Pisum Foods help our clients from the documentation process until the final delivery of the products. Our global presence and extensive experience have proved to be beneficial for most of our past customers. Our executives will make sure that you are in safe of any issues, contact us without any hesitation in this segment of teff. If you are looking for Teff export from India, Contact us now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Global Market demand for Teff has been increasing over the years. As gluten-free alternatives to wheat are gaining popularity, Teff is definitely a good option. This is, therefore, a great opportunity for the Teff exporter in India to expand his business and enter the international market. Due to the great quality of this grain, Teff import from India has been rising over the years.',
+            ],
+            specification: {
+              productName: 'Teff',
+              origin: 'Ethiopia',
+              family: 'Poaceae',
+              binomialName: 'Eragrostis tef',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 366',
+                carbohydrates: 'Carbs - 73 g',
+                fiber: 'Fiber - 8 g',
+              },
+              minerals: [
+                'Calcium',
+                'Magnesium',
+                'Potassium',
+                'Phosphorus',
+                'Manganese',
+                'Zinc',
+                'Selenium',
+              ],
+              vitamins: [],
+              protein: '13.3g',
+              fats: '2.4g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Teff is popular across the world as it is gluten-free. Thus it can be ground and used as whole grain and gluten-free flour.',
+                'In Ethiopia, teff flour is fermented with yeast and is then used to make a traditional sourdough flatbread known as injera.',
+                'Teff flour is also used for baking bread or manufacturing packaged foods like pasta. It is a good gluten-free alternative even for such products.',
+              ],
+            },
+          },
+        },
       },
     ],
   },
@@ -541,6 +1131,109 @@ export const productCategoriesData: Record<
         slug: Products.CHICKPEAS,
         name: 'Chickpeas / Garbanzo Beans',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.CHICKPEAS}.jpg`,
+        data: {
+          title: 'Indian Chickpea Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.CHICKPEAS}.jpg`,
+          description: [
+            "Known to be one of the world's largest producer of chickpeas, the chickpea exporter in India is exporting more and more chickpeas each year. There are broadly two varieties of chickpeas known as Desi and Kabuli. Chickpeas export from India includes both these varieties and many more. The Indian chickpeas exporter export premium quality chickpeas from India.",
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '364 calories / kilogram' },
+              { name: 'Carbohydrates', value: '60g/100 grams' },
+              { name: 'Fiber', value: '12g/100 grams' },
+            ],
+            protein: [{ name: 'Protein', value: '19g' }],
+            fat: [{ name: 'Fat', value: '6g' }],
+            vitamins: [
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin A', value: 'Vitamin A' },
+              { name: 'Vitamin B6', value: 'Vitamin B6' },
+            ],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Pantothenic acid', value: 'Pantothenic acid' },
+            ],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'L 550',
+              description: [
+                'The L 550 variety of chickpeas was released in the year 2016. The L 550 variety of chickpeas matures around 100-105 days after transplanting. These chickpeas have bold grains and are popular with in color. The maturity yield for this variety of chickpeas is 20-25kg/ha.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'JG 315',
+              description: [
+                'The JG 315 variety of chickpeas was released in 1994. The JG 315 variety of chickpeas takes around 105-110 days to mature after transplanting. These chickpeas are resistant and have brown and wrinkled seeds. This variety of chickpeas yield can average yield of around 20-25kg/ha.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'PUSA 391',
+              description: [
+                'The PUSA 391 of chickpeas was released in the year 1997. The Pusa 391 variety takes about 100-105 days in order to mature after being transplanted. This variety of chickpeas can be characterized by bold and light brown seeds. The average yield for this variety of chickpeas is 17-20kg/ha.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'BDN 72',
+              description: [
+                'Released in 1999, the BDN 72 is another variety of chickpeas exported from India. This variety takes around 145-155 to mature after transplanting. The BDN 72 variety is resistant to wilt and rust but and is known to be bold seeded. The average yield of this variety is 20-25kg/ha.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'GUJARAT GRAM I',
+              description: [
+                'The Gujarat Gram I was released in 1998. The time took for maturing for this variety of chickpeas is around 100-110 days. These chickpeas are generally resistant to wilt. The average yield of this variety of chickpeas is 17-20kg/ha.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'ICCC 32',
+              description: [
+                'The ICCC 32 is another variety of chickpeas we export from India released in 1999. These chickpeas take around 100-105 days to mature after transplanting. One of the seed of ICCC 32 is medium. This variety is usually resistant to wilt and the average yield is 17-20kg/ha.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'KAK 2',
+              description: [
+                'The KAK 2 variety of chickpeas was released in the year 2004. This variety of chickpeas required from 90-95 takes about 105-110 days for mature after transplanting. The KAK 2 variety is generally bold seeded and has an average yield of around 17-20kg/ha.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'UDAY (GPG 55)',
+              description: [
+                'Released in the year 2004, the UDAY is another variety of chickpeas exported from India. GPG 55 its takes around 100-105 days to mature after transplanting. This variety comes with its bold seeded. The average yield of this variety of chickpeas is 18-20kg/ha.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'GNG 663 (VARDAN)',
+              description: [
+                'The GNG 663 was released in the year 1999. This variety is also known as Vardan. The time take for maturing for this variety of chickpeas is around 100-105 days. Resistant to wilt, this variety is said bold and of Rajasthan bright and the average yield of this variety is 22-25kg/ha.',
+              ],
+            },
+            {
+              id: 10,
+              name: 'KARNA CHANA (CSG 8962)',
+              description: [
+                'The Karna Chana was released in the year 2001 also, known as CSG 8962, this variety takes 140-145 days to mature after transplanting. This variety is said to be good for non-irrigated areas. The average yield of this variety of chickpeas is 22-25kg/ha.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is known as one of the best chickpea importer from India and we can be trusted with various export-related work with ease. The world, Chickpeas are one of our main popular export products. Healthy to eat and delicious in taste, chickpea is now demanded by various countries. If you are looking to export of chickpeas, Pisum is the best choice!',
+          ],
+        },
       },
       {
         slug: Products.PEAS,
@@ -642,6 +1335,63 @@ export const productCategoriesData: Record<
         slug: Products.TURMERIC,
         name: 'Turmeric',
         img: `/assets/product/${ProductCategory.SPICES}/${Products.TURMERIC}.jpg`,
+        data: {
+          title: 'Turmeric',
+          layoutType: 'extended-tabs',
+          headerImage: `/assets/product/${ProductCategory.SPICES}/${Products.TURMERIC}.jpg`,
+          description: [
+            "From curing ulcers and preventing heart diseases to being a common ingredient in dishes, turmeric is one of nature's most special gifts. This magnificent spice not just makes your food get a unique taste, but it also acts of medicine on many health issues. Turmeric has been known in trade for its anti-inflammatory properties. It always been and will continue to remain in high demand all across the globe.",
+          ],
+          conclusion: [
+            "Turmeric is a spice known to have multiple uses and health benefits. Let's take a look at some of the common uses.",
+          ],
+          extendedTabContent: {
+            description: [
+              'The dried root of Curcuma longa plant of the ginger family, Turmeric is native to the Indian subcontinent and Southeast Asia. Being perennial and rhizomatous, it requires between 20-30°C. Curcuma and a good amount of annual rainfall to grow. The rhizomes are collected every year. They are boiled, dried in hot air ovens, polished and ground to orange-yellow powder.',
+            ],
+            history: [
+              "Turmeric has been virtually used as a main chemical since the discovery of its medicinal properties. It's been used in Ayurvedic traditional Chinese medicine, other being as well. Indian is known to have the largest number of business with Thailand up close in the second position.",
+            ],
+            specification: {
+              productName: 'Turmeric',
+              origin: 'Indian subcontinent and Southeast Asia',
+              family: 'Zingiberaceae',
+              binomialName: 'Curcuma longa',
+            },
+            features: {
+              color: 'Orange-yellow',
+              tasteAndSmell:
+                'Bitter taste with mildly aromatic smell/ginger scent',
+              quality: '',
+            },
+            ingredients: {
+              nutrients: {
+                calories: '312 Calories',
+                carbohydrates: '65 gm',
+                fiber: '21 gm carbohydrates',
+              },
+              minerals: ['Iron', 'Potassium', 'Manganese'],
+              vitamins: ['Vitamin C'],
+              protein: '10 gm',
+              fats: '10 gm',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Culinary - Turmeric is the powdered herb used as a spice in a number of various dishes across the planet.',
+                'Dye - The golden yellow colour of turmeric is used as a dye.',
+                'Moisturizer - It is used as a chemical indicator to test for acidity and alkalinity.',
+                'Medicinal - As a plant with medicinal values, Curcumin has plenty of use in herbal remedies and ayurvedic treatments.',
+              ],
+              healthBenefits: [
+                'Anti-inflammatory medicine',
+                'Pain relieved',
+                'Antioxidant',
+                'General treatment',
+                'Digestion',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.GINGER,
