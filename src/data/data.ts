@@ -40,16 +40,16 @@ export enum Products {
   BLACK_EYED_BEANS = 'black-eyed-beans',
   HORSE_GRAM = 'horse-gram',
   PUFFED_RICE = 'puffed-rice',
-  MASOOR_DAL = 'red-lentil',
-  GREEN_GRAM = 'green-gram-moog',
+  RED_LENTIL = 'red-lentil',
+  GREEN_GRAM_MOONG = 'green-gram-moong',
   BLACK_GRAM = 'black-gram',
   CHANA_DAL = 'chana-dal',
   BEATEN_RICE = 'beaten-rice',
-  FIELD_BEANS = 'field-bean',
-  URADDALSPLIT = 'urad-gota',
-  TURKISH_GRAM = 'moth-bean',
+  FIELD_BEAN = 'field-bean',
+  URAD_DAL_SPLIT = 'urad-dal-split',
+  MOTH_BEAN = 'moth-bean',
   WHOLE_MASOOR = 'whole-masoor',
-  URADDAL_GOTA = 'white-urad-dal',
+  WHITE_URAD_DAL = 'white-urad-dal',
   SUN_FLOWER = 'sunflower',
   GERBERA = 'gerbera',
   TULIP = 'tulip',
@@ -402,7 +402,7 @@ export const productCategoriesData: Record<
         data: {
           title: 'Indian Corn Exporter',
           layoutType: 'simple-tabs',
-          headerImage: '/assets/banners/corn.jpg',
+          headerImage: `/assets/banners/${Products.CORN}.jpg`,
           description: [
             "Corn is known to be one of the world's most popular cereal grains. It is actually the seed of a plant in the grass family. Popcorn and sweet corn are some of the popular varieties of corn. Corn can be used in salads, vegetables, curries, and so on. Corn export from India has been one of the rapidly growing exports. The Indian corn exporter that earns great revenues from these exports. Corn export from India comprises of various forms and varieties of corn and export.",
           ],
@@ -457,7 +457,7 @@ export const productCategoriesData: Record<
         data: {
           title: 'Indian Oats Exporters',
           layoutType: 'standard',
-          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.OATS}.jpg`,
+          headerImage: `/assets/banners/${Products.OATS}.jpg`,
           description: [
             "Oats is a crop of the Mediterranean origin. The popularity of this crop has been on the rise due to its various uses in different fields today. Oats export is a major export variety of crop in different countries across the world. Oats export from India has been increasing over the years. It is because of the product's benefits. Oats export is a rapidly growing business. Oats export from India has become an incredible nutritious grains is a good business opportunity for Indian Oats exporter. Oats export from has become other advantages.",
           ],
@@ -555,7 +555,7 @@ export const productCategoriesData: Record<
         data: {
           title: 'Indian Pearl Millet Exporters',
           layoutType: 'standard',
-          headerImage: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.MILLET}.jpg`,
+          headerImage: `/assets/banners/${Products.MILLET}.jpg`,
           description: [
             'Pearl millet is a millet, an ancient grains, semi-arid resulting up to around 5 m high with a glorious root system. The global demand for pearl millet has been increasing and that the Pearl Millet exporter in India export tonnes of millet each year. Pearl millet is one known to have several other names like bajra, bulrush millet, spiked millet, cat-tail millet, and African millet. The export of millet from India has been on the rise for the past few farming years. The Indian pearl millet exporter earns good revenues from the export of their products to several countries in the world. It can be said that the pearl millet export is now a good business opportunity for food exporters.',
           ],
@@ -1239,86 +1239,1106 @@ export const productCategoriesData: Record<
         slug: Products.PEAS,
         name: 'Peas',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.PEAS}.jpg`,
+        data: {
+          title: 'Indian Pea Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.PEAS}.jpg`,
+          description: [
+            'Due to the growing popularity of peas around the world, the pea exporter in India has to increase their exports accordingly. Peas are healthy to eat and are specifically used for many cuisines looking to the increased to get export from India. Peas can be exported to the from frozen form. The Indian peas exporter export premium quality peas from India.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '84 calories / kilogram' },
+              { name: 'Carbs', value: '14 grams' },
+              { name: 'Fiber', value: '6 grams' },
+            ],
+            protein: [{ name: 'Protein', value: '5 grams' }],
+            fat: [{ name: 'Fat', value: '0.4g/100 grams' }],
+            vitamins: [
+              { name: 'Vitamin A', value: 'Vitamin A' },
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin K', value: 'Vitamin K' },
+            ],
+            minerals: [
+              { name: 'Sodium', value: 'Sodium' },
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Potassium', value: 'Potassium' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Copper', value: 'Copper' },
+            ],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'ASAUJI',
+              description: [
+                'Asauji is a Desi variety with compact bushed variety of peas. Pods in this variety are produced singly. The flowering takes place in 30-35 days after planting. The plant of this variety of peas are mixed to 3 cm long, rounded, dark green in color and narrow in shape. These peas appear round when fully developed and are mostly seeded.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'ARKEL',
+              description: [
+                'The Arkel variety of peas is an early variety from Punjab. The plant is a dwarf but the growth is vigorous and it can grow up to 40 cm. The flowers of Arkel are white and are borne in doubles. The pods are dark green in colour and 8 cm long flavored bearing the pods mostly borne at the top nodes.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'LITTLE MARVEL',
+              description: [
+                'The Little Marvel is a dwarf with wrinkled seeded cultivated from England. The pods are of foliage dark green color. The first flowers appears at the 7th node. This variety is well adapted to the long, cool, thick and dark green. Common to it are sweet taste.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'JAWAHAR MATAR',
+              description: [
+                'The Jawahar Matar variety was developed at Jabalpur through line hybridization of 77-3 pury dwarf developed by selection. The height of Jawahar Matar variety is 50 cm. The pods are light green in color and in shape are 8 cm various seeded. The first flowering and shortend at 50-55 days after sowing.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'HARBHAJAN (EC 33866)',
+              description: [
+                'The Harbhajan variety of peas was developed at Jabalpur by selection from the exotic germline lines. It is an early variety and from growing can be made in all days of sowing. The pods of these peas are small with golden, round and small seeded. The average pod yield of this variety is 8.1 tons.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'BONNEVILLE',
+              description: [
+                'Bonneville comes was introduced in the USA. It is one of the most popular varieties of peas. This plant is characterized in height and the flowers are mostly borne in doubles. The pods are light green, straight, dark and wrinkled seeds. It bears around 6-7 kg pods mostly borne.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'LINCOLN',
+              description: [
+                'The Lincoln is a tall variety are medium tall in size. It is generally double podded and the pods are dark green, curved, and big with 8-9 seeds. The flowering of this variety can start around 60-70 days after sowing. The average pod yield of this variety is around 8.0 tons.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'PUNJAB 89 (P-89)',
+              description: [
+                'The Punjab 89 variety of peas was developed at Ludhiana through combined from the hybrid progeny of the cross Punjab × Arenson 69. The plant is the picking to the medium height for about 60 cm. The plant of sowing. The pods are dark green, long, and slightly curved at the same with 7-9 green, wrinkled, and have sweet taste.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'AZAD P-2',
+              description: [
+                'The Azad P-2 is another medium resistant variety developed at Kantnagar through advanced pedigreed selection from the cross Bonneville × early. Peas plants of this variety are tall, semi with light green foliage and dark leaves. The pods of Azad P-2 are medium in size, light green, straight, pointed, and have a high yield of around 8 tons per hectare and cropped seeds.',
+              ],
+            },
+            {
+              id: 10,
+              name: 'OOTY-1',
+              description: [
+                'The Ooty-1 developed at Udagamandalam through pure line selection from the accession of P.S. This plant is a dwarf type and has a yield potential of 8.5 tons per hectare. The Ooty-1 is resistant to powdery.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods export the finest quality of peas derived being one of the leading pea importer from India, Pisum has extensive experience of the food industry and experts products to numerous corners of the world with our global connections and in-depth knowledge and expertise of the export industry, we will help you get the best buyers for your products. If you are looking to export peas from India, contact us now!',
+          ],
+        },
       },
       {
         slug: Products.KIDNEY_BEANS,
         name: 'Kidney Beans',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.KIDNEY_BEANS}.jpg`,
+        data: {
+          title: 'Indian Kidney Beans Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.KIDNEY_BEANS}.jpg`,
+          description: [
+            'The kidney beans are a variety of the common beans that are dried and are generally available throughout the year. They are reddish-brown in color and are shaped like a kidney. They have a unique taste and are used in both hot and cold recipes. Therefore, kidney beans exporter in India export kidney beans to numerous countries in the world. These beans are majorly used in Mexican and Indian cuisines to make curries, salads as an and so forth. The kidney beans export from India has thus been growing over the years. The Indian kidney beans exporter also earns good revenues from these exports today. Pisum Foods is one of the best exporters of kidney beans export from India.',
+          ],
+          conclusion: [
+            'If you wish to export from India, Pisum Foods is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Pisum foods, the best importers from India, will assist you with every step on the way. Pisum will make sure that your products reach any corner of the world fresh and safe!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'Kidney beans are known to be an excellent source of protein and nutrients. This is one reason why kidney beans import from India has seen the rise. These beans are also said to be rich in minerals, vitamins, antioxidants, there are on, and so forth. The kidney beans exporter in India export premium quality beans to many places in the world. Exporters also ensure timely delivery and health and safety measures for the export of kidney beans.',
+            ],
+            specification: {
+              productName: 'Kidney Beans',
+              origin: 'Peru',
+              family: 'Fabaceae',
+              binomialName: 'Phaseolus vulgaris',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Carbohydrates 23.0',
+                carbohydrates: '',
+                fiber: '',
+              },
+              minerals: ['Folate', 'Iron', 'Copper', 'Manganese', 'Molybdenum'],
+              vitamins: ['Vitamin K1'],
+              protein: '8.7 g',
+              fats: 'Fat 0.5mg',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Kidney beans are also known as Rajma in India. They are famous for a dish also called Rajma. It is a curry which can be eaten with rice or bread. Rajma is used in many cuisines across the world.',
+                'Kidney beans are a rich source of many minerals like potassium and magnesium. The beans also contain dietary fiber that helps to lower cholesterol levels.',
+                'It has a high content of protein and helps maintain healthy blood sugar level.',
+                'These beans does not act as energy booster because of the iron content present in it and helps in better digestion.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.SOYABEAN,
         name: 'Soya Bean',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.SOYABEAN}.jpg`,
+        data: {
+          title: 'Indian Soya Bean Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.SOYABEAN}.jpg`,
+          description: [
+            'India has a favourable climate and soil conditions for the growth of many fruits, vegetables, grains, spices so on and so forth. Soybean exporter in India export tonnes of soybean abroad every year. Soya bean export from India is on the rise due to the growing popularity of soybean worldwide. Indian Soya bean exporter exports around 13 million tonnes of soybean to countries like Vietnam, Japan, Thailand, Indonesia, Iran, Belarus using container and bulk vessels.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '446/100 grams' },
+              { name: 'Carbohydrates', value: '30g' },
+              { name: 'Fiber', value: '9g' },
+            ],
+            protein: [{ name: 'Protein', value: '36 g' }],
+            fat: [{ name: 'Fat', value: '20g' }],
+            vitamins: [{ name: 'Vitamin K1', value: 'Vitamin K1' }],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Copper', value: 'Copper' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Manganese', value: 'Manganese' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+            ],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'AHILYA-1 (NRC 2)',
+              description: [
+                'Ahilya-1 was known as NRC 2 is a variety of Soybean which is resistant to Rhizoctonia and bright, green mosaic virus, bacterial blight, and bacterial by Rhizoctonia leaf spot and Anthracnose. This variety of soybean takes around 95-100 to mature after transplanting. The average yield for this variety of soybean is 20-25q/ha.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'AHILYA-3 (NRC 7)',
+              description: [
+                'Ahilya-3 is a variety of soybean which is resistant to bacterial blight, green mosaic virus, bacterial pustules aflatoxin, soybean mosaic, Rhizoctonia and Cercospora leaf spots. It is tolerant to stem fly, girdle beetle, powdery and grey mold fungal, rust so on. This variety of Ahilya-3 takes around 90-95 to mature after transplantation.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'ALANKAR',
+              description: [
+                'This is a variety of soybean which matures around 95-105 days after transplanting. The average yield for this variety of soybean is around 20-25q/ha. This Alankar variety of soybean is resistant to bacterial pustules and tolerant to yellow mosaic.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'ADT-1',
+              description: [
+                'This variety of soybean matures around 85-90 days after transplanting. The ADT-1 variety of soybean is also known for tolerance to leaf minor and leaf mosaic.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'DURGA ( JS 79-280)',
+              description: [
+                'The Durga variety of soybean matures around 90-105 days after transplanting. The average yield of this variety of soybean which is exported from India by many exporters is 23-28q/ha. This variety is also resistant to bacterial pustules.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'GUJARAT SOYBEAN I ( J-231)',
+              description: [
+                'The Gujarat Soybean I also known as J-231 matures around 90-95 days after transplanting. The average yield of this variety of soybean is 20-25q/ha. This variety is being resistant of diseases and pests in Gujarat.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'HARA SOY (HIMSO 1563)',
+              description: [
+                'The Hara Soy variety of Soybean is immune to a bacterial pustules and highly resistant to brown spot, bacterial blight, and is long pod and pod and leaf blight. This variety is said to be the first green culinary purpose variety in soybean. The average yield for this variety is around 15-20q/ha.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'INDIRA SOY 9',
+              description: [
+                'Indira Soy 9 is a variety of Soybean resistant to rust. It is also moderately resistant to stem tunneling, girdle beetle and leaf folder. This variety is said to perform well under low to moderate plant densities.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'JS 2',
+              description: [
+                'The JS-2 variety for JS 2 it matures is around 90-95 days after transplanting. The average yield for this variety of Soybean is around 20-25q/ha. JS-2 variety is also said to be resistant to bacterial pustule and is tolerant to Rhizoctoniosis.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is one of the leading soybean importers from India. Due to the rising demand of Soybeans, Indian agriculture have also increased the amount of soybeans produced and exported from India. The export of soya bean has also been a revenue earning industry for many exporters. If you are interested in the export of Soybeans, Pisum is the best option!',
+          ],
+        },
       },
       {
         slug: Products.PIGEONPEA,
         name: 'Pigeon Pea/Arhar/Tur',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.PIGEONPEA}.jpg`,
+        data: {
+          title: 'Indian Pigeon Pea Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.PIGEONPEA}.jpg`,
+          description: [
+            'Pigeon peas is one of the most popular tropical and subtropical legumes. It is fast-growing and also known to be drought resistant. The pigeon pea exporter in India exports tonnes of pigeon pea each year. Pigeon peas are used in many cuisines across the world including India and Indonesia. Thus the pigeon pea export from India has been on the rise. Due to its use in several cooking and as an Indian pigeon pea exporter is earning good profits. Many varieties are included in pigeon pea export from India.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '343 calories' },
+              { name: 'Dietary Fiber', value: '15 g' },
+              { name: 'Sugar', value: '5.7 g' },
+              { name: 'Carbohydrates', value: '63 g' },
+            ],
+            protein: [{ name: 'Protein', value: '22g' }],
+            minerals: [
+              { name: 'Folates', value: 'Folates' },
+              { name: 'Magnesium', value: 'Magnesium' },
+              { name: 'Potassium', value: 'Potassium' },
+              { name: 'Phosphorus', value: 'Phosphorus' },
+              { name: 'Copper', value: 'Copper' },
+              { name: 'Manganese', value: 'Manganese' },
+            ],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'UPAS-120',
+              description: [
+                'UPAS-120 is known to be enriched at Pantnagar and is an early black maturing selection. The plants of this variety of Pigeon Pea are medium size with long pod of semi-spreading type. Generally, it is yellow in color with red streaks on it. The leaves are broad and light brownish-green.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'PANT A3',
+              description: [
+                'Pant A3 is a variety of pigeon peas which takes around 125-150 to mature after transplanting. These plants are semi-erect and determinate. Based on less three plants have a 4 seeds per pod.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'ICPL 87 (PRAGATI)',
+              description: [
+                'ICPL 87 is a short-duration, wilt-resistant, high-yielding variety of pigeon pea. This variety is known to be suitable for both single and multiple harvest systems. It was released as the Pragati variety in the peninsular part of India in 1986. It was developed by pedigree selection from a cross ICPA 8508 (1-1-4) × 877.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'PUSA AGETI',
+              description: [
+                'Pusa Ageti is an early variety of pigeon pea. The plants are dwarf, compact, determining and bold seeded. It has a 3 seeds pod potential and the average yield of this variety is around 1.5 t/ha. The time to maturity is 90-100 days.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'PUSA 84',
+              description: [
+                'The Pusa 84 variety plants are usually medium tall and semi-spreading. The time to maturing is around 140-160 days for this variety of pigeon pea. Pusa 84 grains are brown seeded.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'HY 3A',
+              description: [
+                'The HY 3A plants are small tall plants with a green stem. They are white and bold seeded with the average yield of around 1.5-2.0 t/ha. The time to maturity for these plants is around 160-180 days.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'GWALIOR 3',
+              description: [
+                'Gwalior 3 is a late-maturing variety of pigeon pea. The plants are usually tall and bushy. The stem of this variety is generally greenish red in color. The grains of this plant are medium in size and light brown in color.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'LAXMI',
+              description: [
+                'Laxmi is another variety of pigeon peas exported from India. This is a perennial variety used in semi-spreading. This variety is known to be tolerant to wilt and has a potential yield of around 2 t/ha.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'BDN 1',
+              description: [
+                'The BDN 1 variety is known to be moderately resistant to wilt and resistant to sterility mosaic. It was released for the general cultivation in southern Maharastra and Marathwada region for rain-rainfed areas, light and medium soils. The genotype matures in around 155-165 days.',
+              ],
+            },
+          ],
+          conclusion: [
+            'If you are looking for a pigeon pea importer from India, Pisum Foods is one of the best options! We at Pisum Foods have extensive experience in the food export industry and have global connections. We export spices, pulses, grains, fruits, vegetables and such other food products to various corners of the world. Pigeon pea import from India is a rapidly growing business and we can assure you that you will find the best buyers and reach the customers in a timely manner. Looking for export of pigeon pea? Pisum is the place for you!',
+          ],
+        },
       },
       {
         slug: Products.BLACK_EYED_BEANS,
         name: 'Black-Eyed Beans / Cowpea',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.BLACK_EYED_BEANS}.jpg`,
+        data: {
+          title: 'Indian Cowpea Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/product/${ProductCategory.PULSES}/${Products.BLACK_EYED_BEANS}.jpg`,
+          description: [
+            'The Cowpea is an annual herbaceous legume and is primarily self-pollinated. The cowpea exporter in India exports tonnes of cowpea abroad. People are now understanding the importance and uses of Cowpeas. The black-eyed beans export from India has thus been on a rise for a few years for an Indian cowpea exporter, this is a good business opportunity. The cowpea export from India includes different varieties being exported.',
+          ],
+          conclusion: [
+            'If you are interested in the export of Cowpeas, Pisum Foods is the best choice for you! We at Pisum Foods understand that the process of cowpea export from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step during the export of cowpea from India. We make sure that the export of cowpeas from India is carried out in many years, we make sure that all the health and safety regulations are maintained. Looking for export of cowpeas? Contact Pisum Foods now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Global demand for Cowpea has been increasing steadily. The black-eyed beans exporter in India has to increase the exports each year. The Cowpea import from India involves importing premium quality beans to different countries in the world. The Cowpea is known to be an important grain legume in South Africa and parts of Sub-Saharan Africa.',
+            ],
+            specification: {
+              productName: 'Cowpea',
+              origin: 'West Africa',
+              family: 'Vigna unguiculata',
+              binomialName: 'Fabaceae',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 116',
+                carbohydrates: 'Total Carbohydrates 21 g',
+                fiber: 'Dietary Fiber 7 g',
+              },
+              minerals: ['Calcium', 'Iron', 'Magnesium'],
+              vitamins: ['Vitamin C', 'Vitamin D', 'Vitamin A', 'Vitamin B6'],
+              protein: '8 g',
+              fats: '0.5g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'The leaves of the cowpea plants are sometimes used as a vegetable dish. The leaves of this plant can also be dried and used as a meat substitute.',
+                'The seeds, the sometimes roasted and used as a substitute for coffee. Several local seeds of cowpeas can be mixed with onions and spices can be fried in oil.',
+                'Cowpeas can also be planted for hay production. The hay can then be sold.',
+                'Cowpea seed is very nutritious. It can form an essential component of our diet. It is also a nutritious livestock feed.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.HORSE_GRAM,
         name: 'Horse Gram',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.HORSE_GRAM}.jpg`,
+        data: {
+          title: 'Indian Horse Gram Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.HORSE_GRAM}.jpg`,
+          description: [
+            'Horse gram is a slow growing arid and semi-arid annual or perennial herb. It grows best on tropics and subtropics. The horse gram exporter in India exports tonnes of Horse Gram each year to many countries. Horse Gram is also known as a miraculous superfood. Therefore, horse gram export from India has been increasing over time. This is a good opportunity for the Indian Horse Gram exporter to expand his business and enter the international market. The horse Gram export from India includes the export of many varieties of this product.',
+          ],
+          conclusion: [
+            'Pisum Foods is one of the leading Horse Gram importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The export of Horse Gram is a great business opportunity for our local farmers and vendors to enter the international market and earn good revenues. If you are looking for Horse Gram export from India, Contact Pisum Foods now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Global market demand of Horse Gram has been increasing worldwide. This may be because of the several benefits one gets from this superfood. The horse gram exporter in India exports more and more horse grain to various parts of the world. The horse gram import from India has thus been increasing too.',
+            ],
+            specification: {
+              productName: 'Horse Gram',
+              origin: 'Peninsular India',
+              family: 'Macrotyloma uniflorum',
+              binomialName: 'Fabaceae',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 321 kcal',
+                carbohydrates: 'Carbs - 57g',
+                fiber: 'Dietary Fiber - 5.3g',
+              },
+              minerals: ['Calcium', 'Iron', 'Potassium'],
+              vitamins: ['Vitamin D'],
+              protein: '22 g',
+              fats: '0g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Horse gram is said to help with digestion and prevent diarrhea. Horse Gram has a good amount of fiber which helps solve up nutritional fluids from the intestine and the stomach. This, therefore, reduces the occurrence of diarrhea and less motions.',
+                'It Ayurveda it is suggested that eating horse grain every day may help a person lose weight.',
+                'Experts say that horse gram helps to reduce the LDL or bad cholesterol levels. Bad cholesterol levels in the veins could be removed when horse gram is consumed due to the levels of lipids in it.',
+                'Horse gram is also said to be good for the skin. It may be used as a topical face pack to treat rashes, boils, and disorders of the skin to some extent as well. This is because it is antimicrobial and antibacterial. It also has plenty of antioxidants in a along with minerals to nourish the skin.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.PUFFED_RICE,
         name: 'Puffed Rice',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.PUFFED_RICE}.jpg`,
+        data: {
+          title: 'Indian Puffed Rice Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.PUFFED_RICE}.jpg`,
+          description: [
+            'Puffed rice is made by introducing air into the rice which makes the grains larger and lighter, and also reduces moisture to achieve a crisp texture. The Puffed rice exporter in India exports tonnes of puffed rice abroad from India. The Puffed Rice export from India has been increasing over the years. This may be because of the several benefits of this type of rice. The Indian Puffed Rice exporter, therefore, is earning good revenues from this export. The puffed rice export includes the export of various varieties of this rice.',
+          ],
+          conclusion: [
+            'If you are looking for a Puffed Rice importer from India, Pisum Foods is your best choice! We at Pisum Foods have extensive experience and knowledge in the food export industry. Our executives will help you at every step of the process of the export of Puffed Rice. From documentation until the final delivery of the products, it will all be taken care of by Pisum. Interested in Puffed Rice export from India? Contact us now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The global market demand for Puffed Rice has been growing over the years. Therefore, the puffed rice exporter in India exports an increasing amount of puffed rice and its products to many countries in the world. New York, Hongkong, Singapore, and such other parts are some of the top importing parts for Puffed Rice import from India. Puffed Rice also enjoys growing popularity due to its nutritional values.',
+            ],
+            specification: {
+              productName: 'Puffed Rice',
+              origin: 'India',
+              family: '',
+              binomialName: '',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 56 kcal',
+                carbohydrates: 'Carbohydrates - 12.3g',
+                fiber: 'Fiber - 0.4g',
+              },
+              minerals: ['Thiamine', 'Riboflavin', 'Niacin', 'Folate'],
+              vitamins: [],
+              protein: '1 g',
+              fats: '0.1mg',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Puffed rice has many culinary benefits, for example, puffed rice is the main ingredient of the famous Indian snack called bhelpuri!',
+                'Puffed rice is said to be good to prevent constipation. The constipatory and the beneficial bacteria in puffed rice help in reducing constipation problems.',
+                'Puffed rice is also said to be helpful for maintaining blood pressure.',
+                'Puffed rice is good for weight loss. It is extremely light and has low calories. It helps you to get rid of those deposited fats too.',
+              ],
+            },
+          },
+        },
       },
       {
-        slug: Products.MASOOR_DAL,
+        slug: Products.RED_LENTIL,
         name: 'Masoor Dal / Red Lentil',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.MASOOR_DAL}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.RED_LENTIL}.jpg`,
+        data: {
+          title: 'Indian Red Lentil Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.RED_LENTIL}.jpg`,
+          description: [
+            'Red Lentils are known across the world for their great nutritional values. The red lentil exporter in India exports tonnes of red lentil abroad each year. These lentils can be eaten in different forms and have a delicious taste. The Red Lentil export from India has been increasing over the years. It is a good opportunity for the Indian Red Lentil exporter to enter the international market and expand his business. Red Lentil export includes the export of various varieties of lentils.',
+          ],
+          conclusion: [
+            "If you are looking for a Red Lentil importer from India, Pisum Foods is the best option for you! We understand that the process of the export of Red Lentil may be complicated for some people. But don't worry now! We at Pisum Foods will help you with each process involved in the Red Lentil export from India. Want to export Red Lentil? Contact Pisum Foods now!",
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The global demand for red lentil has been rapidly increasing. The Red lentil bulk contract to 22.5 cents per pound at the start of 2020, up from 20 cents a month ago. The Red Lentil exporter in India has been exporting increasing amounts of red lentil each year. The Red Lentil import from India may also be increasing due to the increasing realization of the health benefits of the products.',
+            ],
+            specification: {
+              productName: 'Red Lentil',
+              origin: 'Western and Central Asia',
+              family: 'Leguminae',
+              binomialName: 'Lens culinaris',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 166',
+                carbohydrates: 'Total Carbohydrates 20 g',
+                fiber: 'Dietary Fiber 8 g',
+              },
+              minerals: ['Magnesium', 'Cobalt/iron'],
+              vitamins: [],
+              protein: '9 g',
+              fats: '0.4g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Red Lentils consist of Polyphenols, Polyphenols are active compounds that fight against various bad agents in the body. They protect you from ultraviolet rays, radiation, heart disease, cancer so on, and so forth.',
+                'They are rich in proteins. Protein deficiency is sometimes found in vegans and vegetarians. Eating lentils is a good source of protein for your body.',
+                'Red lentils can also a good source of Iron. Iron is essential for keeping oxygen pumping throughout your body.',
+                'Red lentils and also a very good source of fiber. Fiber is essential to maintain a good digestive system and also useful for weight loss.',
+              ],
+            },
+          },
+        },
       },
       {
-        slug: Products.GREEN_GRAM,
+        slug: Products.GREEN_GRAM_MOONG,
         name: 'Green Gram / Mung Bean',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.GREEN_GRAM}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.GREEN_GRAM_MOONG}.jpg`,
+        data: {
+          title: 'Indian Green Gram Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/banners/${Products.GREEN_GRAM_MOONG}.jpg`,
+          description: [
+            'The green gram, also known as Mung Bean, is basically a plant species in the legume family. The green gram exporter in India exports tonnes of green gram abroad every year. The popularity of green gram has been growing in the world. This may be a reason why green gram export from India has been increasing over the years. This is a good business opportunity for the Indian green gram exporter to enter the international market. The green gram export includes the export of various varieties of green gram.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '347 calories' },
+              { name: 'Carbs', value: '63 g' },
+              { name: 'Dietary fiber', value: '16 g' },
+            ],
+            protein: [{ name: 'Protein', value: '24g' }],
+            vitamins: [
+              { name: 'Vitamin A', value: 'Vitamin A' },
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin D', value: 'Vitamin D' },
+              { name: 'Vitamin B6', value: 'Vitamin B6' },
+            ],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Magnesium', value: 'Magnesium' },
+            ],
+            fat: [{ name: 'Fat', value: '1.2g' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'CO 1',
+              description: [
+                'Released in 1985, CO 1 is a variety of Green gram imported from India. It is a pure line selection from Coimbatore local. The duration required to mature is 65 days. The grain yield is around 750 kg/ha. This variety is suitable for summer.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'ADT 1',
+              description: [
+                'The ADT 1 is a variety of green gram released in 1986. It is a pure line selection from Adiuthurai local. The time taken for this variety of green gram to mature is around 60 days. The normal grain yield of this variety is around 650 kg/ha. This variety is suitable for rice follow.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'JGG 1 (RAJENDRAN)',
+              description: [
+                'Released in 1973, this variety of green gram is a selection from Jeyendradevi local. The JGG 1 variety of green gram. The time required for this variety to mature is around 65 days. The grain yield of JGG 1 is around 850 kg/ha. This variety is said to be tolerant to drought.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'KM 1',
+              description: [
+                'The KM 1 is a variety of green gram appeared from India to many countries in the world. It was released in 1978. It is said to be produced from the cross of K1 and K 10. The time required for this variety to mature is about 60-70 days. The grain yield of this variety is around 750kg/ha.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'KM 2',
+              description: [
+                'The KM 2 is a variety of green gram released in the year 1978. The normal grains yield of this variety of green gram is about 750kg/ha. This variety of green gram is said to be resistant to YMV and is a good base.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'PAIYUR I',
+              description: [
+                'Released in 1985, the Paiyur variety of green gram is a pure line selection from OPT 103. The time taken for this variety of green gram to mature is about 60-70 days. The grain yield of this variety is around 750kg/ha. There is a low incidence of YMV for this variety and is a well suited for rainfed crops of monocrop, fallow, summer, Kharif and Rabi seasons.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'VAMBAN 1',
+              description: [
+                'The Vamban 1 variety of green gram is a hybrid derivative of K 8 × PMB 5. This variety was released in 1993. The time required for this variety to mature is around 60-70 days. The grain yield of Vamban 1 is around 950 kg/ha. It is said to be tolerant of YMV.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'VBN (Gg) 2',
+              description: [
+                'This variety is a cross between VBN 4 and KM 204. It was released in 2001. This variety of green gram produces other around 85-90 days. The average grain yield for this variety is 750kg/ha. The grains are deep white in flowers are infused and powdery in YMV.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is one of the leading Green Gram Importers from India. We understand that export of green gram can be a complicated process. But no worries! Pisum is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for a Green Gram exporter from India!',
+          ],
+        },
       },
       {
         slug: Products.BLACK_GRAM,
         name: 'Black Gram',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.BLACK_GRAM}.jpg`,
+        data: {
+          title: 'Indian Black Gram Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/banners/${Products.BLACK_GRAM}.jpg`,
+          description: [
+            'Black Gram also called Black lentil, is one of the most widely consumed lentils in India. The lentils are round and black in colour and are slightly flattened in shape. Black gram is generally used for cooking various curries and is also used to make fermented foods like dosa, idli and vada. Due to the increasing global demand of Black Gram, the Black Gram export from India has been on a rise over the years. This is a great opportunity for the Indian Black Gram exporter to expand their business and enter the international marketplace. The Black Gram export includes the export of various varieties of Black Gram.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '341 kcal' },
+              { name: 'Dietary Fiber', value: '18.3 g' },
+              { name: 'Carbohydrates', value: '58.99 g' },
+            ],
+            protein: [{ name: 'Protein', value: '25.21g' }],
+            vitamins: [
+              { name: 'Vitamin B', value: 'Vitamin B' },
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin K', value: 'Vitamin K' },
+            ],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Magnesium', value: 'Magnesium' },
+            ],
+            fat: [{ name: 'Fat', value: '1g' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'ADT 1',
+              description: [
+                'The ADT 1 variety of Black gram is a selection from Aduthurai local released in the year 1985. This variety takes around 85 days to mature from transplantation. The grain yield produced is around 490 kg/ha. This variety of black gram has a high protein content of 18.1%.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'CO 1',
+              description: [
+                'The CO 1 variety of Black Gram is a pure line selection from Tiruchirappalli local released in 1985. This variety of black gram takes around 85 days to mature. The grain yield is around 800 kg/ha when normal and 700 kg/ha when irrigated. The variety was released for summer condition.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'KM 1',
+              description: [
+                'The KM 1 variety of Black Gram was released in 1977. This variety takes around 90-75 to mature from transplantation. The KM 1 has a grain yield of about 650 kg/ha when irrigated. This variety of Urd seed type and is also known for its drought tolerant.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'TMV 1',
+              description: [
+                'The TMV 1 variety of Black Gram was developed from the cross of Vellon Jhaula and KM 1. This variety was released in 1976. It takes around 80-90 days for this variety to mature. The grain yield of TMV 1 is around 650 kg/ha when irrigated. This variety is said to be resistant to YMV and resistant to root rot.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'VAMBAN 1',
+              description: [
+                'The Vamban 1 variety of Black Gram was released in the year 1987. It takes around 80-85 days for this variety to mature from transplantation. The grain yield of this variety is around 750 kg/ha when normal and 900 kg/ha when irrigated. This selection is a high yielding variety and is moderately resistant to YMV.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'APK 1',
+              description: [
+                'The APK 1 variety of Black Gram was released in 1991. This variety takes around 75 days for mature after transplantation. The grains yield for this variety when irrigated is around 450 kg/ha. The APK 1 is well suited for summer conditions for their cropping 100° celsius.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'VBN (BG) 4',
+              description: [
+                'The VBN Bg 4 variety of Black Gram was released in 2003. This variety takes about 75-80 days to mature after transplanting. The grain yield for this variety is around 780 kg/ha when normal and 850 kg/ha when irrigated. This variety is resistant to Yellow Mosaic Virus.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'MDU 1',
+              description: [
+                'The MDU 1 variety of Black Gram was released in 1994. This variety matures around 65 – 75 days after transplanting. The grain yield for this variety is about 750 kg/ha when irrigated. The MDU 1 is a high yielding variety and is resistant to leaf crinkle virus.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'KKM 1',
+              description: [
+                'The KKM 1 variety of Black Gram was released in 1997. This variety matures around 65 – 75 days after transplanting. The grain yield of this variety is around 900 kg/ha from Tirunal. The KKM 1 variety is a high yielding one and is moderately resistant to YMV and powdery mildew. It is also suitable for rice fallow.',
+              ],
+            },
+          ],
+          conclusion: [
+            "Pisum Foods is the leading Black Gram Importers from India. We at Pisum Foods understand that the export of food products from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Pisum now!",
+          ],
+        },
       },
       {
         slug: Products.CHANA_DAL,
         name: 'Chana Dal',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.CHANA_DAL}.jpg`,
+        data: {
+          title: 'Indian Chana Dal Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.CHANA_DAL}.jpg`,
+          description: [
+            'Chana dal is a split lentil. They are primarily baby chickpeas which have been split and polished. The Chana Dal exporter in India exports tonnes of Chana Dal to various countries in the world. Chana Dal is highly nutritious and also delicious to taste. Therefore, black-eyed beans export from India has been on a rise over the years. The Chana Dal export is a good opportunity for the Indian Chana Dal exporter, farmer and local vendors to expand their business and enter the international market.',
+          ],
+          conclusion: [
+            'Pisum Foods is the leading Chana Dal importer from India. We at Pisum Foods help our clients right from the documentation process until the final delivery of the products. Our global presence and extensive experience in the export of Chana Dal have proved to be beneficial for most of our past customers. Our executives will support you in case of any issues, doubts or queries with regards to the export process. If you are looking for Chana Dal export from India, Contact us now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Global Market demand for Chana Dal has been increasing in the world. This may be due to various reasons including the benefits and uses of Chana Dal. Chana dal is a good source of protein, especially for vegetarians. It is also diabetic friendly and keeps your heart healthy. The Chana dal exporter in India exports premium quality chana dal every year. Health, safety and such other measures must be adhered to while Chana Dal import from India is conducted.',
+            ],
+            specification: {
+              productName: 'Chana Dal',
+              origin: 'Indian Subcontinent',
+              family: 'Fabaceae',
+              binomialName: 'Cicer arietinum',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories - 364 kcal',
+                carbohydrates: 'Total Carbohydrates 61 g',
+                fiber: 'Dietary Fiber 17 g',
+              },
+              minerals: ['Calcium', 'Iron', 'Magnesium'],
+              vitamins: ['Vitamin A', 'Vitamin C', 'Vitamin B6'],
+              protein: '19 g',
+              fats: '6g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Chana Dal is a great energy booster. It contains around 300 calories and is rich in vitamins and minerals.',
+                'Chana Dal is also said to improve insulin response. As it is rich in magnesium, Chana Dal improves insulin response by lowering insulin resistance.',
+                'Chana Dal is also effective in the regulation of blood pressure. It contains a high amount of potassium and a low amount of sodium which makes it an effective blood pressure regulator.',
+                'Chana Dal also has a high amount of fiber. Fiber helps slow digestion and makes you feel full for a longer period.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.BEATEN_RICE,
         name: 'Beaten Rice',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.BEATEN_RICE}.jpg`,
+        data: {
+          title: 'Indian Beaten Rice Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.BEATEN_RICE}.jpg`,
+          description: [
+            'Beaten rice also called flattened rice is primarily rice which is flattened, light, and dry. Beaten rice is a low-cost wholesome food with good nutritional value. The Beaten Rice exporter in India exports a large quantity of the product every year. Due to the growing popularity of Beaten Rice all over the world, the Beaten Rice export from India has been increasing over the years. The Indian Beaten Rice exporter exports premium quality products abroad. The Beaten Rice export includes the export of various varieties of rice.',
+          ],
+          conclusion: [
+            'Pisum Foods is one of the leading Beaten Rice importers from India. We at Pisum Foods provide holistic food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Pisum now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'Beaten rice also called Chura is made from paddy. It is popular in various parts of India. People of all age groups and from different regions love Beaten Rice recipes and therefore it is in mass consumption item. This is, therefore, a great opportunity for the Beaten Rice exporter in India to expand his business and enter the international market. Due to the great quality of the product, Beaten Rice import from India has been rising over the years.',
+            ],
+            specification: {
+              productName: 'Beaten Rice',
+              origin: 'India',
+              family: '',
+              binomialName: '',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories - 100 kcal',
+                carbohydrates: 'Total Carbohydrates 25 g',
+                fiber: 'Dietary Fiber 3 g',
+              },
+              minerals: [],
+              vitamins: ['Vitamin C', 'Vitamin B6'],
+              protein: '3 g',
+              fats: '1g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Beaten Rice can be consumed in different ways like cooking rice in water, fried, with curd or milk or after cooking the cooked one. Beaten Rice can be cooked as short notice and is thus a convenient food item.',
+                'Beaten Rice is also used in making snacks and other dishes such as Poha. It is majorly used in breakfast and such other places.',
+                'Beaten Rice is good for diabetics. As it is rich in fiber, it promotes a slow and steady release of sugar into the bloodstream.',
+                'Beaten Rice consists of 76.9% of carbohydrates and about 23% of fats. The healthy carbs are good for the body and provide the energy to the body to carry out its functions.',
+              ],
+            },
+          },
+        },
       },
       {
-        slug: Products.FIELD_BEANS,
+        slug: Products.FIELD_BEAN,
         name: 'Field Beans',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.FIELD_BEANS}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.FIELD_BEAN}.jpg`,
+        data: {
+          title: 'Indian Field Beans Exporters',
+          layoutType: 'standard',
+          headerImage: `/assets/banners/${Products.FIELD_BEAN}.jpg`,
+          description: [
+            'A field bean is a bean grown primarily for the raw edible beans. The Field Beans exporter in India exports tonnes of beans to various countries in the world. The Field Beans export from India has been increasing over the years probably due to the increasing global demand of the product. The Indian Field Beans exporter has a good opportunity to export this produces abroad and earn good revenues. Therefore, Field Beans export can be said to be a growing business.',
+          ],
+          nutritionFacts: {
+            nutrients: [
+              { name: 'Calories', value: '88 kcal' },
+              { name: 'Fiber', value: '7 g' },
+              { name: 'Total Carbohydrate', value: '16 g' },
+            ],
+            protein: [{ name: 'Protein', value: '5g' }],
+            vitamins: [
+              { name: 'Vitamin A', value: 'Vitamin A' },
+              { name: 'Vitamin C', value: 'Vitamin C' },
+              { name: 'Vitamin B-6', value: 'Vitamin B-6' },
+            ],
+            minerals: [
+              { name: 'Calcium', value: 'Calcium' },
+              { name: 'Iron', value: 'Iron' },
+              { name: 'Magnesium', value: 'Magnesium' },
+            ],
+            fat: [{ name: 'Fat', value: '0g' }],
+          },
+          varieties: [
+            {
+              id: 1,
+              name: 'RONQAI',
+              description: [
+                'Ronqai is known as a late flowering variety with high dry matter production. This variety of field Beans has white flowers and light brown husks. It is not much common fungal cultivar. The seed weight is about 6.5kg/ha. The Ronqai variety of field Beans grown in summer in Australia is a specific late-vigorous maturing herbaceous annual to avoid these perennial.',
+              ],
+            },
+            {
+              id: 2,
+              name: 'KOALA',
+              description: [
+                'The Koala is an early maturing grain type. The average yield of Koala is around 6.5 t/ha to 7 t/ha. This field variety is relatively insensitive to day length and usually requires 55% flowering range is around 50-55 days from a horizontal planting to reach early local harvest.',
+              ],
+            },
+            {
+              id: 3,
+              name: 'PUSA EARLY PROLIFIC',
+              description: [
+                'The Pusa Early Prolific is a variety of Field Beans. This variety bears early, medium-sized, thin and stringless pods in clusters. This variety is suitable for sowing both in the summer and the rainy season.',
+              ],
+            },
+            {
+              id: 4,
+              name: 'PUSA SEM-2',
+              description: [
+                'The pods of the Pusa Sem-2 variety are long, dark green stringless and semi-round in outline. This variety is high yielding and tolerant of viruses and insect pest bases. Since its early is a suitable basis for all sowing to North India. The flowers of this variety appear on vigorous spikes, before the plant flowers.',
+              ],
+            },
+            {
+              id: 5,
+              name: 'IGFRI - S - 224-II',
+              description: [
+                'IGFRI-S is known to be a quick growing dual semi-variety of field beans. It possesses a medium bearing habit. The pods of this variety are broad, flat, green, glabrous and fibrous. These are around 4-5 seeds per pod that greenish brown oval round at shape. The thickness of this variety varied from 4-5 HAs.',
+              ],
+            },
+            {
+              id: 6,
+              name: 'IGFRI-S-228-I',
+              description: [
+                'The IGFRI-S-228-I variety is medium in growth. The size of development habit. It possesses a good rooting habit. The sizes of this plant are long, robust, thick, pigmented and yellowish. There are around 3 - 5 seeds per pod. The yield for this variety when sowed nutritional varieties from July - Aug. The size of grain brown colour that are later dried green beans.',
+              ],
+            },
+            {
+              id: 7,
+              name: 'HA-3',
+              description: [
+                'The HA-3 variety is a photo-insensitive and determinant type with short branches 15-20 spikes. It can be cultivated throughout the year. It belongs to the Himalayan region and is medium to late maturity. The pods of this variety are said to be characterized above the foliage pods to remaining stems.',
+              ],
+            },
+            {
+              id: 8,
+              name: 'CO-1',
+              description: [
+                'The CO-1 plants are generally short, bushy and erect. The flowering starts from the 45th day after sowing and continues for around 50 - 60 days. The average number of flowers in each inflorescence ranges between 15 - 50 and about 50% of the flowers set pods. The green pods are harvested around 60 - 80 days after sowing.',
+              ],
+            },
+            {
+              id: 9,
+              name: 'KONKAN BHUSHAN',
+              description: [
+                'This is a high yielding determinate type plant. It has a shorter stem (about 1.8 - 2m) spread per hectare or approx 3.5 to 3.5 tonnes per hectare) compared to their original plants. It is a multi-type plant that requires is about 55 - 60 days after sowing.',
+              ],
+            },
+          ],
+          conclusion: [
+            'Pisum Foods is the leading Field Beans importer from India. We at Pisum Foods help our clients from the documentation process until the final delivery of the products. Our global presence and extensive experience have proved to be beneficial for most of our past customers. Our executives will support you in case of any issues doubts or queries with regards to the export of field beans. If you are looking for field beans export from India, Contact us now!',
+          ],
+        },
       },
       {
-        slug: Products.URADDALSPLIT,
+        slug: Products.URAD_DAL_SPLIT,
         name: 'Urad Dal Split',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.URADDALSPLIT}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.URAD_DAL_SPLIT}.jpg`,
+        data: {
+          title: 'Indian Urad Dal Split Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.URAD_DAL_SPLIT}.jpg`,
+          description: [
+            'Urad Dal Split also known as split black lentils. This dal retains the skin and has a strong flavour. It can be ground into a flour or a paste and used in various recipes. The Urad Dal Split exporter in India exports a large quantity of Dal every year. Due to its various uses and health benefits, the Urad Dal Split export from India has been growing over the years. The Indian Urad Dal Split exporter has a good opportunity to export his products to different corners of the world. The Urad Dal Split export includes various varieties of the Dal being exported from India.',
+          ],
+          conclusion: [
+            'Pisum Foods is the best Urad Dal Split importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Urad Dal Split is hassle-free for all our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Urad Dal Split export from India, contact Pisum Foods now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Urad Dal Split is used while cooking various recipes. It is widely used while making South Indian cuisine like Dosa, chutney so on and so forth. The Urad Dal Split exporter in India has to export premium quality dal. The products should also adhere to the quality and safety guidelines of the country in order to avoid any complications or issues during the process. The Urad Dal Split import from India has been increasing due to the great reputation of the grain in the market.',
+            ],
+            specification: {
+              productName: 'Urad Dal Split',
+              origin: 'India',
+              family: 'Fabaceae',
+              binomialName: 'Vigna mungo (L.) Hepper',
+            },
+            ingredients: {
+              nutrients: {
+                calories: '',
+                carbohydrates: '',
+                fiber: '',
+              },
+              minerals: [],
+              vitamins: [],
+              protein: '',
+              fats: '',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Urad Dal Split has a high amount of Folic Acid. Folic Acid is required for various metabolic processes of your body.',
+                'Urad Dal Split is also good for your blood. The Folic Acid in this dal helps your body to form and maintain new cells.',
+                'Urad Dal Split is rich in calcium and Phosphorus. Therefore, this dal is said to be very good for your bones and teeth.',
+              ],
+            },
+          },
+        },
       },
       {
-        slug: Products.TURKISH_GRAM,
+        slug: Products.MOTH_BEAN,
         name: 'Turkish Gram / Moth Bean',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.TURKISH_GRAM}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.MOTH_BEAN}.jpg`,
+        data: {
+          title: 'Indian Moth Bean Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.MOTH_BEAN}.jpg`,
+          description: [
+            'Moth Bean is a herbaceous creeping plant from the Fabaceae family and Fabaceae subfamily. It is said to form a low lying but cover when grown fully. The Moth Beans exporter in India exports a huge quantity of the beans each year. Due to the growing popularity of Moth Beans, Moth Beans export from India has also been on a rise. This is, therefore, a great opportunity for the Indian Moth Beans exporter to expand his business and enter the international marketplace. The Moth Beans export includes various varieties and qualities of the product.',
+          ],
+          conclusion: [
+            'Pisum Foods is a leading Moth Beans importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the process of export of Moth Beans is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Moth Beans export from India, Contact Pisum now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Moth Beans exporter in India exports good quality Beans to various parts of the world. The uses and benefits of Moth Beans are known to people today and so the Global Market Demand for the Moth Beans has been increasing over the years. The Moth Beans import from India has thus been a steady increase due to the great reputation and quality of the beans exported from India.',
+            ],
+            specification: {
+              productName: 'Moth Bean',
+              origin: 'India and Pakistan',
+              family: 'Fabaceae',
+              binomialName: 'Vigna aconitifolia',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 343 kcal',
+                carbohydrates: 'Total Carbohydrates 62g',
+                fiber: 'Dietary Fiber 4g',
+              },
+              minerals: ['Calcium', 'Iron', 'Magnesium'],
+              vitamins: ['Vitamin B-6', 'Vitamin C'],
+              protein: '23 g',
+              fats: 'Fat 1.6g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Moth Beans are said to be useful for those who are trying to lose weight. These beans increase muscle mass that causes the burning of calories.',
+                'Moth Beans are rich in protein which is essential to build and repair tissues. It is a great source of protein, especially for vegetarians.',
+                'Eating Moth Beans regularly is effective for people having busy lives. Consuming Moth Beans and other food containing zinc helps to lower the impact of stress on the body.',
+                'Moth beans are a powerhouse of nutrients. So its consumption helps you to build a strong immune system and defends the body against bacteria, fungi and viruses.',
+              ],
+            },
+          },
+        },
       },
       {
         slug: Products.WHOLE_MASOOR,
         name: 'Whole Masoor',
         img: `/assets/product/${ProductCategory.PULSES}/${Products.WHOLE_MASOOR}.jpg`,
+        data: {
+          title: 'Indian Whole Masoor Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.WHOLE_MASOOR}.jpg`,
+          description: [
+            'Masoor dal also known as red lentils, is one of the most nutritious pulses with various health and medicinal benefits. Masoor Dal is a very important part of Indian cuisine. The Masoor Dal exporter in India exports a large quantity of the Dal abroad each year. Due to the growing popularity of this Dal in the global market, Whole Masoor export from India has been on the rise for a few years. The Indian Whole Masoor exporter exports premium quality products to various countries in the world. Whole Masoor export is, therefore, an emerging business opportunity today.',
+          ],
+          conclusion: [
+            'If you are looking for the best Whole Masoor importer from India, Pisum Foods is your best choice! We at Pisum work in the field of export of Whole Masoor, vegetables, spices, grains, pulses, so on and so forth. Exporting food products can be a complicated process at times. But no worries! You can just drop a message to Pisum Foods and we will take care of your Whole Masoor export from India.',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'Due to the popularity of the Masoor Dal worldwide, the Whole Masoor exporter in India is exporting more and more quantity of this product each year. Masoor Dal is said to be a powerhouse of nutrients and also may help in fighting various diseases. The Whole Masoor import from India has been growing due to the great reputation and quality of the Dal exported from India.',
+            ],
+            specification: {
+              productName: 'Whole Masoor',
+              origin: 'Mediterranean',
+              family: 'Leguminosae',
+              binomialName: 'Lens culinaris Medikus',
+            },
+            ingredients: {
+              nutrients: {
+                calories: 'Calories 67 kcal',
+                carbohydrates: 'Total Carbohydrates 20g',
+                fiber: 'Dietary Fiber 3.3g',
+              },
+              minerals: ['Calcium', 'Iron', 'Magnesium'],
+              vitamins: ['Vitamin A', 'Vitamin B6', 'Vitamin C', 'Vitamin B5'],
+              protein: '5 g',
+              fats: 'Fat 1.6g',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Whole Masoor may help Stabilize Blood Sugar Levels. It has a low glycemic index and inhibits the rise at which food is absorbed in the small intestine by blood.',
+                'Due to the high proportion of dietary fiber, masoor dal effectively lowers the amount of cholesterol in the body and is thus healthy for the heart.',
+                'Masoor dal is also consumed for weight loss. It has the perfect amount of carbohydrates with low fat content.',
+                'Masoor dal is a powerhouse of vitamins and other nutrients like calcium and magnesium. Thus it also helps to maintain healthy teeth and bones.',
+              ],
+            },
+          },
+        },
       },
       {
-        slug: Products.URADDAL_GOTA,
+        slug: Products.WHITE_URAD_DAL,
         name: 'Urad Dal Gota',
-        img: `/assets/product/${ProductCategory.PULSES}/${Products.URADDAL_GOTA}.jpg`,
+        img: `/assets/product/${ProductCategory.PULSES}/${Products.WHITE_URAD_DAL}.jpg`,
+        data: {
+          title: 'Indian Urad Dal Gota Exporter',
+          layoutType: 'simple-tabs',
+          headerImage: `/assets/banners/${Products.WHITE_URAD_DAL}.jpg`,
+          description: [
+            'Urad dal is also known as Split Black Gram. It is one of the most popular lentils and is used widely in the southern part of Asia. The Urad Dal Gota exporter in India exports tonnes of Urad Dal products from India. Due to the various uses and benefits of Urad Dal, the Urad Dal Gota export from India has been on the rise over the years. This is, therefore, a great opportunity for the Indian Urad Dal Gota exporter to expand his business and enter the international market. The Urad Dal Gota export from India includes various varieties of Urad Dal.',
+          ],
+          conclusion: [
+            'Pisum Foods is a leading Urad Dal Gota importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the export of Urad Dal Gota process is carried out smoothly with the least confusion and hassle. Being a very reliable exporter, we strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Urad Dal Gota export from India, Contact Pisum now!',
+          ],
+          simpleTabContent: {
+            globalMarketDemand: [
+              'The Urad Dal Gota exporter in India exports the good quality of the Dal to various parts of the world. The uses and benefits of the Urad Dal are known to people today and so the Global Market Demand for the Dal has been increasing. The Urad Dal Gota import from India has thus seen a steady increase over the past few years.',
+            ],
+            specification: {
+              productName: 'Urad Dal',
+              origin: 'India',
+              family: 'Fabaceae',
+              binomialName: 'Vigna mungo',
+            },
+            ingredients: {
+              nutrients: {
+                calories: '',
+                carbohydrates: '',
+                fiber: '',
+              },
+              minerals: [],
+              vitamins: [],
+              protein: '',
+              fats: '',
+            },
+            usesAndBenefits: {
+              uses: [
+                'Urad dal is rich in fiber, both soluble and insoluble. Thus it helps to improve our digestion. It bulks up the stool and stimulates peristaltic motion.',
+                'Urad dal is rich in fiber, magnesium and potassium. This makes it beneficial for your heart health. It maintains our cardiovascular system healthy by maintaining cholesterol levels and preventing atherosclerosis.',
+                'Urad dal has a high iron content. This helps in increasing the overall energy levels in your body and keeps you active.',
+                'Urad dal contains essential minerals such as magnesium, iron, potassium, phosphorus and calcium. These help in improving your bone mineral density.',
+              ],
+            },
+          },
+        },
       },
     ],
   },
