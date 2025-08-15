@@ -414,6 +414,87 @@ export const productCategoriesData: Record<
         slug: Products.RICE,
         name: 'Rice',
         img: `/assets/product/${ProductCategory.GRAINS_AND_CEREAL}/${Products.RICE}.jpg`,
+        data: {
+          title: 'Indian Rice Exporters',
+          layoutType: 'cards',
+          headerImage: '/assets/banners/rice.jpg',
+          description: [
+            'Rice is one of the most popular and widely consumed staple foods. It is consumed extensively in Asia and Africa and is the agricultural commodity with third-highest production in the world. It is generally grown as an annual plant but in areas like the tropics, it can survive as a perennial crop.',
+          ],
+          cardSections: [
+            {
+              title: 'BASMATI RICE',
+              description:
+                'There are around 40,000 varieties of Rice found across the world. We broadly export two categories of Rice Basmati and Non-Basmati. These are several varieties under these broad categories.',
+              items: [
+                {
+                  id: 1,
+                  title: '1121 BASMATI RICE - WHITE',
+                  description:
+                    "Pusa Basmati 1121 variety having Basmati rice quality traits from the traditional Basmati varieties such as Basmati 370 and Type 3. This type is basically derived from the process of hybridization. Commercial cultivation for 1121 Basmati Rice started in 2003. It's characteristics include extra-long slender milled grains, a pleasant aroma, volume expansion more than four times, appealing taste, good mouthfeel, and easy digestibility.",
+                },
+                {
+                  id: 2,
+                  title: 'TRADITIONAL BASMATI RICE',
+                  description:
+                    'There are various types of basmati rice. Traditional types include basmati 370, basmati 385, and basmati Ranbirsinghpura. Traditional Basmati Rice is available in Parboiled and Raw form. It is used in Continental Cuisine, Indian Cuisine, Mughlai Cuisine & Chinese Cuisine.',
+                },
+                {
+                  id: 3,
+                  title: 'GOLDEN SELLA BASMATI RICE',
+                  description:
+                    'Parboiling rice retains more of the vitamins and minerals from the original grain. The procedure guarantees a firm grain upon cooking. Parboiled rice is both cholesterol and gluten free. It is also low in sodium and saturated fat. Rice provides complex carbohydrates used by the body for energy.',
+                },
+                {
+                  id: 4,
+                  title: 'SUGANDHA BASMATI RICE',
+                  description:
+                    'Sugandha Basmati Rice is one of the low-cost long grain basmati rice in india. It is generally cultivated in Punjab, Haryana, and Uttar Pradesh and such other states of India. Sugandha Basmati Rice has a great fragrance and is non-sticky rice. It is usually slightly shorter than 1509 Basmati and 1121 Basmati rice. It may extend up to twice its length if cooked well.',
+                },
+                {
+                  id: 5,
+                  title: 'SHARBATI BASMATI RICE',
+                  description:
+                    'Sharbati Basmati Rice is made from the hybrid of Traditional Basmati Rice and has no specific aroma. The cooking of Sharbati Basmati Rice is similar to Basmati Rice. It is about 14-15MM long. Its rice grain is around 7.1-7.2MM in length.',
+                },
+              ],
+            },
+            {
+              title: 'NON-BASMATI RICE',
+              description:
+                'All other varieties of rice, except basmati is called non- basmati rice. Non-basmati rice includes rice of different varieties, sizes, and shapes. Some types of rice are long and slender, while some are short and thick. Non-Basmati Rice is used in homes for daily use and also is used and exported for commercial use.',
+              items: [
+                {
+                  id: 1,
+                  title: 'PARBOILED RICE',
+                  description:
+                    'Parboiled rice that has been partially boiled in the husk. It is basically like easy to cook rice. The process of parboiling includes soaking, steaming and drying. These processes make the rice easier to process by hand. Parboiling also boosts its nutritional profile, changing its texture, and making it more resistant to weevils.',
+                },
+                {
+                  id: 2,
+                  title: 'BROKEN RICE',
+                  description:
+                    'First of all, even though this type is called broken rice, nothing is actually wrong with it, it is os nutritious any other rice. It is basically just fragments of rice grains, broken in the field, during drying, transport, or by milling. Mechanical separators are used to separate the broken grains from the whole grains and sort them by size.',
+                },
+                {
+                  id: 3,
+                  title: 'SWARNA RICE',
+                  description:
+                    'Swarna is one of the most healthy rice choices, it has a very low risk of diabetes as it has a low glycemic index. Swara rice is grown extensively in India.',
+                },
+                {
+                  id: 4,
+                  title: 'SONA MASOORI RICE',
+                  description:
+                    'Sona masuri variety of rice is a medium-grain rice grown largely in the states of Andhra Pradesh, Telangana, and Karnataka in India. Sona Masuri literally translates to Golden ivy. It is lightweight and aromatic. This premium variety of rice is mainly exported to the USA, Canada, Europe, Malaysia, and Middle East countries such as Saudi Arabia and Qatar.',
+                },
+              ],
+            },
+          ],
+          conclusion: [
+            'India is one of the major basmati rice exporters in the world. With our extensive experience in rice export, Tark Internationals ensures that premium quality rice varieties reach international markets while maintaining the highest standards of quality and safety.',
+          ],
+        },
       },
       {
         slug: Products.WHEAT,

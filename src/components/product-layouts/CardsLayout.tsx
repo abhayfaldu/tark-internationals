@@ -13,9 +13,7 @@ export default function CardsLayout({ data }: { data: ProductData }) {
           </h2>
           <div className="py-8 px-4 bg-[#f9f9f9]">
             <p className="text-center mb-8 text-gray-700">
-              {sectionIndex === 0
-                ? 'There are around 40,000 varieties of Rice found across the world. We broadly export two categories of Rice Basmati and Non-Basmati. These are several varieties under these broad categories.'
-                : 'All other varieties of rice, except basmati is called non- basmati rice. Non-basmati rice includes rice of different varieties, sizes, and shapes. Some types of rice are long and slender, while some are short and thick. Non-Basmati Rice is used in homes for daily use and also is used and exported for commercial use.'}
+              {section.description}
             </p>
 
             <div className="space-y-12">

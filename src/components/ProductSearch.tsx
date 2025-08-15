@@ -62,11 +62,11 @@ export default function ProductSearch({
       <section className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredProducts.map((product, index) => {
-            const productSlug = toSlug(product.name)
+            // const productSlug = toSlug(product.name)
             return (
               <Link
                 key={index}
-                href={`/product/${categorySlug}/${productSlug}`}
+                href={`/product/${categorySlug}/${product.slug}`}
                 className="block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
               >
                 <div className="relative aspect-square">

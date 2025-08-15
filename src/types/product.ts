@@ -52,6 +52,7 @@ export interface TabContent {
 
 export interface CardSection {
   title: string
+  description?: string
   category?: string
   items: {
     id: number
