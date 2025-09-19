@@ -36,7 +36,6 @@ export default function ProductPage({
 
     if (!data) {
       return {
-        slug: product,
         title: `Indian ${product.charAt(0).toUpperCase() + product.slice(1).replace(/-/g, ' ')}`,
         headerImage: '/assets/beach.jpg',
         description: [

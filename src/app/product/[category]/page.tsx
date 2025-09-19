@@ -1,5 +1,5 @@
 import ProductSearch from '@/components/ProductSearch'
-import { productCategoriesData, ProductCategory, ProductData } from '@/data/data'
+import { productCategoriesData } from '@/data/data'
 
 export default async function Page({
   params,

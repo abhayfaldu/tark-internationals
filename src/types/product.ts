@@ -78,7 +78,7 @@ export interface SimpleTabContent {
     nutrients: {
       calories: string
       carbohydrates: string
-      fiber: string
+      fiber?: string
     }
     minerals: string[]
     vitamins: string[]
