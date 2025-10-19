@@ -1,16 +1,10 @@
 'use client'
 
+import { Product } from '@/types/product'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-
-interface Product {
-  name: string
-  img: string
-  category: string
-  slug: string
-}
 
 const products: Product[] = [
   {
