@@ -544,7 +544,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals is exporter of Oats from India. Tark Internationals is the best option for your future oats or any other oats exporter from India. Tark Internationals has extensive experience in the food industry. Our trained executives analyze the market trends and will help you to find buyers internationally. Want to export Oats? Pisum is the field through.',
+            'Tark Internationals is exporter of Oats from India. Tark Internationals is the best option for your future oats or any other oats exporter from India. Tark Internationals has extensive experience in the food industry. Our trained executives analyze the market trends and will help you to find buyers internationally. Want to export Oats? Tark is the field through.',
           ],
         },
       },
@@ -650,7 +650,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for a Pearl Millet importer from India, Tark Internationals is the best choice for you! Tark Internationals is one of the most trustworthy exporters of food products including grains, spices, fruits and such other products from India. Export of Pearl millet is a good opportunity for Indian exporters and thus with us, you can make the most of it. Want to export Pearl Millet? Pisum is the field through.',
+            'If you are looking for a Pearl Millet importer from India, Tark Internationals is the best choice for you! Tark Internationals is one of the most trustworthy exporters of food products including grains, spices, fruits and such other products from India. Export of Pearl millet is a good opportunity for Indian exporters and thus with us, you can make the most of it. Want to export Pearl Millet? Tark is the field through.',
           ],
         },
       },
@@ -926,7 +926,7 @@ export const productCategoriesData: Record<
             'Triticale is a hybrid cross of wheat and rye. It can be used as a grain, feed, fuel, forage, wildlife food-plot, cover crop, and so on. The Triticale exporter in India exports tonnes of Triticale to various countries in the world. Due to the diverse uses and benefits of the crop, Triticale export from India has been growing over the years. The Indian Triticale exporter is now exporting increasing amounts of Triticale abroad each year. The Triticale export from India provides the export of various varieties of the crop.',
           ],
           conclusion: [
-            "Tark Internationals is the leading Triticale Importer from India. We at Tark Internationals understand that the export of Triticale from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Triticale is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for Triticale export from India, Contact Pisum now!",
+            "Tark Internationals is the leading Triticale Importer from India. We at Tark Internationals understand that the export of Triticale from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Tark make sure that the export of Triticale is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for Triticale export from India, Contact Tark now!",
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -971,7 +971,7 @@ export const productCategoriesData: Record<
             'Fonio is an annual grass grown for its grain which is generally used to make porridge. The Fonio exporter in India exports tonnes of Fonio every year. The growing popularity of Fonio has led to an increase in Fonio export from India. The leaves of Fonio are blade-like linear and tapering. The Indian Fonio exporter exports premium quality Fonio to different countries in the world. The Fonio export from India includes the export of varieties of Fonio.',
           ],
           conclusion: [
-            'Pisum is one of the best Fonio importer from India. We at Tark Internationals understand the issues one can face during the export of Fonio, so we are here to help! Pisum has an extensive experience in the food export industry. Our executives are trained to support you through the entire export process and resolve any issues which might arise. If you are looking for Fonio export from India, Contact Pisum now!',
+            'Tark is one of the best Fonio importer from India. We at Tark Internationals understand the issues one can face during the export of Fonio, so we are here to help! Tark has an extensive experience in the food export industry. Our executives are trained to support you through the entire export process and resolve any issues which might arise. If you are looking for Fonio export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -1017,7 +1017,7 @@ export const productCategoriesData: Record<
             'Sorghum is primarily a strong grass and has edible starchy seeds. Sorghum is a diverse crop and has many uses in different industries. In India sorghum is popularly known as Jowar, Cholam, or Jonna. The Sorghum exporter in India exports a huge quantity of the crop each year. Due to the growing popularity of sorghum, sorghum export from India has also seen an a rise. This is, therefore, a good opportunity for the Indian Sorghum exporter to expand his business and enter the international marketplace. The Jowar export includes various varieties and qualities of the product.',
           ],
           conclusion: [
-            'Tark Internationals is a leading Sorghum importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact Pisum now!',
+            'Tark Internationals is a leading Sorghum importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -1231,7 +1231,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals is known as one of the best chickpea importer from India and we can be trusted with various export-related work with ease. The world, Chickpeas are one of our main popular export products. Healthy to eat and delicious in taste, chickpea is now demanded by various countries. If you are looking to export of chickpeas, Pisum is the best choice!',
+            'Tark Internationals is known as one of the best chickpea importer from India and we can be trusted with various export-related work with ease. The world, Chickpeas are one of our main popular export products. Healthy to eat and delicious in taste, chickpea is now demanded by various countries. If you are looking to export of chickpeas, Tark is the best choice!',
           ],
         },
       },
@@ -1342,7 +1342,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals export the finest quality of peas derived being one of the leading pea importer from India, Pisum has extensive experience of the food industry and experts products to numerous corners of the world with our global connections and in-depth knowledge and expertise of the export industry, we will help you get the best buyers for your products. If you are looking to export peas from India, contact us now!',
+            'Tark Internationals export the finest quality of peas derived being one of the leading pea importer from India, Tark has extensive experience of the food industry and experts products to numerous corners of the world with our global connections and in-depth knowledge and expertise of the export industry, we will help you get the best buyers for your products. If you are looking to export peas from India, contact us now!',
           ],
         },
       },
@@ -1358,7 +1358,7 @@ export const productCategoriesData: Record<
             'The kidney beans are a variety of the common beans that are dried and are generally available throughout the year. They are reddish-brown in color and are shaped like a kidney. They have a unique taste and are used in both hot and cold recipes. Therefore, kidney beans exporter in India export kidney beans to numerous countries in the world. These beans are majorly used in Mexican and Indian cuisines to make curries, salads as an and so forth. The kidney beans export from India has thus been growing over the years. The Indian kidney beans exporter also earns good revenues from these exports today. Tark Internationals is one of the best exporters of kidney beans export from India.',
           ],
           conclusion: [
-            'If you wish to export from India, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best importers from India, will assist you with every step on the way. Pisum will make sure that your products reach any corner of the world fresh and safe!',
+            'If you wish to export from India, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best importers from India, will assist you with every step on the way. Tark will make sure that your products reach any corner of the world fresh and safe!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -1486,7 +1486,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals is one of the leading soybean importers from India. Due to the rising demand of Soybeans, Indian agriculture have also increased the amount of soybeans produced and exported from India. The export of soya bean has also been a revenue earning industry for many exporters. If you are interested in the export of Soybeans, Pisum is the best option!',
+            'Tark Internationals is one of the leading soybean importers from India. Due to the rising demand of Soybeans, Indian agriculture have also increased the amount of soybeans produced and exported from India. The export of soya bean has also been a revenue earning industry for many exporters. If you are interested in the export of Soybeans, Tark is the best option!',
           ],
         },
       },
@@ -1584,7 +1584,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for a pigeon pea importer from India, Tark Internationals is one of the best options! We at Tark Internationals have extensive experience in the food export industry and have global connections. We export spices, pulses, grains, fruits, vegetables and such other food products to various corners of the world. Pigeon pea import from India is a rapidly growing business and we can assure you that you will find the best buyers and reach the customers in a timely manner. Looking for export of pigeon pea? Pisum is the place for you!',
+            'If you are looking for a pigeon pea importer from India, Tark Internationals is one of the best options! We at Tark Internationals have extensive experience in the food export industry and have global connections. We export spices, pulses, grains, fruits, vegetables and such other food products to various corners of the world. Pigeon pea import from India is a rapidly growing business and we can assure you that you will find the best buyers and reach the customers in a timely manner. Looking for export of pigeon pea? Tark is the place for you!',
           ],
         },
       },
@@ -1692,7 +1692,7 @@ export const productCategoriesData: Record<
             'Puffed rice is made by introducing air into the rice which makes the grains larger and lighter, and also reduces moisture to achieve a crisp texture. The Puffed rice exporter in India exports tonnes of puffed rice abroad from India. The Puffed Rice export from India has been increasing over the years. This may be because of the several benefits of this type of rice. The Indian Puffed Rice exporter, therefore, is earning good revenues from this export. The puffed rice export includes the export of various varieties of this rice.',
           ],
           conclusion: [
-            'If you are looking for a Puffed Rice importer from India, Tark Internationals is your best choice! We at Tark Internationals have extensive experience and knowledge in the food export industry. Our executives will help you at every step of the process of the export of Puffed Rice. From documentation until the final delivery of the products, it will all be taken care of by Pisum. Interested in Puffed Rice export from India? Contact us now!',
+            'If you are looking for a Puffed Rice importer from India, Tark Internationals is your best choice! We at Tark Internationals have extensive experience and knowledge in the food export industry. Our executives will help you at every step of the process of the export of Puffed Rice. From documentation until the final delivery of the products, it will all be taken care of by Tark. Interested in Puffed Rice export from India? Contact us now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -1861,7 +1861,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals is one of the leading Green Gram Importers from India. We understand that export of green gram can be a complicated process. But no worries! Pisum is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for a Green Gram exporter from India!',
+            'Tark Internationals is one of the leading Green Gram Importers from India. We understand that export of green gram can be a complicated process. But no worries! Tark is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for a Green Gram exporter from India!',
           ],
         },
       },
@@ -1961,7 +1961,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            "Tark Internationals is the leading Black Gram Importers from India. We at Tark Internationals understand that the export of food products from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Pisum now!",
+            "Tark Internationals is the leading Black Gram Importers from India. We at Tark Internationals understand that the export of food products from India may be a complicated process for some of you. Don't worry, we are here to help you! With extensive experience in the food export industry, our executives at Tark make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Tark now!",
           ],
         },
       },
@@ -2023,7 +2023,7 @@ export const productCategoriesData: Record<
             'Beaten rice also called flattened rice is primarily rice which is flattened, light, and dry. Beaten rice is a low-cost wholesome food with good nutritional value. The Beaten Rice exporter in India exports a large quantity of the product every year. Due to the growing popularity of Beaten Rice all over the world, the Beaten Rice export from India has been increasing over the years. The Indian Beaten Rice exporter exports premium quality products abroad. The Beaten Rice export includes the export of various varieties of rice.',
           ],
           conclusion: [
-            'Tark Internationals is one of the leading Beaten Rice importers from India. We at Tark Internationals provide holistic food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Beaten Rice importers from India. We at Tark Internationals provide holistic food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Tark will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2214,7 +2214,7 @@ export const productCategoriesData: Record<
             'Moth Bean is a herbaceous creeping plant from the Fabaceae family and Fabaceae subfamily. It is said to form a low lying but cover when grown fully. The Moth Beans exporter in India exports a huge quantity of the beans each year. Due to the growing popularity of Moth Beans, Moth Beans export from India has also been on a rise. This is, therefore, a great opportunity for the Indian Moth Beans exporter to expand his business and enter the international marketplace. The Moth Beans export includes various varieties and qualities of the product.',
           ],
           conclusion: [
-            'Tark Internationals is a leading Moth Beans importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the process of export of Moth Beans is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Moth Beans export from India, Contact Pisum now!',
+            'Tark Internationals is a leading Moth Beans importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the process of export of Moth Beans is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Moth Beans export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2260,7 +2260,7 @@ export const productCategoriesData: Record<
             'Masoor dal also known as red lentils, is one of the most nutritious pulses with various health and medicinal benefits. Masoor Dal is a very important part of Indian cuisine. The Masoor Dal exporter in India exports a large quantity of the Dal abroad each year. Due to the growing popularity of this Dal in the global market, Whole Masoor export from India has been on the rise for a few years. The Indian Whole Masoor exporter exports premium quality products to various countries in the world. Whole Masoor export is, therefore, an emerging business opportunity today.',
           ],
           conclusion: [
-            'If you are looking for the best Whole Masoor importer from India, Tark Internationals is your best choice! We at Pisum work in the field of export of Whole Masoor, vegetables, spices, grains, pulses, so on and so forth. Exporting food products can be a complicated process at times. But no worries! You can just drop a message to Tark Internationals and we will take care of your Whole Masoor export from India.',
+            'If you are looking for the best Whole Masoor importer from India, Tark Internationals is your best choice! We at Tark work in the field of export of Whole Masoor, vegetables, spices, grains, pulses, so on and so forth. Exporting food products can be a complicated process at times. But no worries! You can just drop a message to Tark Internationals and we will take care of your Whole Masoor export from India.',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2306,7 +2306,7 @@ export const productCategoriesData: Record<
             'Urad dal is also known as Split Black Gram. It is one of the most popular lentils and is used widely in the southern part of Asia. The Urad Dal Gota exporter in India exports tonnes of Urad Dal products from India. Due to the various uses and benefits of Urad Dal, the Urad Dal Gota export from India has been on the rise over the years. This is, therefore, a great opportunity for the Indian Urad Dal Gota exporter to expand his business and enter the international market. The Urad Dal Gota export from India includes various varieties of Urad Dal.',
           ],
           conclusion: [
-            'Tark Internationals is a leading Urad Dal Gota importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the export of Urad Dal Gota process is carried out smoothly with the least confusion and hassle. Being a very reliable exporter, we strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Urad Dal Gota export from India, Contact Pisum now!',
+            'Tark Internationals is a leading Urad Dal Gota importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry. We make sure that the export of Urad Dal Gota process is carried out smoothly with the least confusion and hassle. Being a very reliable exporter, we strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Urad Dal Gota export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2498,7 +2498,7 @@ export const productCategoriesData: Record<
             'Star anise is the fruit of a small oriental tree. It is star-shaped and has five to ten pointed boat-shaped sections. These hard sections are seed pods. Star anise trees are short, compact and pleasant-looking. It has the flavour which is reminiscent of licorice. Star anise is sometimes confused with anise due to the similarity of name and flavour, but the two spices are unrelated. Export of Star Anise is done from many countries in the world. It is not only used in several dishes across the world but it also has medicinal properties. Therefore, star anise export from India is, on the rise.',
           ],
           conclusion: [
-            'If you wish to export Star Anise, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best exporters from India, will assist you with every step on the way. Pisum will make sure that your products reach any corner of the world fresh and safe!',
+            'If you wish to export Star Anise, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best exporters from India, will assist you with every step on the way. Tark will make sure that your products reach any corner of the world fresh and safe!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2553,7 +2553,7 @@ export const productCategoriesData: Record<
             'Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. It is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snack foods, tea and traditional foods. The aroma and flavour of cinnamon derive from its essential oil and principal component, cinnamaldehyde, as well as numerous other constituents including eugenol. Cinnamon is available in ground form and as sticks. Cinnamon export from India has been growing rapidly over the years. The major cinnamon-producing regions in India are Western Ghats, Kerala, Karnataka, and Tamil Nadu.',
           ],
           conclusion: [
-            'If you wish to export Cinnamon, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best exporters from India, will assist you with every step on the way. Pisum will make sure that your products reach any corner of the world fresh and safe!',
+            'If you wish to export Cinnamon, Tark Internationals is one of the leading exporters in India. When you export products, it comes with several responsibilities including documentation, checking if the product meets the quality and health standards and so on. Tark Internationals, the best exporters from India, will assist you with every step on the way. Tark will make sure that your products reach any corner of the world fresh and safe!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2661,7 +2661,7 @@ export const productCategoriesData: Record<
             'Nutmeg is basically the seed or ground spice of several species of the genus Myristica. Nutmeg exporter from India export tonnes of Nutmeg abroad every year. The annual production of Nutmeg in India is around 14,000 - 16,000 Metric Tons. Nutmeg export from India thus has been increasing year after year. Due to the various uses and benefits of Nutmeg in diverse fields, the Indian nutmeg exporter has a great opportunity to export his products abroad. Nutmeg export has been on the rise due to this rising demand for Nutmeg worldwide.',
           ],
           conclusion: [
-            'If you are looking for a Nutmeg importer from India, Tark Internationals is the best option! We at Tark Internationals have extensive experience in the food export industry and export various Indian food products to different corners of the world. The export of Nutmeg has seen a recent increase due to the popularity of its benefits and uses. Tark Internationals makes sure that your Nutmeg Export from India is exported in a timely manner, maintaining all the health and safety regulations. Want to export Nutmeg from India? Pisum is here to help you!',
+            'If you are looking for a Nutmeg importer from India, Tark Internationals is the best option! We at Tark Internationals have extensive experience in the food export industry and export various Indian food products to different corners of the world. The export of Nutmeg has seen a recent increase due to the popularity of its benefits and uses. Tark Internationals makes sure that your Nutmeg Export from India is exported in a timely manner, maintaining all the health and safety regulations. Want to export Nutmeg from India? Tark is here to help you!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2713,7 +2713,7 @@ export const productCategoriesData: Record<
             'Being the third most consumed spices in the world, the aromatic and spicy-sweet flavour of Cumin has amazed the entire planet. The seeds have been used since ancient times and are still a signature ingredient in many lovely dishes across the world. Cumin is the seeds of the fruit of the Cuminum cyminum plants. Native to South Western Asia as well as the Middle East, these seeds are dried and used in food as well as for other purposes. Currently, India holds the position of being the leading producers as well as consumers of Cumin.',
           ],
           conclusion: [
-            'At Pisum, we are leading exporters of the best quality Cumin seeds. We ensure that your products reach any corner of the world fresh and safe!',
+            'At Tark, we are leading exporters of the best quality Cumin seeds. We ensure that your products reach any corner of the world fresh and safe!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2772,7 +2772,7 @@ export const productCategoriesData: Record<
           ],
           simpleTabContent: {
             globalMarketDemand: [
-              'Black pepper is used in various cuisines across the world for its unique flavor and aroma. Besides culinary uses, Black pepper is also said to have many health and medicinal uses. Black pepper exporter in India export premium quality black pepper to various countries including the US, Sweden, UK, Italy, Canada, and so on and so forth. If you wish to Black Pepper import from India, Pisum is here to help you!',
+              'Black pepper is used in various cuisines across the world for its unique flavor and aroma. Besides culinary uses, Black pepper is also said to have many health and medicinal uses. Black pepper exporter in India export premium quality black pepper to various countries including the US, Sweden, UK, Italy, Canada, and so on and so forth. If you wish to Black Pepper import from India, Tark is here to help you!',
             ],
             specification: {
               productName: 'Black pepper',
@@ -2878,7 +2878,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Tark Internationals is the leading Garlic importer from India. We at Tark Internationals understand that the export of Garlic may be a complicated process. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for Garlic export from India, Contact Pisum now!',
+            'Tark Internationals is the leading Garlic importer from India. We at Tark Internationals understand that the export of Garlic may be a complicated process. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for Garlic export from India, Contact Tark now!',
           ],
         },
       },
@@ -2894,7 +2894,7 @@ export const productCategoriesData: Record<
             'Cloves are primarily the aromatic flower buds of a tree in the family Myrtaceae. The Clove exporter in India exports cloves to around 149 countries in the world. The Clove export from India has been growing over the years due to the popularity of spice all over the world. This is a good business opportunity for the Indian Clove exporter to expand his business and export cloves worldwide. The clove export from India involves exporting various varieties of the spice.',
           ],
           conclusion: [
-            'Tark Internationals is one of the leading Clove importers from India. We at Tark Internationals hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Clove importers from India. We at Tark Internationals hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -2992,7 +2992,7 @@ export const productCategoriesData: Record<
             'The Bay leaf is aromatic and has several culinary uses. The Bay Leaf exporter in India exports tonnes of Bay leaves abroad each year. Due to its various uses and benefits, the Bay Leaf export from India has been on a rise over the last few years. This is a good opportunity for the Indian Bay Leaf exporter to expand his business and enter the international marketplace. The Bay Leaf export from India includes the export of various varieties of the product.',
           ],
           conclusion: [
-            "Tark Internationals is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don't worry now! We at Tark Internationals are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Pisum now!",
+            "Tark Internationals is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don't worry now! We at Tark Internationals are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Tark now!",
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3038,7 +3038,7 @@ export const productCategoriesData: Record<
             'Chilli Pepper is one of the most important spices in India and all over the world. Indian Chillies are popular across the world. The Chilli Pepper exporter in India exports tonnes of chillies abroad each year. Due to various culinary uses of Chilli pepper, the popularity of this spice is growing. The Chilli Pepper export from India has thus also been on a rise over the years. The Indian Chilli Pepper exporter has a good opportunity to expand his business and enter the international market. The Chilli Pepper export includes the export of various varieties of the product.',
           ],
           conclusion: [
-            'Pisum Foods is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact Pisum Foods now!',
+            'Tark Internationals is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact Tark Internationals now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3140,7 +3140,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum is one of the leading Coriander Seeds importer from India. We at Pisum Foods aim to spread the Indian culture, food, and such other products to the global market. Coriander Seeds are demanded on a large scale globally. Therefore, this is a good opportunity for the local vendors and farmers to earn some extra revenue too. We at Pisum Foods will help you with every step involved in the export process until the final delivery of the product. If you are looking for exporter of Coriander Seeds from India, Contact Pisum now!',
+            'Tark is one of the leading Coriander Seeds importer from India. We at Tark Internationals aim to spread the Indian culture, food, and such other products to the global market. Coriander Seeds are demanded on a large scale globally. Therefore, this is a good opportunity for the local vendors and farmers to earn some extra revenue too. We at Tark Internationals will help you with every step involved in the export process until the final delivery of the product. If you are looking for exporter of Coriander Seeds from India, Contact Tark now!',
           ],
         },
       },
@@ -3156,7 +3156,7 @@ export const productCategoriesData: Record<
             'Saffron is a spice derived from the flower of Crocus sativus, commonly known as the "saffron crocus". The vivid crimson stigma and styles, called threads, are collected and dried for use mainly as a seasoning and colouring agent in food. Saffron has long been the world\'s most costly spice by weight. Saffron export from India has been growing over the years due to the popularity of this premium spice all over the world. This is a good business opportunity for the Indian Saffron exporter to expand his business and export saffron worldwide.',
           ],
           conclusion: [
-            'Pisum Foods is a leading Saffron importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry and we make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions put in place for the exporter of Saffron and make sure that your products are delivered safely. If you are looking for Saffron export from India, Contact Pisum now!',
+            'Tark Internationals is a leading Saffron importer from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export industry and we make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions put in place for the exporter of Saffron and make sure that your products are delivered safely. If you are looking for Saffron export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3277,7 +3277,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is a leading Thyme importer from India. We at Pisum Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Thyme is demanded on a large scale globally. Therefore, this is a good opportunity for the local vendors and farmers to earn some extra revenue too. We at Pisum Foods will help you with every step involved in the export process until the final delivery of the product. If you are looking for exporter of Thyme from India, Contact Pisum now!',
+            'Tark Internationals is a leading Thyme importer from India. We at Tark Internationals aim to spread the Indian culture, food, flowers, and such other products to the global market. Thyme is demanded on a large scale globally. Therefore, this is a good opportunity for the local vendors and farmers to earn some extra revenue too. We at Tark Internationals will help you with every step involved in the export process until the final delivery of the product. If you are looking for exporter of Thyme from India, Contact Tark now!',
           ],
         },
       },
@@ -3293,7 +3293,7 @@ export const productCategoriesData: Record<
             'Mace is actually the lacy coating, called the aril, found on a nutmeg seed. This lacy aril is red in colour and can be removed by hand from the outer shell of the nutmeg and then dried. The Mace exporter in India exports tonnes of the product abroad from India. This Mace export from India has been increasing over the years. This may be because of the several health and medicinal benefits of Mace. The Indian Mace exporter, therefore, is earning good revenues from this export. The Mace export includes the export of various varieties of Mace.',
           ],
           conclusion: [
-            "Pisum Foods is one of the leading Mace importers from India. We at Pisum Foods have extensive experience in the food export industry and know the rules and regulations for the exporter of Mace well. After understanding the client's requirements, we help the client in every way possible with the export process. Right from finding clients until the final delivery of the products, Pisum will support you with everything. If you are looking for Mace export from India, Contact Pisum now!",
+            "Tark Internationals is one of the leading Mace importers from India. We at Tark Internationals have extensive experience in the food export industry and know the rules and regulations for the exporter of Mace well. After understanding the client's requirements, we help the client in every way possible with the export process. Right from finding clients until the final delivery of the products, Tark will support you with everything. If you are looking for Mace export from India, Contact Tark now!",
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3345,7 +3345,7 @@ export const productCategoriesData: Record<
             'Poppy Seed is the seed from the poppy plant. Poppy Seeds are also known as Khus Khus and are a well-known ingredient in various Indian cuisines. They have a peculiar nutty taste and are highly recommended to add a nice aroma to any cuisine. The Poppy Seed exporter in India exports huge quantities of the product each year. Due to the rising popularity of the seeds, Poppy Seed export from India has been increasing rapidly over the decades. The Indian Poppy Seed exporter, therefore, is exporting more and more products each year. This Poppy Seed export includes the export of various varieties of the product.',
           ],
           conclusion: [
-            'Pisum is the leading Poppy Seed importer from India. We at Pisum believe that Indian culture, food, flowers, and such other products should be spread to the entire world. Our executives at Pisum are trained to help and support our clients at each step of the export process. With our expertise and extensive experience in the export field, we make sure that the Poppy Seed export from India is a hassle-free process for our client. If you are looking for an exporter of Poppy Seed, Contact Pisum now!',
+            'Tark is the leading Poppy Seed importer from India. We at Tark believe that Indian culture, food, flowers, and such other products should be spread to the entire world. Our executives at Tark are trained to help and support our clients at each step of the export process. With our expertise and extensive experience in the export field, we make sure that the Poppy Seed export from India is a hassle-free process for our client. If you are looking for an exporter of Poppy Seed, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3390,7 +3390,7 @@ export const productCategoriesData: Record<
             'Green Cardamom is a spice with an intense, slightly sweet flavour that can be compared to mint. Even though Green Cardamom originated in India, it is used all over the world today. The Green Cardamom exporter in India exports tonnes of Cardamom abroad. Green Cardamom is used in various sweet and savoury dishes. The Green Cardamom export from India has thus been on a rise for a few years. For an Indian Green Cardamom exporter, this is a good business opportunity. The Green Cardamom export from India includes different varieties being exported.',
           ],
           conclusion: [
-            'Pisum Foods is the leading Green Cardamom importer from India. We at Pisum Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact Pisum Foods now!',
+            'Tark Internationals is the leading Green Cardamom importer from India. We at Tark Internationals understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact Tark Internationals now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3436,7 +3436,7 @@ export const productCategoriesData: Record<
             "Peppercorns are basically dried berries from the vine Piper nigrum. These berries are ground into Black pepper. Black pepper is one of the most commonly used spices globally. The Peppercorns exporter in India exports tonnes of Peppercorns each year to many countries. Therefore, Peppercorn's export from India has been increasing over time. This is a good opportunity for the Indian Peppercorns exporter to expand his business and enter the international market. The Peppercorns export from India includes the export of many varieties of this product.",
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Pisum Foods now!',
+            'Tark Internationals is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Tark Internationals now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3487,7 +3487,7 @@ export const productCategoriesData: Record<
             'Green Chilli pepper is basically the fruit of plants from the genus Capsicum from the family Solanaceae. Chilli peppers are used in numerous cuisines to add heat to dishes. The Green Chilli Pepper exporter in india exports tonnes of the product each year to many countries. The Green Chilli pepper export from India has been increasing over time due to the growing popularity and the uses of the product. This is a good opportunity for the Indian Green Chilli Pepper exporter to expand his business and enter the international market. The Green Chilli Pepper export from India includes the export of many varieties of this product.',
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Green Chilli Pepper importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The export of Green Chilli Pepper may be a complicated process at times. Pisum Foods will help you with every step on the way until the products are delivered to their destination. If you are looking for Green Chilli Pepper export from India, Contact Pisum Foods now!',
+            'Tark Internationals is one of the leading Green Chilli Pepper importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The export of Green Chilli Pepper may be a complicated process at times. Tark Internationals will help you with every step on the way until the products are delivered to their destination. If you are looking for Green Chilli Pepper export from India, Contact Tark Internationals now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -3628,7 +3628,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Apple import from India is on the rise for a few years. This is because of the increasing demand for apples and apple products worldwide. Pisum Foods is one of the leading apple importer in India. We export premium quality apples from India. We make sure that the apples meet the health and quality standards of countries across the world. If you want export of apples from India, Pisum Foods is the best for you!',
+            'Apple import from India is on the rise for a few years. This is because of the increasing demand for apples and apple products worldwide. Tark Internationals is one of the leading apple importer in India. We export premium quality apples from India. We make sure that the apples meet the health and quality standards of countries across the world. If you want export of apples from India, Tark Internationals is the best for you!',
           ],
         },
       },
@@ -3734,7 +3734,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for exporting bananas from India, Pisum Foods is here to help you! Due to the Increasing demand of bananas worldwide, banana exporter from India exports more bananas every year. Being one of the most versatile fruits, bananas are used in several dishes and such other purposes. Several countries do banana import from India. Pisum Foods is the leading banana importer from India and supplies premium quality bananas to every corner of the world. Looking for food exports? Pisum Foods is the best!',
+            'If you are looking for exporting bananas from India, Tark Internationals is here to help you! Due to the Increasing demand of bananas worldwide, banana exporter from India exports more bananas every year. Being one of the most versatile fruits, bananas are used in several dishes and such other purposes. Several countries do banana import from India. Tark Internationals is the leading banana importer from India and supplies premium quality bananas to every corner of the world. Looking for food exports? Tark Internationals is the best!',
           ],
         },
       },
@@ -3852,7 +3852,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Mango import from India has risen rapidly over the past. Pisum Foods is one of the leading mango exporter in India. With our extensive experience in the food industry and our expertise in the field, we export food products from India to every corner of the world. If you wish to export mangoes, Pisum Foods is the best place for you!',
+            'Mango import from India has risen rapidly over the past. Tark Internationals is one of the leading mango exporter in India. With our extensive experience in the food industry and our expertise in the field, we export food products from India to every corner of the world. If you wish to export mangoes, Tark Internationals is the best place for you!',
           ],
         },
       },
@@ -3939,7 +3939,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for an orange exporter in India, Pisum Foods is the best choice for you! We at Pisum Foods have extensive experience in the food export industry and know the ins and outs of the industry. Our team conducts thorough market analysis and research before exporting products. We also have all the necessary certifications and licenses required for the export of oranges. We make sure that your products reach the destination fresh and safe. We export premium quality oranges and make sure that the export process is carried out smoothly. If you are looking for orange export from India, Contact Pisum now!',
+            'If you are looking for an orange exporter in India, Tark Internationals is the best choice for you! We at Tark Internationals have extensive experience in the food export industry and know the ins and outs of the industry. Our team conducts thorough market analysis and research before exporting products. We also have all the necessary certifications and licenses required for the export of oranges. We make sure that your products reach the destination fresh and safe. We export premium quality oranges and make sure that the export process is carried out smoothly. If you are looking for orange export from India, Contact Tark now!',
           ],
         },
       },
@@ -3991,7 +3991,7 @@ export const productCategoriesData: Record<
             {
               title: 'PINEAPPLE VARIETIES WE EXPORT',
               description:
-                'Pineapple exporter in India exports several varieties of pineapple abroad. The pineapple export includes Giant Kew, Queen, Mauritius and such other popular varieties of pineapple. Being one of the leading pineapple importer from India, Pisum makes sure that all varieties of pineapples are delivered on time and safely to your destination.',
+                'Pineapple exporter in India exports several varieties of pineapple abroad. The pineapple export includes Giant Kew, Queen, Mauritius and such other popular varieties of pineapple. Being one of the leading pineapple importer from India, Tark makes sure that all varieties of pineapples are delivered on time and safely to your destination.',
               items: [
                 {
                   id: 1,
@@ -4027,7 +4027,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you want to pineapple export from India, Pisum Foods is the most reliable exporters. We make sure that the fruits reach the destination fresh and safe. We help our clients right from finding buyers, to conducting an in-depth analysis of the international market, the documentation procedure and so on. We are the first option for many who pineapple import from India. Once you are with Pisum Foods, consider the job done!',
+            'If you want to pineapple export from India, Tark Internationals is the most reliable exporters. We make sure that the fruits reach the destination fresh and safe. We help our clients right from finding buyers, to conducting an in-depth analysis of the international market, the documentation procedure and so on. We are the first option for many who pineapple import from India. Once you are with Tark Internationals, consider the job done!',
           ],
         },
       },
@@ -4126,7 +4126,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for pomegranate import from India, Pisum Foods is the best place for you! At Pisum Foods, we assist our clients on every step of the way to export their products. We have an excellent global network and in-depth knowledge of all export processes. Our trained executives will help you out from documentation until your products reach the destination. Pisum Foods, being one of the leading pomegranate exporters in India, is here to serve you!',
+            'If you are looking for pomegranate import from India, Tark Internationals is the best place for you! At Tark Internationals, we assist our clients on every step of the way to export their products. We have an excellent global network and in-depth knowledge of all export processes. Our trained executives will help you out from documentation until your products reach the destination. Tark Internationals, being one of the leading pomegranate exporters in India, is here to serve you!',
           ],
         },
       },
@@ -4142,11 +4142,11 @@ export const productCategoriesData: Record<
             'Dragon fruits are a very popular fruit among foodies and health enthusiasts. It is basically a tropical fruit known for its vibrant red skin. Dragon fruits exporter in India exports a large number of dragon fruits abroad every year. Due to the increasing popularity of this fruit in the global market, Dragon Fruits export from India has been on the rise for a few years. The Dragon Fruits exporter exports premium quality products to various countries in the world. Dragon fruits export is therefore an emerging business opportunity today.',
           ],
           conclusion: [
-            'If you are looking for the best Dragon Fruits importer from India, Pisum Foods is the place! We work in the areas of export of Dragon fruits, vegetables, spices, grains, pulses, so on and so forth. Exporting food products can be a complicated process. But no worries! You can just drop a message to Pisum Foods and we will take care of your Dragon fruits export from India.',
+            'If you are looking for the best Dragon Fruits importer from India, Tark Internationals is the place! We work in the areas of export of Dragon fruits, vegetables, spices, grains, pulses, so on and so forth. Exporting food products can be a complicated process. But no worries! You can just drop a message to Tark Internationals and we will take care of your Dragon fruits export from India.',
           ],
           simpleTabContent: {
             globalMarketDemand: [
-              'Due to the popularity of the Dragon fruit worldwide, the Dragon fruits exporter in India is exporting more and more tonnes of products each year. The Dragon food is said to be a powerhouse of nutrients and also may help in fighting chronic diseases. If you are looking for Dragon Fruits import from India, Pisum Foods is here to serve you!',
+              'Due to the popularity of the Dragon fruit worldwide, the Dragon fruits exporter in India is exporting more and more tonnes of products each year. The Dragon food is said to be a powerhouse of nutrients and also may help in fighting chronic diseases. If you are looking for Dragon Fruits import from India, Tark Internationals is here to serve you!',
             ],
             specification: {
               productName: 'Dragon Fruits',
@@ -4258,7 +4258,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for strawberry import from India, Pisum Foods is here to help you! We at Pisum Foods export various food products from India to different countries in the world. We assist our clients with every process related to the export right from documentation to the final delivery of the products. Being one of the leading Strawberry exporters in India, Pisum Foods is the best choice for you!',
+            'If you are looking for strawberry import from India, Tark Internationals is here to help you! We at Tark Internationals export various food products from India to different countries in the world. We assist our clients with every process related to the export right from documentation to the final delivery of the products. Being one of the leading Strawberry exporters in India, Tark Internationals is the best choice for you!',
           ],
         },
       },
@@ -4352,7 +4352,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'If you are looking for the best grapes exporter in India, Pisum Foods is your choice! We at Pisum Foods make sure that your products reach the destination in a timely manner. We make sure that all the health and safety measures are maintained while packaging and transporting the products. Pisum Foods is thus one of the best and one of the most reliable for grapes import from India.',
+            'If you are looking for the best grapes exporter in India, Tark Internationals is your choice! We at Tark Internationals make sure that your products reach the destination in a timely manner. We make sure that all the health and safety measures are maintained while packaging and transporting the products. Tark Internationals is thus one of the best and one of the most reliable for grapes import from India.',
           ],
         },
       },
@@ -4451,7 +4451,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Guava exporters from India. We understand that the export process can be somewhat complicated for some of you. Thus, Pisum is here to help! Our executives at Pisum Foods are trained to support you with every step on the way, right from documentation to the final delivery of the products. Our global connections and in-depth knowledge of the market has proved to be beneficial to most of our past clients. If you are looking for Guava import from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Guava exporters from India. We understand that the export process can be somewhat complicated for some of you. Thus, Tark is here to help! Our executives at Tark Internationals are trained to support you with every step on the way, right from documentation to the final delivery of the products. Our global connections and in-depth knowledge of the market has proved to be beneficial to most of our past clients. If you are looking for Guava import from India, Contact Tark now!',
           ],
         },
       },
@@ -4586,7 +4586,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Litchi exporters from India. We at Pisum Foods help our clients with each and every step involved in the export process. We hold extensive experience in the food export industry and have numerous global connections. We assist our clients right from finding buyers for their products until the final delivery of the products. If you are looking for Litchi import from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Litchi exporters from India. We at Tark Internationals help our clients with each and every step involved in the export process. We hold extensive experience in the food export industry and have numerous global connections. We assist our clients right from finding buyers for their products until the final delivery of the products. If you are looking for Litchi import from India, Contact Tark now!',
           ],
         },
       },
@@ -4703,7 +4703,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is the best papaya exporter from India. The process of exporting goods from India may be complicated at times. No worries now, Pisum is here to help you! We at Pisum Foods have great experience in the food export industry and numerous global connections. Our executives will assist you with every process involved, right from documentation and paperwork until the final order is delivered. If you are looking for papaya import from India, Contact Pisum now!',
+            'Tark Internationals is the best papaya exporter from India. The process of exporting goods from India may be complicated at times. No worries now, Tark is here to help you! We at Tark Internationals have great experience in the food export industry and numerous global connections. Our executives will assist you with every process involved, right from documentation and paperwork until the final order is delivered. If you are looking for papaya import from India, Contact Tark now!',
           ],
         },
       },
@@ -4808,7 +4808,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is one of the leading sapota exporters from India. We at Pisum Foods have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Sapota import from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading sapota exporters from India. We at Tark Internationals have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Sapota import from India, Contact Tark now!',
           ],
         },
       },
@@ -4908,7 +4908,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is the leading Jackfruit exporter from India. We at Pisum Foods have extensive experience in the food export industry and know the ins and outs of the industry well. Our executives are trained to assist you with every step of the process of food export. Right from finding buyers for your products until the final delivery, its all taken care of by Pisum. If you are looking for Jackfruit import from India, Contact Pisum now!',
+            'Tark Internationals is the leading Jackfruit exporter from India. We at Tark Internationals have extensive experience in the food export industry and know the ins and outs of the industry well. Our executives are trained to assist you with every step of the process of food export. Right from finding buyers for your products until the final delivery, its all taken care of by Tark. If you are looking for Jackfruit import from India, Contact Tark now!',
           ],
         },
       },
@@ -5025,7 +5025,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is a leading Watermelon exporter from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the export of industry and we make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions and make sure that your products are delivered safely. If you are looking for Watermelon import from India, Contact Pisum now!',
+            'Tark Internationals is a leading Watermelon exporter from India. We at Tark Internationals help our clients with each and every step while exporting products from India. Our team has extensive experience in the export of industry and we make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions and make sure that your products are delivered safely. If you are looking for Watermelon import from India, Contact Tark now!',
           ],
         },
       },
@@ -5124,7 +5124,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Pears exporters from India. We at Pisum Foods have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Pears import from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Pears exporters from India. We at Tark Internationals have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Pears import from India, Contact Tark now!',
           ],
         },
       },
@@ -5239,7 +5239,7 @@ export const productCategoriesData: Record<
             },
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Coconut exporters from India. We at Pisum Foods have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Coconut import from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Coconut exporters from India. We at Tark Internationals have extensive experience in the food export industry and know the industry inside out. We assist our clients with every process including finding buyers, conducting in-depth research of the market, quality checks so on, and so forth. If you looking for Coconut import from India, Contact Tark now!',
           ],
         },
       },
@@ -5255,7 +5255,7 @@ export const productCategoriesData: Record<
             'Ber resembles a date in appearance. It is also known as red date, Indian date, Korean date or Chinese date and is mainly cultivated in South Asia. Bers taste slightly tarty and sweet and the colour ranges from brown to purplish-black in colour. The Ber exporter in India exports tonnes of the fruit from India. Due to the various uses and benefits of Ber, the Ber export from India has been on a rise. This is considered as a good opportunity for the Indian Ber exporter to expand his business and enter the international market. The Ber export from India includes various varieties of the fruit.',
           ],
           conclusion: [
-            'Pisum Foods is one of the leading Ber importers from India. We at Pisum Foods understand that the process of export of Ber is complicated at times. But no worries! Pisum Foods will help you at each and every step on the way. Our executives will help you right from finding buyers for your products until the final delivery of the order. If you are interested in Ber export from India, Contact Pisum now!',
+            'Tark Internationals is one of the leading Ber importers from India. We at Tark Internationals understand that the process of export of Ber is complicated at times. But no worries! Tark Internationals will help you at each and every step on the way. Our executives will help you right from finding buyers for your products until the final delivery of the order. If you are interested in Ber export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
@@ -5308,7 +5308,7 @@ export const productCategoriesData: Record<
             "Amla is primarily an Indian gooseberry. It is translucent and green in colour. It derives its name from the Sanskrit word 'Amlaki' which means 'nectar of life'. The Amla exporter in India exports huge quantities of the product each year. Due to its various health and medicinal uses and benefits, Amla export from India has been increasing rapidly over the decades. The Indian Amla exporter, therefore, is exporting more and more products each year. This Amla export includes the export of various varieties of the product.",
           ],
           conclusion: [
-            'Pisum is the leading Amla importer from India. We at Pisum believe that Indian culture, food, flowers, and such other products should be spread to the entire world. Our executives at Pisum are trained to help and support our clients at each step of the export process. With our expertise and extensive experience in the export field, we make sure that the export of Amla from India is a hassle-free process for our clients. If you are interested in Amla export from India, Contact Pisum now!',
+            'Tark is the leading Amla importer from India. We at Tark believe that Indian culture, food, flowers, and such other products should be spread to the entire world. Our executives at Tark are trained to help and support our clients at each step of the export process. With our expertise and extensive experience in the export field, we make sure that the export of Amla from India is a hassle-free process for our clients. If you are interested in Amla export from India, Contact Tark now!',
           ],
           simpleTabContent: {
             globalMarketDemand: [
